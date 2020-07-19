@@ -40,21 +40,21 @@ www.pravenc.ru/text/1841644.html
 (Да ги подредя по датировка на ръкописите, по които са направени.)
 
 СЛУЖБА ЗА ПЕТКА ТЪРНОВСКА (с бележките)
-/home/berov/Documents/Български/Старобългаристика/Рецепция-проф.КлиментинаИванова-2020/КурсоваРабота/Sluzba-Sw-Petka-BGL-IKn-XIIIv-str97.txt
+texts/Sluzhba-BGL-IKn-XIIIv-str97.txt
 
 ПРОЛОЖНО ЖИТИЕ НА ПЕТКА ТЪРНОВСКА (С бележките)
-/home/berov/Documents/Български/Старобългаристика/Рецепция-проф.КлиментинаИванова-2020/КурсоваРабота/Prolozh-Zhitie-Sv-Petka-SBL-T4-str189.txt
+texts/Prolozhno-SBL-T4-str189.txt
 
 РАЗКАЗ ОТ ВРЕМЕТО НА ЦАР ИВАН II АСЕН (с бележките)
-/home/berov/Documents/Български/Старобългаристика/Рецепция-проф.КлиментинаИванова-2020/КурсоваРабота/Razkaz-ot-Vremeto-na-Tsar-IvanAsenII-BGL-i-KnXIIv-str112.txt
+texts/Razkaz-IAII-BGL-i-KnXIIIv-str112.txt
 
 ПРОСТРАННО ЖИТИЕ НА ПЕТКА ТЪРНОВСКА ОТ ПАТРИАРХ ЕВТИМИЙ (с бележките)
-/home/berov/Documents/Български/Старобългаристика/Рецепция-проф.КлиментинаИванова-2020/КурсоваРабота/Prostr-Zhitie-Sv-Petka-Patr-Evt-SBL-T4str191.txt
+texts/Prostranno-Evt-SBL-T4str191.txt
 
 РАЗКАЗ ЗА ПРЕНАСЯНЕ НА МОЩИТЕ НА ПЕТКА ТЪРНОВСКА ВЪВ ВИДИН И БЕЛГРАД ОТ ГРИГОРИЙ ЦАМБЛАК (с бележките)
-/home/berov/Documents/Български/Старобългаристика/Рецепция-проф.КлиментинаИванова-2020/КурсоваРабота/Prenasiane-mosthi-Sv-Petka-Zamblak-SBL-T4.txt
+texts/Moshti-Zamblak-SBL-T4-str380.tx
 
 ПРОСТРАННО ЖИТИЕ НА ПЕТКА ЕПИВАТСКА ОТ ДЯКОН ВАСИЛИК
 ЖИТИЕ И ЧУДЕСА НА СВЕТАТА ПРЕПОДОБНА ПАРАСКЕВА
-/home/berov/Documents/Български/Старобългаристика/Рецепция-проф.КлиментинаИванова-2020/КурсоваРабота/Viz-Zhitie-Sv-Petka-ot-d-Vasilik-SBL-T4-str440.txt
+texts/Viz-Zhitie-Vasilik-SBL-T4-str440.txt
 
