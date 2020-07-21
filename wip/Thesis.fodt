@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-20T23:40:18.203339812</meta:creation-date><dc:date>2020-07-21T00:58:23.785258205</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>PT46M34S</meta:editing-duration><meta:editing-cycles>11</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="7" meta:image-count="0" meta:object-count="0" meta:page-count="7" meta:paragraph-count="58" meta:word-count="1491" meta:character-count="9438" meta:non-whitespace-character-count="7987"/></office:meta>
+ <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-20T23:40:18.203339812</meta:creation-date><dc:date>2020-07-22T00:09:58.893853131</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>PT1H19M56S</meta:editing-duration><meta:editing-cycles>13</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="7" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="63" meta:word-count="1758" meta:character-count="11049" meta:non-whitespace-character-count="9335"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">141111</config:config-item>
-   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">25733</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">19516</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">33502</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">501</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">10765</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">10201</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">true</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">17611</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">174445</config:config-item>
-     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">141111</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">25732</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">160625</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">3933</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">40137</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">501</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">33502</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">11264</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">43700</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="ZoomFactor" config:type="short">120</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">220</config:config-item>
      <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
      <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
     </config:config-item-map-entry>
@@ -79,7 +79,7 @@
    <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">680466</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1318981</config:config-item>
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
@@ -100,7 +100,7 @@
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
    <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
@@ -133,6 +133,8 @@
  </office:scripts>
  <office:font-face-decls>
   <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;"/>
+  <style:font-face style:name="Bukyvede" svg:font-family="Bukyvede" style:font-adornments="Regular" style:font-pitch="variable"/>
+  <style:font-face style:name="CyrillicaBulgarian10U" svg:font-family="CyrillicaBulgarian10U" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
@@ -142,7 +144,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="myv" fo:country="RU" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -198,6 +200,12 @@
   </style:style>
   <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
    <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+  </style:style>
+  <style:style style:name="OldBg" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" style:page-number="auto">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:font-name="Bukyvede" fo:font-family="Bukyvede" style:font-style-name="Regular" style:font-pitch="variable" fo:language="bg" fo:country="BG"/>
   </style:style>
   <text:outline-style style:name="Outline">
    <text:outline-level-style text:level="1" style:num-format="">
@@ -257,76 +265,98 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="Писанията" style:family="table">
-   <style:table-properties style:width="17cm" table:align="margins"/>
+   <style:table-properties style:width="10.571cm" table:align="margins"/>
   </style:style>
   <style:style style:name="Писанията.A" style:family="table-column">
-   <style:table-column-properties style:column-width="2.833cm" style:rel-column-width="10921*"/>
+   <style:table-column-properties style:column-width="1.762cm" style:rel-column-width="10921*"/>
   </style:style>
   <style:style style:name="Писанията.B" style:family="table-column">
-   <style:table-column-properties style:column-width="2.833cm" style:rel-column-width="10923*"/>
+   <style:table-column-properties style:column-width="1.762cm" style:rel-column-width="10923*"/>
   </style:style>
   <style:style style:name="Писанията.C" style:family="table-column">
-   <style:table-column-properties style:column-width="2.833cm" style:rel-column-width="10922*"/>
+   <style:table-column-properties style:column-width="1.762cm" style:rel-column-width="10922*"/>
   </style:style>
   <style:style style:name="Писанията.F" style:family="table-column">
-   <style:table-column-properties style:column-width="2.835cm" style:rel-column-width="10926*"/>
+   <style:table-column-properties style:column-width="1.762cm" style:rel-column-width="10926*"/>
   </style:style>
   <style:style style:name="Писанията.A1" style:family="table-cell">
    <style:table-cell-properties fo:padding="0cm" fo:border="none" style:writing-mode="page"/>
   </style:style>
   <style:style style:name="Псевдо-Василиково" style:family="table">
-   <style:table-properties style:width="17cm" table:align="margins"/>
+   <style:table-properties style:width="10.571cm" table:align="margins" fo:background-color="transparent">
+    <style:background-image/>
+   </style:table-properties>
   </style:style>
   <style:style style:name="Псевдо-Василиково.A" style:family="table-column">
-   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32767*"/>
+   <style:table-column-properties style:column-width="5.285cm" style:rel-column-width="32767*"/>
   </style:style>
   <style:style style:name="Псевдо-Василиково.B" style:family="table-column">
-   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32768*"/>
+   <style:table-column-properties style:column-width="5.286cm" style:rel-column-width="32768*"/>
+  </style:style>
+  <style:style style:name="Псевдо-Василиково.1" style:family="table-row">
+   <style:table-row-properties fo:background-color="transparent">
+    <style:background-image/>
+   </style:table-row-properties>
   </style:style>
   <style:style style:name="Псевдо-Василиково.A1" style:family="table-cell">
-   <style:table-cell-properties style:writing-mode="page"/>
+   <style:table-cell-properties fo:padding="0.101cm" fo:border="none" style:writing-mode="page"/>
   </style:style>
   <style:style style:name="Служба" style:family="table">
-   <style:table-properties style:width="17cm" table:align="margins"/>
+   <style:table-properties style:width="10.571cm" table:align="margins"/>
   </style:style>
   <style:style style:name="Служба.A" style:family="table-column">
-   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32767*"/>
+   <style:table-column-properties style:column-width="5.285cm" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Служба.B" style:family="table-column">
+   <style:table-column-properties style:column-width="5.286cm" style:rel-column-width="32768*"/>
   </style:style>
   <style:style style:name="Служба.A1" style:family="table-cell">
    <style:table-cell-properties style:writing-mode="page"/>
   </style:style>
   <style:style style:name="Разказ" style:family="table">
-   <style:table-properties style:width="17cm" table:align="margins"/>
+   <style:table-properties style:width="10.571cm" table:align="margins"/>
   </style:style>
   <style:style style:name="Разказ.A" style:family="table-column">
-   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32767*"/>
+   <style:table-column-properties style:column-width="5.285cm" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Разказ.B" style:family="table-column">
+   <style:table-column-properties style:column-width="5.286cm" style:rel-column-width="32768*"/>
   </style:style>
   <style:style style:name="Разказ.A1" style:family="table-cell">
    <style:table-cell-properties style:writing-mode="page"/>
   </style:style>
   <style:style style:name="Table1" style:family="table">
-   <style:table-properties style:width="17cm" table:align="margins"/>
+   <style:table-properties style:width="10.571cm" table:align="margins"/>
   </style:style>
   <style:style style:name="Table1.A" style:family="table-column">
-   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32767*"/>
+   <style:table-column-properties style:column-width="5.285cm" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Table1.B" style:family="table-column">
+   <style:table-column-properties style:column-width="5.286cm" style:rel-column-width="32768*"/>
   </style:style>
   <style:style style:name="Table1.A1" style:family="table-cell">
    <style:table-cell-properties style:writing-mode="page"/>
   </style:style>
   <style:style style:name="Table2" style:family="table">
-   <style:table-properties style:width="17cm" table:align="margins"/>
+   <style:table-properties style:width="10.571cm" table:align="margins"/>
   </style:style>
   <style:style style:name="Table2.A" style:family="table-column">
-   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32767*"/>
+   <style:table-column-properties style:column-width="5.285cm" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Table2.B" style:family="table-column">
+   <style:table-column-properties style:column-width="5.286cm" style:rel-column-width="32768*"/>
   </style:style>
   <style:style style:name="Table2.A1" style:family="table-cell">
    <style:table-cell-properties style:writing-mode="page"/>
   </style:style>
   <style:style style:name="Цамблаково" style:family="table">
-   <style:table-properties style:width="17cm" table:align="margins"/>
+   <style:table-properties style:width="10.571cm" table:align="margins"/>
   </style:style>
   <style:style style:name="Цамблаково.A" style:family="table-column">
-   <style:table-column-properties style:column-width="8.5cm" style:rel-column-width="32767*"/>
+   <style:table-column-properties style:column-width="5.285cm" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Цамблаково.B" style:family="table-column">
+   <style:table-column-properties style:column-width="5.286cm" style:rel-column-width="32768*"/>
   </style:style>
   <style:style style:name="Цамблаково.A1" style:family="table-cell">
    <style:table-cell-properties style:writing-mode="page"/>
@@ -337,35 +367,44 @@
   <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties officeooo:paragraph-rsid="00079499"/>
   </style:style>
-  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
-  </style:style>
-  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:text-properties officeooo:rsid="0008735e" officeooo:paragraph-rsid="0008735e"/>
-  </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499"/>
-  </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:rsid="0008735e" officeooo:paragraph-rsid="0008735e"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:text-properties officeooo:rsid="000a6212" officeooo:paragraph-rsid="000a6212"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:paragraph-rsid="000a6212"/>
   </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="000a6212" officeooo:paragraph-rsid="000a6212"/>
   </style:style>
-  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499"/>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="000fd705" officeooo:paragraph-rsid="000fd705"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:paragraph-rsid="0012d405"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="00079499"/>
@@ -382,8 +421,40 @@
   <style:style style:name="T5" style:family="text">
    <style:text-properties officeooo:rsid="000a6212"/>
   </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties officeooo:rsid="000c24c9"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties officeooo:rsid="000cf8fd"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties officeooo:rsid="000de76a"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties officeooo:rsid="000fd705"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties officeooo:rsid="0010a9d5"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties officeooo:rsid="0011f702"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties officeooo:rsid="0012d405"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties officeooo:rsid="00142045"/>
+  </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm">
+    <style:columns fo:column-count="1" fo:column-gap="0cm"/>
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style/>
@@ -392,9 +463,10 @@
  </office:automatic-styles>
  <office:master-styles>
   <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+  <style:master-page style:name="First_20_Page" style:display-name="First Page" style:page-layout-name="pm2" style:next-style-name="Standard"/>
  </office:master-styles>
  <office:body>
-  <office:text text:use-soft-page-breaks="true">
+  <office:text>
    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
    <text:sequence-decls>
     <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
@@ -403,15 +475,14 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="Title">Старите български <text:span text:style-name="T2">писания</text:span> <text:span text:style-name="T2">з</text:span>а света Петка</text:p>
-   <text:p text:style-name="Subtitle">(В търсене на свръхсмисъла)</text:p>
+   <text:p text:style-name="P15"><text:span text:style-name="T6">Свръхсмисълът в с</text:span>тарите български <text:span text:style-name="T2">писания</text:span> <text:span text:style-name="T2">з</text:span>а света Петка</text:p>
    <text:h text:style-name="P1" text:outline-level="1">Въведение</text:h>
-   <text:p text:style-name="P5">Алабаланица турска паница и други рабѿи <text:span text:style-name="T5">– Какво показваме тук и къде мислим да стигнем?</text:span></text:p>
+   <text:p text:style-name="P7">Алабаланица турска паница и други рабѿи <text:span text:style-name="T5">– Какво показваме тук и къде мислим да стигнем?</text:span></text:p>
    <text:h text:style-name="Heading_20_1" text:outline-level="1">Методология</text:h>
-   <text:p text:style-name="P11">Как ще се работи</text:p>
-   <text:h text:style-name="P7" text:outline-level="1">Писанията</text:h>
-   <text:p text:style-name="P10"><text:span text:style-name="T4">Изрично да кажа, че няма много какво да добавям и че ще публикувам вече публикувани бележки. <text:s/></text:span><text:span text:style-name="T5">Защо съм избрал реда на публикуване – По датиране на ръкописа.</text:span><text:span text:style-name="T4">Бележките ще ги разширявам по два начина като разширявам посочките и ги разгръщам. Навсякъде дописаното от мен ще бъде с различен шридт така, че да личи.<text:line-break/></text:span></text:p>
-   <text:p text:style-name="P10">Алабаланица турска паница таблица с данните за всяко писание: <text:span text:style-name="T1">Заглавие, датировка на ръкописа, издания...<text:line-break/></text:span></text:p>
+   <text:p text:style-name="P10">Как ще се работи</text:p>
+   <text:h text:style-name="P3" text:outline-level="1">Писанията</text:h>
+   <text:p text:style-name="P9"><text:span text:style-name="T4">Изрично да кажа, че няма много какво да добавям и че ще публикувам вече публикувани бележки. <text:s/></text:span><text:span text:style-name="T5">Защо съм избрал реда на публикуване – По датиране на ръкописа.</text:span><text:span text:style-name="T4">Бележките ще ги разширявам по два начина като разширявам посочките и ги разгръщам. Навсякъде дописаното от мен ще бъде с различен шридт така, че да личи.<text:line-break/></text:span></text:p>
+   <text:p text:style-name="P9">Алабаланица турска паница таблица с данните за всяко писание: <text:span text:style-name="T1">Заглавие, датировка на ръкописа, издания...<text:line-break/></text:span></text:p>
    <table:table table:name="Писанията" table:style-name="Писанията">
     <table:table-column table:style-name="Писанията.A"/>
     <table:table-column table:style-name="Писанията.B"/>
@@ -420,22 +491,22 @@
     <table:table-column table:style-name="Писанията.F"/>
     <table:table-row>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P3">Заглавие</text:p>
+      <text:p text:style-name="P4">Заглавие</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P3">Автор</text:p>
+      <text:p text:style-name="P4">Автор</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P3">Ръкопис</text:p>
+      <text:p text:style-name="P4">Ръкопис</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P3">Издания</text:p>
+      <text:p text:style-name="P4">Издания</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P4">Препечатано от</text:p>
+      <text:p text:style-name="P5">Препечатано от</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P3">Превод</text:p>
+      <text:p text:style-name="P4">Превод</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -561,37 +632,47 @@
    </table:table>
    <text:p text:style-name="Text_20_body"/>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">ЖИТИЕ И ЧУДЕСА НА СВЕТАТА ПРЕПОДОБНА ПАРАСКЕВА</text:h>
-   <text:p text:style-name="P6">Житието – предполагаемо от Василик, но оказало се не негово – доказано от Минева</text:p>
-   <text:p text:style-name="P6">В две колони Ст Бг. и Български</text:p>
+   <text:p text:style-name="P8">Житието – предполагаем <text:span text:style-name="T9">превод от гръцки</text:span> от <text:span text:style-name="T9">дякон</text:span> Василик, но оказало се не негово – доказано от Минева.<text:line-break/><text:span text:style-name="T7">Старият текст е преписан от изданието на </text:span><text:span text:style-name="T9">Елка Мирчева от 2006 на</text:span><text:span text:style-name="T7"> Германовия сборник, като е следван н</text:span><text:span text:style-name="T9">а</text:span><text:span text:style-name="T7">чина на писане там, както е описано в раздела „Принципи на представяне на текста“ стр. 253</text:span></text:p>
+   <text:p text:style-name="P8">В две колони Ст Бг. и Български</text:p>
    <table:table table:name="Псевдо-Василиково" table:style-name="Псевдо-Василиково">
     <table:table-column table:style-name="Псевдо-Василиково.A"/>
     <table:table-column table:style-name="Псевдо-Василиково.B"/>
-    <table:table-row>
+    <table:table-row table:style-name="Псевдо-Василиково.1">
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="OldBg">МѢСѦЦА ѠКТѦБРѢ .Д︮І︯. <text:span text:style-name="T8">ДЬНЬ.</text:span></text:p>
+      <text:p text:style-name="P13">житие и чюдеса. свѧтыѫ пѣподобныѫ, параскеви. благослови отче</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">Животът и преданието на тези, които са преживели в добродетел, биват похвални за всички, та да възприемат по-пълно наставленията; обаче за ония [слушащите], а не за тия, за които е благолюбен самият живот според бога, казвам — Христовия ярем. Те и обичат лекото бреме1, и го вземат на рамене, научили себе си да приемат и да се стремят към божиите заповеди.</text:p>
+      <text:p text:style-name="Table_20_Contents">ЖИТИЕ И ЧУДЕСА НА СВЕТАТА ПРЕПОДОБНА ПАРАСКЕВА</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="OldBg">Иже <text:span text:style-name="T10">по добродѣтѣли пожившимъ житие и скаꙁание. всѣмъ ꙋбо на бо`лшее слышание поѹченыхъ </text:span><text:span text:style-name="T11">похвалныѫ бываѫтъ. ѡбаче онѣмъ иеже сихъ. ихже благолюбе</text:span><text:span text:style-name="T12">ꙁ</text:span><text:span text:style-name="T11">но естъ. елико житие по бозѣ. </text:span><text:span text:style-name="T12">иго христово рекѫ. и брямѧ легкое любѧтъ, и на рамѣ въсприемѧтъ. навикше себе прикасати. и на божиа подвиꙁати сѧ повѣлѣниа.</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Contents">Животът и преданието на тези, които са преживели в добродетел, биват похвални за всички, та да възприемат по-пълно наставленията; обаче за ония [слушащите], а не за тия, за които е благолюбен самият живот според бога, казвам <text:span text:style-name="T12">–</text:span> Христовия ярем. Те и обичат лекото бреме1, и го вземат на рамене, научили себе си да приемат и да се стремят към божиите заповеди.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P14"><text:span text:style-name="T12">и по лѣпотѣ </text:span><text:span text:style-name="T13">начинаѫ. да не изрѧдна дѣаниа, и бога ради подвизаниа христови. без писаниа ѡставити. и</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">И справедливо започвам, за да не оставя незаписани техните изключителни деяния и подвизите [им] заради бога, та да помрачнеят <text:s/>и да се забравят с течение на времето, но да ги пишем, и добре да [ги] знаем, и като ги знаем, да ги прегърнем, и прегърнали ги, да ги напишем в скрижалите на сърцата си2. Защото те, съществуващите, обичат много, ако живеят за някого с любов, в него всичко да пренасят. И ще бъде ли добро, ако отминем с мълчание наистина душеполезното и спасително [житие] на нашата преподобна майка Параскева? Но ще ощетим великото църковно начало и ще направим да оглушеят ушите на правоверните, ако не разкажем с почетни слова за съвършените ѝ дела. Та като си мислим, че е добре с любов и още по-добре според силите си да похвалим, нека преминем бързо към разказа, без да изпускаме нито отечеството, нито родителите, от които тя е получила богоугодния [си] живот.</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P6"/>
+   <text:p text:style-name="P8"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">Бележки</text:h>
    <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="Text_20_body"><text:soft-page-break/>Както вече бе отбелязано (вж. с. 574—575), още преди българският владетел Иван Асен II да пренесе мощите на преподобната Параскева- Петка от Каликратия в Търново, култът към нея вече е дал своите литературни плодове. Ето какво свидетелство намираме в тълкуванието на византийския правист Валзамон към 63-то правило на Трулския събор: «А светяйшият патриарх господин Николай Мурзалон, като видял, че животът на света Параскева, почитана в Каликратийска област, бил написан от един местен жител неизкусно и недостойно за ангелския живот на светицата, определил това описание да се предаде на огън и поръчал на дякона Василик да ѝ напише богоугодно житие.» Това «богоугодно», т. е. литературно издържано житие, не се е запазило във византийските ръкописи, вероятно защото традицията да се чествува Петка в тракийските земи е заглъхнала след пренасяне на мощите ѝ. Съществува обаче един славянски текст — анонимно риторично житие на Петка, запазено в среднобългарски ръкопис; това житие с основание се приема от всички изследователи за превод от Житието, написано от дякон Василик. Приема се също така, че преводът е извършен наскоро след пренасяне на мощите на светицата и че едновременно са преведени проложното житие на Петка, Василиковото житие и гръцката служба на светицата.</text:p>
+   <text:p text:style-name="Text_20_body">Както вече бе отбелязано (вж. с. 574—575), още преди българският владетел Иван Асен II да пренесе мощите на преподобната Параскева- Петка от Каликратия в Търново, култът към нея вече е дал своите литературни плодове. Ето какво свидетелство намираме в тълкуванието на византийския правист Валзамон към 63-то правило на Трулския събор: «А светяйшият патриарх господин Николай Мурзалон, като видял, че животът на света Параскева, почитана в Каликратийска област, бил написан от един местен жител неизкусно и недостойно за ангелския живот на светицата, определил това описание да се предаде на огън и поръчал на дякона Василик да ѝ напише богоугодно житие.» Това «богоугодно», т. е. литературно издържано житие, не се е запазило във византийските ръкописи, вероятно защото традицията да се чествува Петка в тракийските земи е заглъхнала след пренасяне на мощите ѝ. Съществува обаче един славянски текст — анонимно риторично житие на Петка, запазено в среднобългарски ръкопис; това житие с основание се приема от всички изследователи за превод от Житието, написано от дякон Василик. Приема се също така, че преводът е извършен наскоро след пренасяне на мощите на светицата и че едновременно са преведени проложното житие на Петка, Василиковото житие и гръцката служба на светицата.</text:p>
    <text:p text:style-name="Text_20_body">....</text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">СЛУЖБА ЗА ПЕТКА ТЪРНОВСКА</text:h>
-   <text:p text:style-name="P11">Предполага се, че е донесена заедно с мощите</text:p>
+   <text:p text:style-name="P10">Предполага се, че е донесена заедно с мощите</text:p>
    <table:table table:name="Служба" table:style-name="Служба">
-    <table:table-column table:style-name="Служба.A" table:number-columns-repeated="2"/>
+    <table:table-column table:style-name="Служба.A"/>
+    <table:table-column table:style-name="Служба.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Служба.A1" office:value-type="string">
       <text:p text:style-name="Table_20_Contents"/>
@@ -622,13 +703,14 @@
     </table:table-row>
    </table:table>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">БЕЛЕЖКИ</text:h>
-   <text:p text:style-name="P11">Общите сведения за развитието и проникването на култа към Петка</text:p>
-   <text:p text:style-name="P11">Епиватска, наречена по-късно Търновска, в българската и изобщо в славянската традиция, бяха уточнени благодарение на първите преводи на произведения за нея, направени в Търново и по Летописния разказ за, пренасянето на мощите ѝ от времето на Иван II Асен (вж. тук коментариите към, Житие на Петка Търновска и Летописния разказ от времето на Иван II Асен).</text:p>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:soft-page-break/>РАЗКАЗ ОТ ВРЕМЕТО НА ЦАР ИВАН II АСЕН</text:h>
-   <text:p text:style-name="P11">Откъде е взет новобългарския текст, на какво е превод, откъде сънм взел старобългарския текст и тн.</text:p>
-   <text:p text:style-name="P11"/>
+   <text:p text:style-name="P10">Общите сведения за развитието и проникването на култа към Петка</text:p>
+   <text:p text:style-name="P10">Епиватска, наречена по-късно Търновска, в българската и изобщо в славянската традиция, бяха уточнени благодарение на първите преводи на произведения за нея, направени в Търново и по Летописния разказ за, пренасянето на мощите ѝ от времето на Иван II Асен (вж. тук коментариите към, Житие на Петка Търновска и Летописния разказ от времето на Иван II Асен).</text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2">РАЗКАЗ ОТ ВРЕМЕТО НА ЦАР ИВАН II АСЕН</text:h>
+   <text:p text:style-name="P10">Откъде е взет новобългарския текст, на какво е превод, откъде сънм взел старобългарския текст и тн.</text:p>
+   <text:p text:style-name="P10"/>
    <table:table table:name="Разказ" table:style-name="Разказ">
-    <table:table-column table:style-name="Разказ.A" table:number-columns-repeated="2"/>
+    <table:table-column table:style-name="Разказ.A"/>
+    <table:table-column table:style-name="Разказ.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Разказ.A1" office:value-type="string">
       <text:p text:style-name="Table_20_Contents"/>
@@ -650,13 +732,14 @@
    <text:p text:style-name="Text_20_body">Разказът е открит от Ст. Кожухаров в пергаментен ръкопис от втората половина на XIV век (сега в Държавния исторически музей — Москва, сб. А. И. Хлудов, № 162, л. 141б, 142). Макар по жанр да спада към типа «разкази за пренасяне на мощи» на светци, историческите сведения, които съдържа, дадени в хронологически порядък, ни дават основание да го причислим към историколетописните съчинения на българската литература от XIII век. Събитията, които отразява това съчинение, засягат важни моменти от политическата и църковна история на Средновековна България в периода 1230—1235г.</text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">ПРОЛОЖНО ЖИТИЕ НА ПЕТКА ТЪРНОВСКА</text:h>
    <table:table table:name="Table1" table:style-name="Table1">
-    <table:table-column table:style-name="Table1.A" table:number-columns-repeated="2"/>
+    <table:table-column table:style-name="Table1.A"/>
+    <table:table-column table:style-name="Table1.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
       <text:p text:style-name="Table_20_Contents"/>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P9">В същия ден [14.Х.] е паметта на светата преподобна Параскева.</text:p>
+      <text:p text:style-name="P6">В същия ден [14.Х.] е паметта на светата преподобна Параскева.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -664,18 +747,19 @@
       <text:p text:style-name="Table_20_Contents"/>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P9">Тази света и преподобна Параскева беше от селото, наричано Епиват, от град Қаликратия, дъщеря на благоверни родители, нито обилно богати, ни властници, нито пък страдащи от бедност.</text:p>
+      <text:p text:style-name="P6">Тази света и преподобна Параскева беше от селото, наричано Епиват, от град Қаликратия, дъщеря на благоверни родители, нито обилно богати, ни властници, нито пък страдащи от бедност.</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P11">БЕЛЕЖКИ</text:p>
-   <text:p text:style-name="P11">Проложното житие на Петка Търновска възниква в Търново през XIII в., вероятно наскоро след 1235 г. Първата му част е превод от гръцки и завършва с пренасяне на мощите на преподобната в църквата «Свети апостоли» в Каликратия. Тази част фактически е съкращение на Василиковото житие. Втората част – разказът за пренасяне на мощите в Търново – е оригинална българска добавка, плод на родолюбивите настроения в българската престолнина в последното десетилетие от царуването на Иван Асен II. Сравнението на разказа за пренасяне на мощите и споменатия вече Летописен разказ показва, че проложният <text:soft-page-break/>разказ е възникнал след Летописния и е оформен под негово влияние. Не познаваме текста на Проложното житие в препис от XIII в. Всички достигнали до нас преписи се намират в състава на т. нар. Стишен пролог, в търновския превод на този паметник, който е допълнен с произведения за търновските светци. Трябва да отбележа, че Проложното житие се среща и в другите редакции на Стишния пролог, но там, доколкото може да се съди по познатите преписи, то се помества без втората му част – т. е. без разказа за пренасяне на мощите в Търново.</text:p>
+   <text:p text:style-name="P10">БЕЛЕЖКИ</text:p>
+   <text:p text:style-name="P10">Проложното житие на Петка Търновска възниква в Търново през XIII в., вероятно наскоро след 1235 г. Първата му част е превод от гръцки и завършва с пренасяне на мощите на преподобната в църквата «Свети апостоли» в Каликратия. Тази част фактически е съкращение на Василиковото житие. Втората част – разказът за пренасяне на мощите в Търново – е оригинална българска добавка, плод на родолюбивите настроения в българската престолнина в последното десетилетие от царуването на Иван Асен II. Сравнението на разказа за пренасяне на мощите и споменатия вече Летописен разказ показва, че проложният разказ е възникнал след Летописния и е оформен под негово влияние. Не познаваме текста на Проложното житие в препис от XIII в. Всички достигнали до нас преписи се намират в състава на т. нар. Стишен пролог, в търновския превод на този паметник, който е допълнен с произведения за търновските светци. Трябва да отбележа, че Проложното житие се среща и в другите редакции на Стишния пролог, но там, доколкото може да се съди по познатите преписи, то се помества без втората му част – т. е. без разказа за пренасяне на мощите в Търново.</text:p>
    <text:h text:style-name="Heading_20_1" text:outline-level="1"/>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">ПРОСТРАННО ЖИТИЕ НА ПЕТКА ТЪРНОВСКА ОТ ПАТРИАРХ ЕВТИМИЙ</text:h>
    <text:p text:style-name="Text_20_body">ЖИТИЕ И ЖИВОТ НА НАШАТА ПРЕПОДОБНА МАЙКА ПАРАСКЕВА И КАК ТЯ БЕ ПРЕНЕСЕНА В ПРЕСЛАВНИЯ (НАШ) ГРАД ТЪРНОВО, НАПИСАНО ОТ (КИР)1 ЕВТИМИЙ, ПАТРИАРХ ТЪРНОВСКИ</text:p>
    <table:table table:name="Table2" table:style-name="Table2">
-    <table:table-column table:style-name="Table2.A" table:number-columns-repeated="2"/>
+    <table:table-column table:style-name="Table2.A"/>
+    <table:table-column table:style-name="Table2.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
       <text:p text:style-name="Table_20_Contents"/>
@@ -699,13 +783,14 @@
    <text:p text:style-name="Text_20_body">РАЗКАЗ ЗА ПРЕНАСЯНЕ НА МОЩИТЕ НА ПЕТКА ТЪРНОВСКА ВЪВ ВИДИН И БЕЛГРАД ОТ ГРИГОРИЙ ЦАМБЛАК</text:p>
    <text:p text:style-name="Text_20_body"/>
    <table:table table:name="Цамблаково" table:style-name="Цамблаково">
-    <table:table-column table:style-name="Цамблаково.A" table:number-columns-repeated="2"/>
+    <table:table-column table:style-name="Цамблаково.A"/>
+    <table:table-column table:style-name="Цамблаково.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Цамблаково.A1" office:value-type="string">
       <text:p text:style-name="Table_20_Contents"/>
      </table:table-cell>
      <table:table-cell table:style-name="Цамблаково.A1" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">Сетне и след много такива години, когато царят български прочее не очаква, а хората по целия свят живеят в мир и благочестието расте заради молитвите на преподобната майка, <text:soft-page-break/>този, който от началото [на света] е ратник срещу кротостта, повдига буря и метеж непрекъснат, въоръжава варварския цар1 срещу оня славен град2. А той, щом дойде, завладя всички български предели сякаш [бяха] гнездо, а, стигнал до чудния град, не знаеше как да го превземе, понеже виждаше непристъпността на мястото (както и си е), затворено от стръмнините на планини и високи хълмове и заякчено със стени високи, а отвътре трижди укрепено чрез многочестните мощи на преподобната; и [понеже знаеше], че тамошните жители я имаха сред себе си като воин непобедим. И след всичко това прочее варваринът щеше да се върне обратно безсилен, а ако би успял донякъде срещу стените, то срещу силата на преподобната би успял толкова, колкото сено срещу огън. Обаче чува и той подобно [на онова слово, що бе казано] на Мойсей и Йеремия – или: «Не се моли За тези хора»3, или: «Излез от този град, понеже твоите молитви са сякаш медна стена, та възпират моя гняв.»4 И така щом грехът – о, горчива повест! – надделя, [градът] веднага падна в ръцете на оня, който си мислеше, че никога не ще получи това. И какво още? Ако подробно представя на ваша милост чрез писанието [си] онова, що се вършеше тогава, зная сигурно, че ще ви потопя в печал и сълзи. Но заради тържеството на деня премълчахме повестта, макар тя да е полезна, обаче – за ридание!</text:p>
+      <text:p text:style-name="Table_20_Contents">Сетне и след много такива години, когато царят български прочее не очаква, а хората по целия свят живеят в мир и благочестието расте заради молитвите на преподобната майка, този, който от началото [на света] е ратник срещу кротостта, повдига буря и метеж непрекъснат, въоръжава варварския цар1 срещу оня славен град2. А той, щом дойде, завладя всички български предели сякаш [бяха] гнездо, а, стигнал до чудния град, не знаеше как да го превземе, понеже виждаше непристъпността на мястото (както и си е), затворено от стръмнините на планини и високи хълмове и заякчено със стени високи, а отвътре трижди укрепено чрез многочестните мощи на преподобната; и [понеже знаеше], че тамошните жители я имаха сред себе си като воин непобедим. И след всичко това прочее варваринът щеше да се върне обратно безсилен, а ако би успял донякъде срещу стените, то срещу силата на преподобната би успял толкова, колкото сено срещу огън. Обаче чува и той подобно [на онова слово, що бе казано] на Мойсей и Йеремия – или: «Не се моли За тези хора»3, или: «Излез от този град, понеже твоите молитви са сякаш медна стена, та възпират моя гняв.»4 И така щом грехът – о, горчива повест! – надделя, [градът] веднага падна в ръцете на оня, който си мислеше, че никога не ще получи това. И какво още? Ако подробно представя на ваша милост чрез писанието [си] онова, що се вършеше тогава, зная сигурно, че ще ви потопя в печал и сълзи. Но заради тържеството на деня премълчахме повестта, макар тя да е полезна, обаче – за ридание!</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -724,7 +809,7 @@
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="Text_20_body"><text:soft-page-break/></text:p>
+   <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
