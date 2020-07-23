@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-20T23:40:18.203339812</meta:creation-date><dc:date>2020-07-23T02:20:43.955867711</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>PT2H16M7S</meta:editing-duration><meta:editing-cycles>24</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="7" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="75" meta:word-count="2093" meta:character-count="13236" meta:non-whitespace-character-count="11196"/></office:meta>
+ <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-20T23:40:18.203339812</meta:creation-date><dc:date>2020-07-24T00:56:27.418939169</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>PT15H32M</meta:editing-duration><meta:editing-cycles>50</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="7" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="101" meta:word-count="3071" meta:character-count="19316" meta:non-whitespace-character-count="16318"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">68457</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">115919</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">501</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">12465</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">11811</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">3427</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">73842</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">2589</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">117145</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">501</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">68457</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">115919</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">12965</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">80266</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">127728</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -79,7 +79,7 @@
    <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2774869</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3582061</config:config-item>
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
@@ -201,9 +201,11 @@
    <style:paragraph-properties fo:margin-top="0.247cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
    <style:text-properties fo:font-size="101%" fo:font-weight="bold" style:font-size-asian="101%" style:font-weight-asian="bold" style:font-size-complex="101%" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="extra">
-   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
-   <style:text-properties fo:language="bg" fo:country="BG"/>
+  <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="extra" style:master-page-name="">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:hyphenation-ladder-count="no-limit" style:page-number="auto" text:number-lines="false" text:line-number="0">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties fo:language="bg" fo:country="BG" fo:hyphenate="true" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
   </style:style>
   <style:style style:name="OldBg" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" style:page-number="auto">
@@ -245,6 +247,14 @@
   <style:style style:name="BookTitle" style:family="paragraph" style:parent-style-name="Title">
    <style:paragraph-properties fo:margin-left="4.001cm" fo:margin-right="4.001cm" fo:margin-top="5.001cm" fo:margin-bottom="0.21cm" loext:contextual-spacing="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties fo:font-variant="small-caps" style:font-name="Avdira1" fo:font-family="Avdira" style:font-style-name="Bold" style:font-pitch="variable" fo:font-weight="normal" style:font-relief="embossed"/>
+  </style:style>
+  <style:style style:name="Table_20_Heading" style:display-name="Table Heading" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:class="extra">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="EmptyLine" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:next-style-name="RightTContent">
+   <style:paragraph-properties fo:line-height="0.25cm"/>
+   <style:text-properties style:font-name="Avdira" fo:font-family="Avdira" style:font-style-name="Regular" style:font-pitch="variable" fo:font-size="8pt"/>
   </style:style>
   <style:style style:name="Numbering_20_Symbols" style:display-name="Numbering Symbols" style:family="text"/>
   <text:outline-style style:name="Outline">
@@ -339,7 +349,13 @@
    </style:table-row-properties>
   </style:style>
   <style:style style:name="Псевдо-Василиково.A1" style:family="table-cell">
-   <style:table-cell-properties fo:padding="0.101cm" fo:border="none" style:writing-mode="page"/>
+   <style:table-cell-properties fo:padding-left="0cm" fo:padding-right="0.101cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="none" style:writing-mode="page"/>
+  </style:style>
+  <style:style style:name="Псевдо-Василиково.7" style:family="table-row">
+   <style:table-row-properties fo:keep-together="always"/>
+  </style:style>
+  <style:style style:name="Псевдо-Василиково.8" style:family="table-row">
+   <style:table-row-properties fo:keep-together="always"/>
   </style:style>
   <style:style style:name="Служба" style:family="table">
    <style:table-properties style:width="12.243cm" table:align="margins"/>
@@ -407,95 +423,140 @@
   <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:break-before="page"/>
   </style:style>
-  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:paragraph-rsid="00079499"/>
-  </style:style>
-  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="002541f7" officeooo:paragraph-rsid="002541f7" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:text-properties officeooo:rsid="0008735e" officeooo:paragraph-rsid="0008735e"/>
-  </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:text-properties officeooo:rsid="000a6212" officeooo:paragraph-rsid="000a6212"/>
-  </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499"/>
-  </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
-  </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:paragraph-rsid="000a6212"/>
-  </style:style>
-  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="000a6212" officeooo:paragraph-rsid="000a6212"/>
-  </style:style>
-  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties officeooo:rsid="001c1051" officeooo:paragraph-rsid="001c1051"/>
-  </style:style>
-  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="OldBg">
-   <style:text-properties officeooo:rsid="000fd705" officeooo:paragraph-rsid="000fd705"/>
-  </style:style>
-  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="OldBg">
-   <style:text-properties officeooo:paragraph-rsid="0012d405"/>
-  </style:style>
-  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="OldBg">
-   <style:text-properties officeooo:paragraph-rsid="00213c32"/>
-  </style:style>
-  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="">
-   <style:paragraph-properties style:page-number="auto"/>
-  </style:style>
-  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
-   <style:paragraph-properties style:page-number="auto"/>
-  </style:style>
-  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="RightTContent">
-   <style:text-properties officeooo:paragraph-rsid="001f90ca"/>
-  </style:style>
-  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="RightTContent">
-   <style:text-properties officeooo:rsid="001f90ca" officeooo:paragraph-rsid="001f90ca"/>
-  </style:style>
-  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="RightTContent">
-   <style:text-properties officeooo:paragraph-rsid="00213c32"/>
-  </style:style>
-  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Subtitle">
-   <style:text-properties officeooo:paragraph-rsid="00237809"/>
-  </style:style>
-  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Subtitle">
-   <style:text-properties officeooo:rsid="00237809" officeooo:paragraph-rsid="00237809"/>
-  </style:style>
-  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="002541f7" officeooo:paragraph-rsid="002541f7" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:break-before="page"/>
   </style:style>
-  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="OldBg">
-   <style:text-properties officeooo:rsid="0029da9f" officeooo:paragraph-rsid="002a1e49"/>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:paragraph-rsid="00079499"/>
   </style:style>
-  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="OldBg">
-   <style:text-properties officeooo:rsid="002a5755" officeooo:paragraph-rsid="002a5755"/>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="RightTContent">
-   <style:text-properties officeooo:rsid="001f90ca" officeooo:paragraph-rsid="001f90ca"/>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="002541f7" officeooo:paragraph-rsid="002541f7" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="RightTContent">
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:paragraph-rsid="002541f7"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:rsid="0008735e" officeooo:paragraph-rsid="0008735e"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:rsid="000a6212" officeooo:paragraph-rsid="000a6212"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="00079964" officeooo:paragraph-rsid="00079964"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="000a6212"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="000a6212" officeooo:paragraph-rsid="000a6212"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="001c1051" officeooo:paragraph-rsid="001c1051"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="002bb740" officeooo:paragraph-rsid="002bb740"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="002df9fc" officeooo:paragraph-rsid="002df9fc"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:paragraph-rsid="002df9fc"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="000fd705" officeooo:paragraph-rsid="000fd705"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:paragraph-rsid="0012d405"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="OldBg">
    <style:text-properties officeooo:paragraph-rsid="00213c32"/>
   </style:style>
-  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="RightTContent">
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="0029da9f" officeooo:paragraph-rsid="002a1e49"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="002a5755" officeooo:paragraph-rsid="002a5755"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="">
+   <style:paragraph-properties style:page-number="auto"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
+   <style:paragraph-properties style:page-number="auto"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="RightTContent">
+   <style:text-properties officeooo:paragraph-rsid="001f90ca"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="RightTContent">
+   <style:text-properties officeooo:rsid="001f90ca" officeooo:paragraph-rsid="001f90ca"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="RightTContent">
+   <style:text-properties officeooo:paragraph-rsid="00213c32"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="RightTContent">
    <style:text-properties officeooo:paragraph-rsid="0029da9f"/>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Subtitle">
+   <style:text-properties officeooo:paragraph-rsid="00237809"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Subtitle">
+   <style:text-properties officeooo:rsid="00237809" officeooo:paragraph-rsid="00237809"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="EmptyLine">
+   <style:text-properties officeooo:rsid="00344271" officeooo:paragraph-rsid="00344271"/>
+  </style:style>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="002bb740" officeooo:paragraph-rsid="002541f7" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="00079499" officeooo:paragraph-rsid="00079499" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="002a5755" officeooo:paragraph-rsid="002a5755"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="00344271" officeooo:paragraph-rsid="00344271"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="0034be42" officeooo:paragraph-rsid="0034be42"/>
+  </style:style>
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="0034be42" officeooo:paragraph-rsid="0036a86d"/>
+  </style:style>
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="OldBg">
+   <style:text-properties officeooo:rsid="0036a86d" officeooo:paragraph-rsid="0036a86d"/>
+  </style:style>
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="RightTContent">
+   <style:text-properties officeooo:paragraph-rsid="0029da9f"/>
+  </style:style>
+  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="RightTContent">
+   <style:text-properties officeooo:paragraph-rsid="00344271"/>
+  </style:style>
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="RightTContent">
+   <style:text-properties officeooo:paragraph-rsid="0036a86d"/>
+  </style:style>
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:text-properties officeooo:rsid="002bb740" officeooo:paragraph-rsid="002bb740"/>
+  </style:style>
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:text-properties officeooo:rsid="002df9fc" officeooo:paragraph-rsid="002df9fc"/>
+  </style:style>
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:text-properties officeooo:rsid="001c1051" officeooo:paragraph-rsid="001c1051"/>
+  </style:style>
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="002f141d" officeooo:paragraph-rsid="002f141d"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="00079499"/>
@@ -507,78 +568,178 @@
    <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="00079499" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18pt" officeooo:rsid="00237809" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18pt" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18pt"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18.2000007629395pt" fo:font-weight="bold" officeooo:rsid="002bb740" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties officeooo:rsid="00079964"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="18pt" officeooo:rsid="00237809" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18pt" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties officeooo:rsid="000a6212"/>
+   <style:text-properties officeooo:rsid="00079964"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties officeooo:rsid="000c24c9"/>
+   <style:text-properties officeooo:rsid="000a6212"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties officeooo:rsid="000cf8fd"/>
+   <style:text-properties officeooo:rsid="000c24c9"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties officeooo:rsid="000de76a"/>
+   <style:text-properties officeooo:rsid="000cf8fd"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties officeooo:rsid="000fd705"/>
+   <style:text-properties officeooo:rsid="000de76a"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties officeooo:rsid="0010a9d5"/>
+   <style:text-properties officeooo:rsid="000fd705"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties officeooo:rsid="0011f702"/>
+   <style:text-properties officeooo:rsid="0010a9d5"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties officeooo:rsid="0012d405"/>
+   <style:text-properties officeooo:rsid="0011f702"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties officeooo:rsid="00142045"/>
+   <style:text-properties officeooo:rsid="0012d405"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties officeooo:rsid="001497e6"/>
+   <style:text-properties officeooo:rsid="00142045"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties officeooo:rsid="001bf612"/>
+   <style:text-properties officeooo:rsid="001497e6"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties officeooo:rsid="001c1051"/>
+   <style:text-properties officeooo:rsid="001bf612"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties officeooo:rsid="001f90ca"/>
+   <style:text-properties officeooo:rsid="001c1051"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties officeooo:rsid="00237809"/>
+   <style:text-properties officeooo:rsid="001f90ca"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties fo:font-variant="small-caps" style:font-name="Avdira1" fo:font-size="28pt" fo:font-weight="normal" officeooo:rsid="000c24c9" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="28pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="28pt" style:font-weight-complex="bold" style:font-relief="embossed"/>
+   <style:text-properties officeooo:rsid="00237809"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties fo:font-variant="small-caps" style:font-name="Avdira1" fo:font-size="28pt" fo:font-weight="normal" officeooo:rsid="00275005" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="28pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="28pt" style:font-weight-complex="bold" style:font-relief="embossed"/>
+   <style:text-properties fo:font-variant="small-caps" style:font-name="Avdira1" fo:font-size="28pt" fo:font-weight="normal" officeooo:rsid="000c24c9" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="28pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="28pt" style:font-weight-complex="bold" style:font-relief="embossed"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties officeooo:rsid="00266a80"/>
+   <style:text-properties fo:font-variant="small-caps" style:font-name="Avdira1" fo:font-size="28pt" fo:font-weight="normal" officeooo:rsid="00275005" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="28pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="28pt" style:font-weight-complex="bold" style:font-relief="embossed"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties officeooo:rsid="00275005"/>
+   <style:text-properties officeooo:rsid="00266a80"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties officeooo:rsid="002947a7"/>
+   <style:text-properties officeooo:rsid="00275005"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties officeooo:rsid="0029da9f"/>
+   <style:text-properties officeooo:rsid="002947a7"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties officeooo:rsid="002a1e49"/>
+   <style:text-properties officeooo:rsid="0029da9f"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
+   <style:text-properties officeooo:rsid="002a1e49"/>
+  </style:style>
+  <style:style style:name="T28" style:family="text">
    <style:text-properties officeooo:rsid="002a5755"/>
   </style:style>
+  <style:style style:name="T29" style:family="text">
+   <style:text-properties officeooo:rsid="002bb740"/>
+  </style:style>
+  <style:style style:name="T30" style:family="text">
+   <style:text-properties officeooo:rsid="002c47a1"/>
+  </style:style>
+  <style:style style:name="T31" style:family="text">
+   <style:text-properties officeooo:rsid="002df9fc"/>
+  </style:style>
+  <style:style style:name="T32" style:family="text">
+   <style:text-properties fo:language="bg" fo:country="BG"/>
+  </style:style>
+  <style:style style:name="T33" style:family="text">
+   <style:text-properties fo:language="bg" fo:country="BG" officeooo:rsid="002df9fc"/>
+  </style:style>
+  <style:style style:name="T34" style:family="text">
+   <style:text-properties fo:language="bg" fo:country="BG" officeooo:rsid="002f141d"/>
+  </style:style>
+  <style:style style:name="T35" style:family="text">
+   <style:text-properties officeooo:rsid="002e0fad"/>
+  </style:style>
+  <style:style style:name="T36" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T37" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="002df9fc" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T38" style:family="text">
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="002e0fad" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T39" style:family="text">
+   <style:text-properties officeooo:rsid="002e75ad"/>
+  </style:style>
+  <style:style style:name="T40" style:family="text">
+   <style:text-properties officeooo:rsid="002f141d"/>
+  </style:style>
+  <style:style style:name="T41" style:family="text">
+   <style:text-properties officeooo:rsid="003105d5"/>
+  </style:style>
+  <style:style style:name="T42" style:family="text">
+   <style:text-properties officeooo:rsid="0034be42"/>
+  </style:style>
+  <style:style style:name="T43" style:family="text">
+   <style:text-properties officeooo:rsid="0036a86d"/>
+  </style:style>
   <text:list-style style:name="L1">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm" fo:text-indent="-0.635cm" fo:margin-left="6.985cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="L2">
    <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
      <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
@@ -733,17 +894,41 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="BookTitle">Старите български писания за <text:span text:style-name="T21">С</text:span>вета Петка</text:p>
-   <text:p text:style-name="P23">и техния свръхсмисъл</text:p>
+   <text:p text:style-name="BookTitle">Старите българс<text:span text:style-name="T40">k</text:span>и писания за Света Петка</text:p>
+   <text:p text:style-name="Subtitle">и техния свръхсмисъл</text:p>
    <text:p text:style-name="P2"/>
    <text:p text:style-name="P2"/>
    <text:h text:style-name="P1" text:outline-level="1">Въведение</text:h>
-   <text:p text:style-name="P9">Алабаланица турска паница и други рабѿи <text:span text:style-name="T6">– Какво показваме тук и къде мислим да стигнем?</text:span></text:p>
-   <text:h text:style-name="P5" text:outline-level="1">Подход</text:h>
-   <text:p text:style-name="P12">Как ще се работи? <text:span text:style-name="T22">Какъв е научният подход, методология?</text:span></text:p>
-   <text:h text:style-name="P4" text:outline-level="1">Писанията</text:h>
-   <text:p text:style-name="P11"><text:span text:style-name="T5">Изрично да кажа, че няма много какво да добавям и, че ще публикувам вече публикувани бележки. <text:s/></text:span><text:span text:style-name="T6">Защо съм избрал реда на публикуване – По датиране на ръкописа. </text:span><text:span text:style-name="T5">Бележките ще ги разширявам по два начина като разширявам посочките и ги разгръщам. Навсякъде дописаното от мен ще бъде с различен шридт така, че да личи.<text:line-break/></text:span></text:p>
-   <text:p text:style-name="P11">Алабаланица турска паница таблица с данните за всяко писание: <text:span text:style-name="T1">Заглавие, датировка на ръкописа, издания...<text:line-break/></text:span></text:p>
+   <text:p text:style-name="P11">Алабаланица турска паница и други рабѿи <text:span text:style-name="T7">– Какво показваме тук и къде мислим да стигнем?</text:span></text:p>
+   <text:h text:style-name="P33" text:outline-level="1">Построение</text:h>
+   <text:p text:style-name="P16">Как е построено представянето. <text:span text:style-name="T7">Как ще се работи? </text:span><text:span text:style-name="T23">Какъв е научният подход, методология? </text:span><text:span text:style-name="T35">строеж на книгата – следва:</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T36">Предговор</text:span> – обяснение каква е тази книга, какви цели си поставя, за кого е предназначена и т.н – накратко 1-2стр.</text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T37">Построение</text:span><text:span text:style-name="T31"> – </text:span><text:span text:style-name="T33">тези обяснения</text:span><text:span text:style-name="T31"> тук, малко по-подробно.</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T36">Представяне</text:span> на <text:span text:style-name="T35">всяко от </text:span>самите писания. <text:span text:style-name="T29">Всяко от засегнатите писания има следните главни части:</text:span></text:p>
+   <text:list xml:id="list4011720500" text:style-name="L1">
+    <text:list-item>
+     <text:p text:style-name="P44">Кратко представяне.<text:line-break/>Първо следва представянето на съответния съставител от ползваното научно издание <text:span text:style-name="T30">на превода</text:span>, а след него още няколко думи от съставителя на тази книга<text:span text:style-name="T31">(мен)</text:span>, ако има да се каже нещо повече.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P44">Бележки по ръкописа: <text:span text:style-name="T31">(значими) </text:span>издания, <text:span text:style-name="T30">кой ръкопис е ползван,</text:span> кой превод е представен тук и чий е той. <text:span text:style-name="T30">Няколко думи за преводача.</text:span></text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P44"><text:span text:style-name="T30">Кратки к</text:span>одикологични бележки за ползвания <text:span text:style-name="T30">кодекс и </text:span>ръкопис, по който е направен превода. Снимка на първата страница от <text:span text:style-name="T30">самия </text:span>ръкописа.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P44">Следва самият ръкопис и преводът му разположени един до друг.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P45">Бележките под линия, публикувани в ползваното научно издание с превода.</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P45">Тълкуване, повече разяснения по бележките от ползваното научно издание от мен. Това е и втората задача на тази работа: Да открие свръхсмисъла. <text:span text:style-name="T35">Ще се използват тълкования на библията, симфонии и други източници, които могат да ни помогнат в разбирането на по-висшия смисъл, отвъд обикновеното излагане на факти видимо на пръв поглед. Свързване и съпоставка на днешното време с изградения вече образ на времето на съответния ръкопис. Това е и моята авторска работа.</text:span></text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="P17"><text:span text:style-name="T36">Заключение</text:span> – какво сме открили, постигнахме ли целите си?<text:line-break/><text:span text:style-name="T38">Библиография</text:span><text:span text:style-name="T35"> - задължително</text:span></text:p>
+   <text:h text:style-name="P5" text:outline-level="1">Писанията</text:h>
+   <text:p text:style-name="P13"><text:span text:style-name="T6">Изрично да кажа, че няма много какво да добавям и, че ще публикувам вече публикувани бележки. <text:s/></text:span><text:span text:style-name="T7">Защо съм избрал реда на публикуване – По датиране на ръкописа. </text:span><text:span text:style-name="T6">Бележките ще ги разширявам по два начина като разширявам посочките и ги разгръщам. Навсякъде дописаното от мен ще бъде с различен шридт така, че да личи.<text:line-break/></text:span></text:p>
+   <text:p text:style-name="P13">Алабаланица турска паница таблица с данните за всяко писание: <text:span text:style-name="T1">Заглавие, датировка на ръкописа, издания...<text:line-break/></text:span></text:p>
    <table:table table:name="Писанията" table:style-name="Писанията">
     <table:table-column table:style-name="Писанията.A"/>
     <table:table-column table:style-name="Писанията.B"/>
@@ -752,22 +937,22 @@
     <table:table-column table:style-name="Писанията.F"/>
     <table:table-row>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P6">Заглавие</text:p>
+      <text:p text:style-name="P8">Заглавие</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P6">Автор</text:p>
+      <text:p text:style-name="P8">Автор</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P6">Ръкопис</text:p>
+      <text:p text:style-name="P8">Ръкопис</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P6">Издания</text:p>
+      <text:p text:style-name="P8">Издания</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P7">Препечатано от</text:p>
+      <text:p text:style-name="P9">Препечатано от</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Писанията.A1" office:value-type="string">
-      <text:p text:style-name="P6">Превод</text:p>
+      <text:p text:style-name="P8">Превод</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -893,33 +1078,49 @@
    </table:table>
    <text:p text:style-name="Text_20_body"/>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">ЖИТИЕ И ЧУДЕСА НА СВЕТАТА ПРЕПОДОБНА ПАРАСКЕВА</text:h>
-   <text:p text:style-name="P10">Житието – предполагаем <text:span text:style-name="T10">превод от гръцки</text:span> от <text:span text:style-name="T10">дякон</text:span> Василик, но оказало се не негово – доказано от Минева.<text:line-break/><text:span text:style-name="T8">Старият текст е преписан от изданието на </text:span><text:span text:style-name="T10">Елка Мирчева от 2006 на</text:span><text:span text:style-name="T8"> Германовия сборник, като е следван н</text:span><text:span text:style-name="T10">а</text:span><text:span text:style-name="T8">чина на писане там, както е описано в раздела „Принципи на представяне на текста“ стр. 253</text:span></text:p>
-   <text:p text:style-name="P10">В две колони Ст Бг. и Български</text:p>
+   <text:p text:style-name="P12">Житието – предполагаем <text:span text:style-name="T11">превод от гръцки</text:span> от <text:span text:style-name="T11">дякон</text:span> Василик, но оказало се не негово – доказано от Минева.<text:line-break/><text:span text:style-name="T9">Старият текст е преписан от изданието на </text:span><text:span text:style-name="T11">Елка Мирчева от 2006 на</text:span><text:span text:style-name="T9"> Германовия сборник, като е следван н</text:span><text:span text:style-name="T11">а</text:span><text:span text:style-name="T9">чина на писане там, както е описано в раздела „Принципи на представяне на текста“ стр. 253, </text:span><text:span text:style-name="T39">но с развързване на съкращенията като е следван тогавашния правопис и т.н.</text:span></text:p>
+   <text:p text:style-name="P12">В две колони Ст Бг. и Български</text:p>
    <table:table table:name="Псевдо-Василиково" table:style-name="Псевдо-Василиково">
     <table:table-column table:style-name="Псевдо-Василиково.A"/>
     <table:table-column table:style-name="Псевдо-Василиково.B"/>
     <table:table-row table:style-name="Псевдо-Василиково.1">
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="OldBg">МѢСѦЦА ѠКТѦБРѢ .Д︮І︯. <text:span text:style-name="T9">ДЬНЬ.</text:span></text:p>
-      <text:p text:style-name="P14">житие и чюдеса. свѧтыѫ пѣподобныѫ, параскеви. благослови отче.</text:p>
+      <text:p text:style-name="OldBg">МѢСѦЦА ѠКТѦБРѢ .Д︮І︯. <text:span text:style-name="T10">ДЬНЬ.</text:span></text:p>
+      <text:p text:style-name="P19">житие и чюдеса. свѧтыѫ пѣподобныѫ, параскеви. благослови отче.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P20">Месец октомври – 14ти ден.</text:p>
-      <text:p text:style-name="P19">ЖИТИЕ И ЧУДЕСА НА СВЕТАТА ПРЕПОДОБНА ПАРАСК ЕВА.</text:p>
-      <text:p text:style-name="P20">Благослови, Отче.</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="OldBg">Иже <text:span text:style-name="T11">по добродѣтѣли пожившимъ житие и скаꙁание. всѣмъ ꙋбо на бо&apos;лшее слышание поѹченыхъ </text:span><text:span text:style-name="T12">похвалныѫ бываѫтъ. ѡбаче онѣмъ иеже сихъ. ихже благолюбе</text:span><text:span text:style-name="T13">ꙁ</text:span><text:span text:style-name="T12">но естъ. елико житие по бозѣ. </text:span><text:span text:style-name="T13">иго христово рекѫ. и бр</text:span><text:span text:style-name="T15">ѣ</text:span><text:span text:style-name="T13">мѧ легкое любѧтъ, и на рамѣ въсприемѧтъ. навикше себе прикасати. и на божиа подвиꙁати сѧ повѣлѣниа.</text:span></text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="RightTContent">Животът и преданието на тези, които са преживели в добродетел, биват похвални за всички, та да възприемат по-пълно наставленията; обаче за ония [слушащите], а не за тия, за които е благолюбен самият живот според бога, казвам <text:span text:style-name="T13">–</text:span> Христовия ярем. Те и обичат лекото бреме1, и го вземат на рамене, научили себе си да приемат и да се стремят към божиите заповеди.</text:p>
+      <text:p text:style-name="P27">Месец октомври – 14ти ден.</text:p>
+      <text:p text:style-name="P26">ЖИТИЕ И ЧУДЕСА НА СВЕТАТА ПРЕПОДОБНА ПАРАСК ЕВА.</text:p>
+      <text:p text:style-name="P27">Благослови, Отче.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P15"><text:span text:style-name="T13">и по лѣпотѣ </text:span><text:span text:style-name="T14">начинаѫ. да не изрѧдна дѣаниа, и бога ради подвизаниа. христови. без писаниа ѡставити. и </text:span><text:span text:style-name="T15">лѣтѹ прѣхожденіемъ, помрачѣти сѧ и ꙁабывати сѧ. иѫ писати сихъ и добрѣ вѣдѣти. и вѣдомыѫ </text:span><text:span text:style-name="T16">лоб&apos;ꙁати. и</text:span><text:span text:style-name="T15"> лоб&apos;ꙁаныхъ </text:span><text:span text:style-name="T16">въ скрижалехъ сръдцъ нашихъ наѱати. любѧтъ бо ꙃѣло сѫщии ѡ комълюбо. любезно живѫтъ. въ томъ и всѧ подвиꙃати.</text:span></text:p>
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="OldBg">Иже <text:span text:style-name="T12">по добродѣтѣли пожившимъ житие и скаꙁание. всѣмъ ꙋбо на бо&apos;лшее слышание поѹченыхъ </text:span><text:span text:style-name="T13">похвалныѫ бываѫтъ. ѡбаче онѣмъ иеже сихъ. ихже благолюбе</text:span><text:span text:style-name="T14">ꙁ</text:span><text:span text:style-name="T13">но естъ. елико житие по бозѣ. </text:span><text:span text:style-name="T14">иго христово рекѫ. и бр</text:span><text:span text:style-name="T16">ѣ</text:span><text:span text:style-name="T14">мѧ легкое любѧтъ, и на рамѣ въсприемѧтъ. навикше себе прикасати. и на божиа подвиꙁати сѧ повѣлѣниа.</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="RightTContent">Животът и преданието на тези, които са преживели в добродетел, биват похвални за всички, та да възприемат по-пълно наставленията; обаче за ония [слушащите], а не за тия, за които е благолюбен самият живот според бога, казвам <text:span text:style-name="T14">–</text:span> Христовия ярем. Те и обичат лекото бреме1, и го вземат на рамене, научили себе си да приемат и да се стремят към божиите заповеди.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P20"><text:span text:style-name="T14">и по лѣпотѣ </text:span><text:span text:style-name="T15">начинаѫ. да не изрѧдна дѣаниа, и бога ради подвизаниа. христови. без писаниа ѡставити. и </text:span><text:span text:style-name="T16">лѣтѹ прѣхожденіемъ, помрачѣти сѧ и ꙁабывати сѧ. иѫ писати сихъ и добрѣ вѣдѣти. и вѣдомыѫ </text:span><text:span text:style-name="T17">лоб&apos;ꙁати. и</text:span><text:span text:style-name="T16"> лоб&apos;ꙁаныхъ </text:span><text:span text:style-name="T17">въ скрижалехъ сръдцъ нашихъ наѱати. любѧтъ бо ꙃѣло сѫщии ѡ комълюбо. любезно живѫтъ. въ томъ и всѧ подвиꙃати.</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
       <text:p text:style-name="RightTContent">И справедливо започвам, за да не оставя незаписани техните изключителни деяния и подвизите [им] заради бога, та да помрачнеят <text:s/>и да се забравят с течение на времето, но да ги пишем, и добре да [ги] знаем, и като ги знаем, да ги прегърнем, и прегърнали ги, да ги напишем в скрижалите на сърцата си2. Защото те, съществуващите, обичат много, ако живеят за някого с любов, в него всичко да пренасят.</text:p>
@@ -927,68 +1128,204 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P16"><text:span text:style-name="T16">и что доб</text:span><text:span text:style-name="T24">р</text:span><text:span text:style-name="T16">ымъ бѫдетъ. ли прѣподобныѫ матере нашѫ параскеви. и въистинѫ дѹшеполезнаго </text:span><text:span text:style-name="T17">и съпасьнаго млъчѣніемъ прѣминем, нѫ прѣвелие. цръковное ѡснованіе ѡтъщетимъ. и правоверныхъ ѹши поглѹшати створимъ. </text:span><text:span text:style-name="T23">аще не словесы чьстными сиѫ исповѣмъ исправлениа. да любовиѫ мним&apos; сѧ добра. и по силѣ похвалити </text:span><text:span text:style-name="T25">лꙋчьша. въскорѣ на сказание придѣмъ. ни ѡтчъство оставлъше. ни пакы родителѣ. о нихже богоугодное стѧжала.</text:span></text:p>
+      <text:p text:style-name="P21"><text:span text:style-name="T17">и что доб</text:span><text:span text:style-name="T25">р</text:span><text:span text:style-name="T17">ымъ бѫдетъ. ли прѣподобныѫ матере нашѫ параскеви. и въистинѫ дѹшеполезнаго </text:span><text:span text:style-name="T18">и съпасьнаго млъчѣніемъ прѣминем, нѫ прѣвелие. цръковное ѡснованіе ѡтъщетимъ. и правоверныхъ ѹши поглѹшати створимъ. </text:span><text:span text:style-name="T24">аще не словесы чьстными сиѫ исповѣмъ исправлениа. да любовиѫ мним&apos; сѧ добра. и по силѣ похвалити </text:span><text:span text:style-name="T26">лꙋчьша. въскорѣ на сказание придѣмъ. ни ѡтчъство оставлъше. ни пакы родителѣ. о нихже богоугодное стѧжала.</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P21">И ще бъде ли добро, ако отминем с мълчание наистина душеполезното и спасително [житие] на нашата преподобна майка Параскева? Но ще ощетим великото църковно начало и ще направим да оглушеят ушите на правоверните, ако не разкажем с почетни слова за съвършените ѝ дела. Та като си мислим, че е добре с любов и още по-добре според силите си да похвалим, нека преминем бързо към разказа, без да изпускаме нито отечеството, нито родителите, от които тя е получила богоугодния [си] живот. </text:p>
+      <text:p text:style-name="P28">И ще бъде ли добро, ако отминем с мълчание наистина душеполезното и спасително [житие] на нашата преподобна майка Параскева? Но ще ощетим великото църковно начало и ще направим да оглушеят ушите на правоверните, ако не разкажем с почетни слова за съвършените ѝ дела. Та като си мислим, че е добре с любов и още по-добре според силите си да похвалим, нека преминем бързо към разказа, без да изпускаме нито отечеството, нито родителите, от които тя е получила богоугодния [си] живот. </text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Псевдо-Василиково.8">
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="Псевдо-Василиково.8">
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P22">та бо дивнаа и свѧтаа жена. и богообрѫчена. от мѣста быстъ въ пръвѣ. въ ѳраки прилежѫщоу. ѥпивате нарицаемо. благовѣрна родителѣ <text:span text:style-name="T27">ѡбогати</text:span>. <text:span text:style-name="T27">паче и чьстна, и благородна. по нравѹ проповѣдана. ни числѹ богати ны ѡбласть имѧща. </text:span><text:span text:style-name="T28">ни пакы нищетами и скръби страждѫща</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P28">Тази прочее удивителна и свята, и богообручена жена бе от мястото, наречено Епиват, отпървом намиращо се около Тракия. Тя обогати родителите си, благоверни, а още повече – честни и благородни, с право известни, нито обилно богати, нито властелини, нито пък страдащи от мъка поради нищета. </text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P27">та бо дивнаа и свѧтаа жена. и богообрѫчена. от мѣста быстъ въ пръвѣ. въ ѳраки прилежѫщоу. ѥпивате нарицаемо. благовѣрна родителѣ <text:span text:style-name="T26">ѡбогати</text:span>. <text:span text:style-name="T26">паче и чьстна, и благородна. по нравѹ проповѣдана. ни числѹ богати ны ѡбласть имѧща. </text:span><text:span text:style-name="T27">ни пакы нищетами и скръби страждѫща</text:span></text:p>
+      <text:p text:style-name="P23">потомъ же съвършение възрастѹ достигшѹ. и помысль ѹтвръждъши. и ревновавши житие апостолъско. и огню видениемъ. симъ образомъ себе раждегши. ѿлѫчѣет сѧ ѿчъства. и рода и дрѹжины ѿмѣтает сѧ. далече от житеискыхъ мѧтежи и печѣли. и добродѣтѣлми себе въперивши. пꙋстаа мѣста приенлетъ.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P21">Тази прочее удивителна и свята, и богообручена жена бе от мястото, наречено Епиват, отпървом намиращо се около Тракия. Тя обогати родителите си, благоверни, а още повече – честни и благородни, с право известни, нито обилно богати, нито властелини, нито пък страдащи от мъка поради нищета. </text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P28">потомъ же съвършение възрастѹ достигшѹ. и помысль ѹтвръждъши. и ревновавши житие апостолъско. и огню видениемъ. симъ образомъ себе раждегши. ѿлѫчѣет сѧ ѿчъства. и рода и дрѹжины ѿмѣтает сѧ. далече от житеискыхъ мѧтежи и печѣли. и добродѣтѣлми себе въперивши. пꙋстаа мѣста приенлетъ.</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P31">После, когато достигна пълнолетие, реши твърдо, възревнува апостолския живот и така, разпалена от видението на [вечния] огън, разделя се с отечеството, отмята се от род и близки и окрилена от добродетели, далече от скръбта на житейските смутове, достига пустинните места.</text:p>
+      <text:p text:style-name="P29">После, когато достигна пълнолетие, реши твърдо, възревнува апостолския живот и така, разпалена от видението на [вечния] огън, разделя се с отечеството, отмята се от род и близки и окрилена от добродетели, далече от скръбта на житейските смутове, достига пустинните места.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P28">внѣже ꙋбо лѣта не мала побывши и безмльвно бо житие полюби. житие рещи въистинѫ. маломъ чим ангелское полишено. радовавше сѧ паче. веселѣше сѧ дѹшеѫ. ѹкрѣплѣше сѧ духом</text:p>
+      <text:p text:style-name="EmptyLine"/>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P31"/>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P28"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P31"/>
+      <text:p text:style-name="EmptyLine"/>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P28"/>
+      <text:p text:style-name="P23">внѣже ꙋбо лѣта не мала побывши и безмльвно бо житие полюби. житие рещи въистинѫ. маломъ чим<text:span text:style-name="T40">ъ</text:span> ангелское полишено. радовавше сѧ паче. веселѣше сѧ дѹшеѫ. ѹкрѣплѣше сѧ духом. <text:span text:style-name="T40">въ пощени и въ бдѣни тѣло ꙋдрѫчѣѫщи и что ꙋбо многа глаголати. всѣбесплътна бѣше. и не бѣ видѣти в неи ни ꙗстие, ни пиво. нѫ піща бѣше еи и брашно. слъꙁы и непрѣстѫщна молитва. тако все проче житие свое. въ тои странѣ добродѣтѣлми </text:span><text:span text:style-name="T41">просъвтѣвши сѧ. доблестъвна прѣбывши, и ѹм еи. и чювъство себѣ въмѣшена и съвъкѹплена. и присно горѣ бываѫща и прѣвыше въꙁносима.</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P31"/>
+      <text:p text:style-name="P29">В пустинята тя прекара немалко години и възлюби безмълвния живот, сиреч живот наистина в малко отстъпващ на ангелския; радваше се, а повече – веселеше се душевно, укрепваше се духом, измъчвайки в пост и бдение тялото си и – защо прочее много да говоря! – бе цялата безплътна. И не можеше да се види при нея ни ядене, ни питие, но храна и ястие ѝ бяха сълзите и непрестанните молитви. Така, чрез добродетели, тя освети целия си живот в оная страна, остана мъжествена и нейният ум и съзнание бяха единни и свързани, и винаги високо и още по-високо отправяни.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P28"/>
+      <text:p text:style-name="P32"/>
      </table:table-cell>
      <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
-      <text:p text:style-name="P31"/>
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P37">ниедино ѿ ꙁемнныхъ тяло прилѣпити сѧ, ни мала створи. нѫ вѣрещи дѣтѣл&apos;ми. исправлена. облекчѣѫщи. прѣвыше всѧ къ богѹ, въперившѫѫ сѧ съдѣа.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P42">Тя не позволи тялото ѝ ни най-малко да се приобщи към някого от земните, но цялата – сиреч облекчена чрез деяния и подвизи – полетя по-високо от всички към бога!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P32"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P37">нѫ ѡ доброе стѧжание, добродѣтѣли словесемъ. желателѧ веселѧща. не тъкмо въ бѫдѫщааго вѣка мъзды даѫт&apos; сѧ. нѫ и в се житие прѣбываѫщиихъслвныѫ съдѣваетъ. ꙗкоже и моего христа невѣстѫ. просвѣщеноѫ дѣтѣл&apos;ми. дѣтѣль проповѣдавшаіа. лівнихъ проповѣданѫѧ. такожде та. ѡстры и жестокы пъть добрѣ шествовавшіа. <text:span text:style-name="T42">и свое прѣсталеніе оувѣдѣв&apos;ши. ѿходитъ ѿ пѹстынѧ. и пріходитъ въ цариградъ. и въ малѣ въ свѧтыхъ цръквахъ прѣбываетъ. абіе ѡтѫдѹ ѿходитъ. и въ бліжнаѧѫ весь ѿчыства своего въселѣет сѧ. каликратіа, ѿсѫдѣхъ нарицаемѫѧ. и тѹ житію конец приемлетъ. и ѿсѫдѹ прѣходитъ ꙗкоже богъ еи повелѣ.</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P42">Но, о, добра придобивка, веселяща чрез словото ревнителите на добродетелта! Не само в бъдещите векове се дават награди, но те правят прочути и пребиваващите в този живот, както и невястата на моя Христос, просветлена чрез доброто, проповядваща деянието чрез деянията, или – в тях проповядвана! Така и тя, след като вървя добре по неравния и труден път и предусети своята кончина, излиза от пустинята, отива в Цариград и пребивава за кратко в светите църкви. Бързо потегля оттам, та се заселва в селище, наричано от тукашните Каликратия, близо до родното ѝ място. И тук достига края на живота си, и оттук се преселва [на небето], както бог ѝ заповяда.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P32"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P39">нѫ и се твоеи благости небесныи цѣсарю. ибо не въсхотѣ ꙗже к тебѣ любовъ раждежена блаженыѫ. невѣдомѫ чловѣкомъ быти. и не тъкмо сиѫ съ небесными силами прославити сѧ.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P43">Обаче и това е според твоята благост, небесни царю, понеже ти не поиска блажената, която бе разпалена от любов към тебе, да бъде непозната на човеците и да се прослави само с небесните сили.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P38">н<text:span text:style-name="T43">ѫ</text:span> ꙗкоже небеснымъ ꙗко <text:span text:style-name="T43">небеснѫѫ наслѣдити сѣ сътвори. тако нинѣ и земныймъ, сиѫ ошедшѫѫ. славныѫ быти изволилъ еси. ꙗко да всѣкого чловѣка, поѹчѧ на твоа чюдеса. ревнітелѧ сеѫ сътвориши. добрѣ ꙋбо давидъ глагола. да възвеселитъ сѧ. помѣнѣте чудеса его ꙗже сръдце искѫщихъ господа. въꙁеыщете господа и ѹкрѣпите сѧ. помѣнѣте чюдеса его ꙗже створи.</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P29">Но както направи тя да се наслади от небесните като небесна, така си пожелал покойната да бъде прославяна сега и от земните, та всеки човек, наставен в твоите чудеса, да направиш неин подражател. Добре, прочее, рече Давид: «Да се възрадва сърцето на търсещите господа, търсете господа и се уповавайте; споменавайте неговите чудеса, които той направи!»3</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P32"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P40">нѫ сладостъ</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P29">Но житието на нашата преподобна Параскева ми се струва сладостно и свръх това достойно бързо да се препише и да изложим според него за всякакво добро известие и първообраз, как сега тя, казвам, дойде по-близко при родината си в Каликратия и разбра, че ще достигне премирно края в едно неизвестно място. Тя предаде чрез духа [си] на бога, и отплата прие, и радвайки се, отиде при небесния жених и цар, та с него вечно да царува, защото добре знаеше, че такава кончина е получаване на отплати и награди, а не смърт! А пречистото ѝ, пресветло и преподобно тяло, без почест почетно, и неизвестно, и без всякаква украса, лежеше, неразложено, много дни, понеже имаше ангел божи, който го закриляше, и дух божи, който върху него се въздигаше. И това е от божията слава – та да не направи тялото [ѝ] известно така, както на другите праведници, но чрез велики, удивителни и необикновени чудеса.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P32"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P23"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P29"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P32"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P23"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P29"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P32"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P23"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P29"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P32"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="EmptyLine"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P23"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P29"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P23"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Псевдо-Василиково.A1" office:value-type="string">
+      <text:p text:style-name="P29"/>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="P10"/>
+   <text:p text:style-name="P12"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">Бележки</text:h>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="ScientistNotes">Както вече бе отбелязано (вж. с. 574—575), още преди българският владетел Иван Асен II да пренесе мощите на преподобната Параскева- Петка от Каликратия в Търново, култът към нея вече е дал своите литературни плодове. Ето какво свидетелство намираме в тълкуванието на византийския правист Валзамон към 63-то правило на Трулския събор: «А светяйшият патриарх господин Николай Мурзалон, като видял, че животът на света Параскева, почитана в Каликратийска област, бил написан от един местен жител неизкусно и недостойно за ангелския живот на светицата, определил това описание да се предаде на огън и поръчал на дякона Василик да ѝ напише богоугодно житие.» Това «богоугодно», т. е. литературно издържано житие, не се е запазило във византийските ръкописи, вероятно защото традицията да се чествува Петка в тракийските земи е заглъхнала след пренасяне на мощите ѝ. Съществува обаче един славянски текст — анонимно риторично житие на Петка, запазено в среднобългарски ръкопис; това житие с основание се приема от всички изследователи за превод от Житието, написано от дякон Василик. Приема се също така, че преводът е извършен наскоро след пренасяне на мощите на светицата и че едновременно са преведени проложното житие на Петка, Василиковото житие и гръцката служба на светицата.</text:p>
    <text:p text:style-name="Text_20_body">....</text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">СЛУЖБА ЗА ПЕТКА ТЪРНОВСКА</text:h>
-   <text:p text:style-name="P12">Предполага се, че е донесена заедно с мощите</text:p>
+   <text:p text:style-name="P14">Предполага се, че е донесена заедно с мощите</text:p>
    <table:table table:name="Служба" table:style-name="Служба">
     <table:table-column table:style-name="Служба.A"/>
     <table:table-column table:style-name="Служба.B"/>
@@ -1022,11 +1359,11 @@
     </table:table-row>
    </table:table>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">БЕЛЕЖКИ</text:h>
-   <text:p text:style-name="P12">Общите сведения за развитието и проникването на култа към Петка</text:p>
-   <text:p text:style-name="P12">Епиватска, наречена по-късно Търновска, в българската и изобщо в славянската традиция, бяха уточнени благодарение на първите преводи на произведения за нея, направени в Търново и по Летописния разказ за, пренасянето на мощите ѝ от времето на Иван II Асен (вж. тук коментариите към, Житие на Петка Търновска и Летописния разказ от времето на Иван II Асен).</text:p>
+   <text:p text:style-name="P14">Общите сведения за развитието и проникването на култа към Петка</text:p>
+   <text:p text:style-name="P14">Епиватска, наречена по-късно Търновска, в българската и изобщо в славянската традиция, бяха уточнени благодарение на първите преводи на произведения за нея, направени в Търново и по Летописния разказ за, пренасянето на мощите ѝ от времето на Иван II Асен (вж. тук коментариите към, Житие на Петка Търновска и Летописния разказ от времето на Иван II Асен).</text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">РАЗКАЗ ОТ ВРЕМЕТО НА ЦАР ИВАН II АСЕН</text:h>
-   <text:p text:style-name="P12">Откъде е взет новобългарския текст, на какво е превод, откъде сънм взел старобългарския текст и тн.</text:p>
-   <text:p text:style-name="P12"/>
+   <text:p text:style-name="P14">Откъде е взет новобългарския текст, на какво е превод, откъде сънм взел старобългарския текст и тн.</text:p>
+   <text:p text:style-name="P14"/>
    <table:table table:name="Разказ" table:style-name="Разказ">
     <table:table-column table:style-name="Разказ.A"/>
     <table:table-column table:style-name="Разказ.B"/>
@@ -1058,7 +1395,7 @@
       <text:p text:style-name="Table_20_Contents"/>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P8">В същия ден [14.Х.] е паметта на светата преподобна Параскева.</text:p>
+      <text:p text:style-name="P10">В същия ден [14.Х.] е паметта на светата преподобна Параскева.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -1066,14 +1403,13 @@
       <text:p text:style-name="Table_20_Contents"/>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P8">Тази света и преподобна Параскева беше от селото, наричано Епиват, от град Қаликратия, дъщеря на благоверни родители, нито обилно богати, ни властници, нито пък страдащи от бедност.</text:p>
+      <text:p text:style-name="P10">Тази света и преподобна Параскева беше от селото, наричано Епиват, от град Қаликратия, дъщеря на благоверни родители, нито обилно богати, ни властници, нито пък страдащи от бедност.</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P12">БЕЛЕЖКИ</text:p>
-   <text:p text:style-name="P12">Проложното житие на Петка Търновска възниква в Търново през XIII в., вероятно наскоро след 1235 г. Първата му част е превод от гръцки и завършва с пренасяне на мощите на преподобната в църквата «Свети апостоли» в Каликратия. Тази част фактически е съкращение на Василиковото житие. Втората част – разказът за пренасяне на мощите в Търново – е оригинална българска добавка, плод на родолюбивите настроения в българската престолнина в последното десетилетие от царуването на Иван Асен II. Сравнението на разказа за пренасяне на мощите и споменатия вече Летописен разказ показва, че проложният разказ е възникнал след Летописния и е оформен под негово влияние. Не познаваме текста на Проложното житие в препис от XIII в. Всички достигнали до нас преписи се намират в състава на т. нар. Стишен пролог, в търновския превод на този паметник, който е допълнен с произведения за търновските светци. Трябва да отбележа, че Проложното житие се среща и в другите редакции на Стишния пролог, но там, доколкото може да се съди по познатите преписи, то се помества без втората му част – т. е. без разказа за пренасяне на мощите в Търново.</text:p>
-   <text:h text:style-name="Heading_20_1" text:outline-level="1"/>
+   <text:p text:style-name="P14">БЕЛЕЖКИ</text:p>
+   <text:p text:style-name="P14">Проложното житие на Петка Търновска възниква в Търново през XIII в., вероятно наскоро след 1235 г. Първата му част е превод от гръцки и завършва с пренасяне на мощите на преподобната в църквата «Свети апостоли» в Каликратия. Тази част фактически е съкращение на Василиковото житие. Втората част – разказът за пренасяне на мощите в Търново – е оригинална българска добавка, плод на родолюбивите настроения в българската престолнина в последното десетилетие от царуването на Иван Асен II. Сравнението на разказа за пренасяне на мощите и споменатия вече Летописен разказ показва, че проложният разказ е възникнал след Летописния и е оформен под негово влияние. Не познаваме текста на Проложното житие в препис от XIII в. Всички достигнали до нас преписи се намират в състава на т. нар. Стишен пролог, в търновския превод на този паметник, който е допълнен с произведения за търновските светци. Трябва да отбележа, че Проложното житие се среща и в другите редакции на Стишния пролог, но там, доколкото може да се съди по познатите преписи, то се помества без втората му част – т. е. без разказа за пренасяне на мощите в Търново.</text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2">ПРОСТРАННО ЖИТИЕ НА ПЕТКА ТЪРНОВСКА ОТ ПАТРИАРХ ЕВТИМИЙ</text:h>
    <text:p text:style-name="Text_20_body">ЖИТИЕ И ЖИВОТ НА НАШАТА ПРЕПОДОБНА МАЙКА ПАРАСКЕВА И КАК ТЯ БЕ ПРЕНЕСЕНА В ПРЕСЛАВНИЯ (НАШ) ГРАД ТЪРНОВО, НАПИСАНО ОТ (КИР)1 ЕВТИМИЙ, ПАТРИАРХ ТЪРНОВСКИ</text:p>
    <table:table table:name="Table2" table:style-name="Table2">
@@ -1123,13 +1459,17 @@
    </table:table>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">БЕЛЕЖКИ</text:h>
    <text:p text:style-name="Text_20_body">Чрез Разказа за пренасяне на мощите на Петка Търновска Григорий Цамблак продължава темата за възхвала на преподобната Петка – «търновската слава и закрила» в новите исторически условия, когато всички книжовници са разтърсени от гибелта на отечеството. Съдбата пожелава тази българска светиня да не бъде унищожена в пламъците на разорения престолен град, а да бъде пренесена (както и мощите на Филотея Темнишка) във Видин, След падането на Видинското деспотство мощите на Петка Търновска са измолени от сръбската княгиня Милица и нейните синове от султана и са пренесени в Белград. Там те се пазят до 1521 г., когато Белград на свой ред е превзет от войските на Сюлейман II.</text:p>
-   <text:p text:style-name="P13">КАКВО ДА НЕ ЗАБРАВЯМ ДА НАПРАВЯ</text:p>
-   <text:list xml:id="list467365012" text:style-name="L1">
+   <text:p text:style-name="P15">КАКВО ДА НЕ ЗАБРАВЯМ ДА НАПРАВЯ</text:p>
+   <text:list xml:id="list955848067" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P32">Като завърша преписването на житието от Германовия сборник, да извадя развързаните съкращения и да ги пратя със самия текст от сборника на Анета Димитрова, да ми ги провери</text:p>
+     <text:p text:style-name="P46">Като завърша преписването на житието от Германовия сборник, да извадя развързаните съкращения и да ги пратя със самия текст от сборника на Анета Димитрова, да ми ги провери</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="Text_20_body"/>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1">Заключение</text:h>
+   <text:p text:style-name="P47">Да заключим, каквото сме отключили.</text:p>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1">Оръдия на труда</text:h>
+   <text:p text:style-name="P47"><text:span text:style-name="T34">(</text:span><text:span text:style-name="T32">Използвани технически средства)</text:span></text:p>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1">Използвана книжнина</text:h>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
    <text:p text:style-name="Text_20_body"/>
