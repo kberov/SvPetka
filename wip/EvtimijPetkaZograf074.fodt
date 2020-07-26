@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-26T19:56:08.922257676</meta:creation-date><dc:date>2020-07-27T02:05:36.953727053</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>PT58M20S</meta:editing-duration><meta:editing-cycles>13</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="9" meta:paragraph-count="40" meta:word-count="1088" meta:character-count="6530" meta:non-whitespace-character-count="5473"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">110435</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">24211</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">13010</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">21086</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">88304</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">110435</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">24209</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">123444</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">180</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2076171</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">518468</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;"/>
+  <style:font-face style:name="Veleka1" svg:font-family="Veleka"/>
+  <style:font-face style:name="Bukyvede Light" svg:font-family="&apos;Bukyvede Light&apos;" style:font-adornments="Regular" style:font-pitch="variable"/>
+  <style:font-face style:name="Veleka" svg:font-family="Veleka" style:font-adornments="Regular" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Acari Sans Light" svg:font-family="&apos;Acari Sans Light&apos;" style:font-adornments="Light" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans" svg:font-family="&apos;Noto Sans&apos;" style:font-adornments="Regular" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans CJK SC" svg:font-family="&apos;Noto Sans CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Serif CJK SC" svg:font-family="&apos;Noto Serif CJK SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="bg" fo:country="BG" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:orphans="2" fo:widows="2" fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="1.251cm" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="bg" fo:country="BG" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text">
+   <style:text-properties style:font-name="Veleka" fo:font-family="Veleka" style:font-style-name="Regular" style:font-pitch="variable"/>
+  </style:style>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Noto Sans" fo:font-family="&apos;Noto Sans&apos;" style:font-style-name="Regular" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" fo:font-weight="normal" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.247cm" loext:contextual-spacing="false" fo:line-height="115%"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-name="Veleka1" fo:font-family="Veleka" style:font-size-asian="12pt" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Lohit Devanagari1" style:font-family-complex="&apos;Lohit Devanagari&apos;"/>
+  </style:style>
+  <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+  </style:style>
+  <style:style style:name="Header_20_and_20_Footer" style:display-name="Header and Footer" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0">
+    <style:tab-stops>
+     <style:tab-stop style:position="8.5cm" style:type="center"/>
+     <style:tab-stop style:position="17cm" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="1" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+   <style:text-properties fo:font-size="130%" fo:font-weight="250" style:font-size-asian="130%" style:font-weight-asian="bold" style:font-size-complex="130%" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Endnote" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-left="0.598cm" fo:margin-right="0cm" fo:text-indent="-0.598cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="2" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.353cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+   <style:text-properties fo:font-size="115%" fo:font-weight="250" style:font-size-asian="115%" style:font-weight-asian="bold" style:font-size-complex="115%" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Frame_20_contents" style:display-name="Frame contents" style:family="paragraph" style:parent-style-name="Standard" style:class="extra"/>
+  <style:style style:name="Heading_20_3" style:display-name="Heading 3" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="3" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.247cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+   <style:text-properties style:font-name="Acari Sans Light" fo:font-family="&apos;Acari Sans Light&apos;" style:font-style-name="Light" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="101%" fo:font-weight="250" style:font-size-asian="101%" style:font-weight-asian="bold" style:font-size-complex="101%" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Title" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="chapter" style:master-page-name="">
+   <style:paragraph-properties fo:margin-left="1.499cm" fo:margin-right="1.499cm" fo:margin-top="5.001cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties fo:font-size="28pt" style:font-relief="none"/>
+  </style:style>
+  <style:style style:name="Heading_20_4" style:display-name="Heading 4" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="4" style:class="text" style:master-page-name="">
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false" style:page-number="auto"/>
+   <style:text-properties fo:font-size="95%" fo:font-style="italic" fo:font-weight="250" style:font-size-asian="95%" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-size-complex="95%" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Subtitle" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="chapter" style:master-page-name="">
+   <style:paragraph-properties fo:margin-top="0.109cm" fo:margin-bottom="5.001cm" loext:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
+   <style:text-properties style:font-name="Noto Sans" fo:font-family="&apos;Noto Sans&apos;" style:font-style-name="Regular" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="18pt" fo:font-weight="normal" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="Header" style:family="paragraph" style:parent-style-name="Header_20_and_20_Footer" style:class="extra">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0">
+    <style:tab-stops>
+     <style:tab-stop style:position="8.5cm" style:type="center"/>
+     <style:tab-stop style:position="17cm" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="Footer" style:family="paragraph" style:parent-style-name="Header_20_and_20_Footer" style:class="extra">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0">
+    <style:tab-stops>
+     <style:tab-stop style:position="8.5cm" style:type="center"/>
+     <style:tab-stop style:position="17cm" style:type="right"/>
+    </style:tab-stops>
+   </style:paragraph-properties>
+  </style:style>
+  <style:style style:name="Table_20_Heading" style:display-name="Table Heading" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:class="extra">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ПразенРед" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:next-style-name="Table_20_Contents">
+   <style:text-properties fo:font-size="7pt"/>
+  </style:style>
+  <style:style style:name="Евтимий" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0.101cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Bukyvede Light" fo:font-family="&apos;Bukyvede Light&apos;" style:font-style-name="Regular" style:font-pitch="variable" fo:font-size="14pt" fo:language="zxx" fo:country="none"/>
+  </style:style>
+  <style:style style:name="Климентина" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="">
+   <style:paragraph-properties fo:margin-left="0.101cm" fo:margin-right="0cm" fo:hyphenation-ladder-count="no-limit" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto"/>
+   <style:text-properties style:font-name="Acari Sans Light" fo:font-family="&apos;Acari Sans Light&apos;" style:font-style-name="Light" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="13pt" fo:font-weight="250" fo:hyphenate="true" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+  </style:style>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.499cm" style:num-format="1" text:number-position="left" text:increment="5"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="Житието" style:family="table">
+   <style:table-properties style:width="17.302cm" fo:break-after="page" table:align="margins" fo:keep-with-next="always"/>
+  </style:style>
+  <style:style style:name="Житието.A" style:family="table-column">
+   <style:table-column-properties style:column-width="8.652cm" style:rel-column-width="32767*"/>
+  </style:style>
+  <style:style style:name="Житието.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0cm" fo:border="none" style:writing-mode="page"/>
+  </style:style>
+  <style:style style:name="Житието.B1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="none" style:writing-mode="page"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Header">
+   <style:text-properties fo:font-size="10pt" fo:font-style="italic" officeooo:rsid="001fae0b" officeooo:paragraph-rsid="001fae0b" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-size-complex="10pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Footer">
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Footer">
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Footer">
+   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Header">
+   <style:text-properties fo:font-size="10pt" fo:font-style="italic" officeooo:rsid="001fae0b" officeooo:paragraph-rsid="001fae0b" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-size-complex="10pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name=""/>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Subtitle">
+   <style:paragraph-properties fo:margin-left="2cm" fo:margin-right="2cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:text-properties officeooo:paragraph-rsid="000e55df"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Table_20_Heading">
+   <style:text-properties officeooo:rsid="001060b7" officeooo:paragraph-rsid="001060b7"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="001060b7" officeooo:paragraph-rsid="001060b7"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties officeooo:rsid="001957ea" officeooo:paragraph-rsid="001957ea"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-left="2cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-left="2cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:text-properties officeooo:rsid="000ccb4f" officeooo:paragraph-rsid="000ccb4f"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-left="2cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false" fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:paragraph-rsid="000e0723"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Евтимий">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Евтимий">
+   <style:text-properties officeooo:paragraph-rsid="001f5937"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+   <style:text-properties fo:font-family="&apos;Bukyvede Light&apos;" style:font-pitch="variable" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%"/>
+   <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+   <style:text-properties fo:font-family="&apos;Bukyvede Light&apos;" style:font-pitch="variable" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties officeooo:rsid="001fae0b"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties officeooo:rsid="000b5531"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties style:font-name="Veleka" officeooo:rsid="000e55df"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties officeooo:rsid="000ccb4f"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties officeooo:rsid="000e55df"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties style:font-name="Noto Sans" fo:font-size="18.2000007629395pt" fo:font-weight="250" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties style:font-name="Noto Sans" fo:font-size="18.2000007629395pt" fo:font-weight="250" officeooo:rsid="00101cdf" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties style:font-name="Noto Sans" fo:font-size="28pt" fo:font-weight="normal" officeooo:rsid="001fae0b" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="14pt" style:font-name-complex="Lohit Devanagari" style:font-size-complex="14pt" style:font-relief="none"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties fo:color="#000000" officeooo:rsid="00120fc9" fo:background-color="#000000" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties officeooo:rsid="0019a15f"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties officeooo:rsid="001ef9e4"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties fo:background-color="#ffff00" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties officeooo:rsid="001f5937"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties officeooo:rsid="001fae0b"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties fo:font-family="&apos;Bukyvede Light&apos;" style:font-pitch="variable" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="gr1" style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#cccccc" draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.374cm" fo:min-width="0.713cm" fo:wrap-option="no-wrap" draw:shadow-opacity="50%" style:protect="position size" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph-content" style:horizontal-pos="from-left" style:horizontal-rel="paragraph-content" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
+   <style:paragraph-properties style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:columns fo:column-count="1" fo:column-gap="0cm"/>
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm3" style:page-usage="right">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1.799cm" fo:margin-bottom="1.799cm" fo:margin-left="2.2cm" fo:margin-right="1.499cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.998cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.499cm" fo:border-top="none" fo:border-bottom="0.06pt solid #000000" fo:border-left="none" fo:border-right="none" fo:padding="0.049cm" fo:background-color="transparent" style:dynamic-spacing="false" draw:fill="none"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.998cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.499cm" fo:background-color="transparent" style:dynamic-spacing="false" draw:fill="none"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm4" style:page-usage="left">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0cm" fo:margin-bottom="0.499cm" fo:border-top="none" fo:border-bottom="0.06pt solid #000000" fo:border-left="none" fo:border-right="none" fo:padding="0.049cm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0cm" fo:margin-top="0.499cm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm5">
+   <style:page-layout-properties fo:page-width="22.901cm" fo:page-height="11.4cm" style:num-format="1" style:print-orientation="landscape" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm6">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1cm" fo:margin-bottom="1cm" fo:margin-left="2cm" fo:margin-right="1cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm7">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm8">
+   <style:page-layout-properties fo:page-width="29.7cm" fo:page-height="21.001cm" style:num-format="1" style:print-orientation="landscape" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+  <style:master-page style:name="First_20_Page" style:display-name="First Page" style:page-layout-name="pm2" style:next-style-name="FirstPageBack"/>
+  <style:master-page style:name="FirstPageBack" style:page-layout-name="pm1" style:next-style-name="Right_20_Page"/>
+  <style:master-page style:name="Right_20_Page" style:display-name="Right Page" style:page-layout-name="pm3" style:next-style-name="Left_20_Page">
+   <style:header>
+    <text:p text:style-name="P1">Житие и живот на нашата преподобна майка Параскева</text:p>
+   </style:header>
+   <style:footer>
+    <text:p text:style-name="P2"><text:page-number text:select-page="current">3</text:page-number><text:s/><text:span text:style-name="T1">от </text:span><text:span text:style-name="T1"><text:page-count>9</text:page-count></text:span></text:p>
+   </style:footer>
+  </style:master-page>
+  <style:master-page style:name="Left_20_Page" style:display-name="Left Page" style:page-layout-name="pm4" style:next-style-name="Right_20_Page">
+   <style:header>
+    <text:p text:style-name="Header"><text:chapter text:display="name" text:outline-level="1">Житие и живот на нашата преподобна майка Параскева</text:chapter></text:p>
+   </style:header>
+   <style:footer>
+    <text:p text:style-name="P3"><text:page-number text:select-page="current">8</text:page-number><text:s/><text:span text:style-name="T1">от </text:span><text:span text:style-name="T1"><text:page-count>9</text:page-count></text:span></text:p>
+   </style:footer>
+  </style:master-page>
+  <style:master-page style:name="Envelope" style:page-layout-name="pm5"/>
+  <style:master-page style:name="Index" style:page-layout-name="pm1"/>
+  <style:master-page style:name="HTML" style:page-layout-name="pm6"/>
+  <style:master-page style:name="Footnote" style:page-layout-name="pm7"/>
+  <style:master-page style:name="Endnote" style:page-layout-name="pm7"/>
+  <style:master-page style:name="Landscape" style:page-layout-name="pm8"/>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="P17">Житие и Живот<text:line-break/>на <text:span text:style-name="T8">н</text:span>ашата Преподобна Майка Параскева</text:p>
+   <text:p text:style-name="P9">вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . <text:span text:style-name="T2">съписанѡ eѵѳѵмїемь патрїархѡмь трънѡвскыимъ</text:span></text:p>
+   <text:p text:style-name="P15">Превод: Климентина Иванова</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="T4">Съставил: </text:span>Красимир Беров, <text:span text:style-name="T3">София</text:span>, <text:span text:style-name="T4">август</text:span> 2020</text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P12">Съдържание -таблица</text:p>
+   <text:p text:style-name="Text_20_body"/>
+   <text:p text:style-name="Text_20_body"/>
+   <text:p text:style-name="Text_20_body"/>
+   <text:p text:style-name="Text_20_body"/>
+   <text:p text:style-name="Text_20_body"/>
+   <text:p text:style-name="Text_20_body"/>
+   <text:p text:style-name="Text_20_body"/>
+   <text:p text:style-name="Text_20_body"/>
+   <text:h text:style-name="P7" text:outline-level="1">Увод</text:h>
+   <text:p text:style-name="Text_20_body">(малко думи за замисъла и реализацията)</text:p>
+   <text:h text:style-name="P8" text:outline-level="1"/>
+   <text:h text:style-name="P7" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc1451_1251171019"/>Житие и живот<text:line-break/>на нашата преподобна майка <text:span text:style-name="T5">П</text:span>араскева<text:bookmark-end text:name="__RefHeading___Toc1451_1251171019"/></text:h>
+   <text:p text:style-name="Text_20_body"/>
+   <table:table table:name="Житието" table:style-name="Житието">
+    <table:table-column table:style-name="Житието.A" table:number-columns-repeated="2"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="P18">житїе и жиꙁнь прѣподобныѫ матере нашѧ параскеви . вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . съписанѡ <text:span text:style-name="T9">===</text:span> еѵѳѵмїемь патрїархѡмь трънѡвскыимъ . благослѡви ѡтьче +</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P10">ЖИТИЕ И ЖИВОТ НА НАШАТА ПРЕПОДОБНА МАЙКА ПАРАСКЕВА И КАК ТЯ БЕ ПРЕНЕСЕНА В ПРЕСЛАВНИЯ (НАШ) ГРАД ТЪРНОВО, НАПИСАНО ОТ (КИР)1 ЕВТИМИЙ, ПАТРИАРХ ТЪРНОВСКИ. <text:span text:style-name="T10">Благослови, Отче +</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">Аще ꙋбѡ любовныи ѡбыче ꙁакѡнь еже любеꙁныихъ памѧти поминати . и тѣхъ съꙁръцовати ѡбраꙁы и дѣанїа же и глаголы. мнѡжицеѫ же и тѣхъ подобїа живѡписѡвати, мнѡгѡ паче мнѡжае ключимо бѫдетъ и ѕѣлѡ желателно боголюбеꙁныимь, еже божїихъ ꙋгодникъ чъстнѣ почитати, и тѣхъ памѧти и дѣанїа на пѡлѕѫ повѣствовати • не малѫ бѡ вьтварѣетъ слышателемь пѡлѕѫ еже ѻ пѡлѕи словѡ •</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Ако законът на любовта изисква да си припомняме за поминалите дни на любимите, да съзерцаваме техните образи, дела и думи и – дори повече – да рисуваме изображенията им, много и многократно повече ще бъде достойно и твърде желателно за боголюбезните да почетат с почест божиите угодници и да разказват за полза спомените и техните деяния. Защото словото за полезното принася не малка полза на слушателите!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">ꙗкоже бѡ слъньцꙋ вь прѡлѣтныѫ часы лꙋчѧ по вьсеи прострꙗвшꙋ ꙁемли вьсѣ живѡтнаа растꙋть и бѡтѣѫтъ на бѡлшее прѣспѣваѫще . и ꙗкоже ѻбновленїа вѡдѧтъ събѡръ, тако и дꙋховнаа повѣсть веселїа вѡдить събѡрь послꙋшаѫщимь дꙋшамь . и печалеи ѡблакъ весма ꙋдѡбъ раꙁѣваеть и ѡтгонитъ •</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Както, прочее, когато в пролетните часове слънцето изпраща лъчи по цялата земя и всички живи същества растат и едреят и се развиват все по-бързо, сякаш участвуват в общ празник на обновлението, така и духовната повест създава общ празник на веселие за душите на слушателите и леко разсейва и отгонва целия облак на скръбта!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">Слъньца же свѣтлѣишїа прѣподобныѫ бѫдетъ памѧть параскеви, аще пѡ дрѡбнꙋ тоѫ съповѣмы житїе, дѣанїа же и хѡжденїа ꙗже ради христовы подѧть любве •</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">От слънцето по-светла ще бъде паметта на Параскева, ако подробно разкажем нейния живот, деянията и скиталчествата, които тя понесе заради Христовата любов!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">прїимет бѡ вьсѣкѡ прїиметъ ꙗко любочѧднаа мати и дѣтскаа наша нѣмотованїа, и ꙋсрдїꙋ подастъ силѫ, и <text:soft-page-break/>рѫкѡвѡдствꙋеть на лꙋчꙿшаа и блажаишаа •</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Ще приеме, сигурно ще приеме като чедолюбива майка нашите детски лепети, и ще придаде сила на усърдието, и <text:soft-page-break/>ще напътствува към по-добро и по-благо!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="P19">аще бѡ и не по лѣпотѣ, ѻбаче достоить и намъ что любѡ ключимо тои принести . ключимо же вьсѣко бѫдетъ иже словѡмь почьтеныимь намь, слов<text:span text:style-name="T12">есъ</text:span> прѣжде иныхъ ꙗко вь лѣпотѫ прїнести и тлѣнных<text:span text:style-name="T13">ъ</text:span> <text:line-break/><draw:custom-shape text:anchor-type="char" draw:z-index="0" draw:name="_74v" draw:style-name="gr1" draw:text-style-name="P21" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1cm" svg:y="2.671cm">
+        <text:p text:style-name="P20"><text:span text:style-name="T15">74v</text:span></text:p>
+        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:text-areas="800 800 20800 20800" draw:type="round-rectangular-callout" draw:modifiers="25158.8100686499 14997.3799126638" draw:enhanced-path="M 3590 0 X 0 3590 L ?f2 ?f3 0 8970 0 12630 ?f4 ?f5 0 18010 Y 3590 21600 L ?f6 ?f7 8970 21600 12630 21600 ?f8 ?f9 18010 21600 X 21600 18010 L ?f10 ?f11 21600 12630 21600 8970 ?f12 ?f13 21600 3590 Y 18010 0 L ?f14 ?f15 12630 0 8970 0 ?f16 ?f17 Z N">
+         <draw:equation draw:name="f0" draw:formula="$0 -10800"/>
+         <draw:equation draw:name="f1" draw:formula="$1 -10800"/>
+         <draw:equation draw:name="f2" draw:formula="if(?f18 ,$0 ,0)"/>
+         <draw:equation draw:name="f3" draw:formula="if(?f18 ,$1 ,6280)"/>
+         <draw:equation draw:name="f4" draw:formula="if(?f23 ,$0 ,0)"/>
+         <draw:equation draw:name="f5" draw:formula="if(?f23 ,$1 ,15320)"/>
+         <draw:equation draw:name="f6" draw:formula="if(?f26 ,$0 ,6280)"/>
+         <draw:equation draw:name="f7" draw:formula="if(?f26 ,$1 ,21600)"/>
+         <draw:equation draw:name="f8" draw:formula="if(?f29 ,$0 ,15320)"/>
+         <draw:equation draw:name="f9" draw:formula="if(?f29 ,$1 ,21600)"/>
+         <draw:equation draw:name="f10" draw:formula="if(?f32 ,$0 ,21600)"/>
+         <draw:equation draw:name="f11" draw:formula="if(?f32 ,$1 ,15320)"/>
+         <draw:equation draw:name="f12" draw:formula="if(?f34 ,$0 ,21600)"/>
+         <draw:equation draw:name="f13" draw:formula="if(?f34 ,$1 ,6280)"/>
+         <draw:equation draw:name="f14" draw:formula="if(?f36 ,$0 ,15320)"/>
+         <draw:equation draw:name="f15" draw:formula="if(?f36 ,$1 ,0)"/>
+         <draw:equation draw:name="f16" draw:formula="if(?f38 ,$0 ,6280)"/>
+         <draw:equation draw:name="f17" draw:formula="if(?f38 ,$1 ,0)"/>
+         <draw:equation draw:name="f18" draw:formula="if($0 ,-1,?f19 )"/>
+         <draw:equation draw:name="f19" draw:formula="if(?f1 ,-1,?f22 )"/>
+         <draw:equation draw:name="f20" draw:formula="abs(?f0 )"/>
+         <draw:equation draw:name="f21" draw:formula="abs(?f1 )"/>
+         <draw:equation draw:name="f22" draw:formula="?f20 -?f21 "/>
+         <draw:equation draw:name="f23" draw:formula="if($0 ,-1,?f24 )"/>
+         <draw:equation draw:name="f24" draw:formula="if(?f1 ,?f22 ,-1)"/>
+         <draw:equation draw:name="f25" draw:formula="$1 -21600"/>
+         <draw:equation draw:name="f26" draw:formula="if(?f25 ,?f27 ,-1)"/>
+         <draw:equation draw:name="f27" draw:formula="if(?f0 ,-1,?f28 )"/>
+         <draw:equation draw:name="f28" draw:formula="?f21 -?f20 "/>
+         <draw:equation draw:name="f29" draw:formula="if(?f25 ,?f30 ,-1)"/>
+         <draw:equation draw:name="f30" draw:formula="if(?f0 ,?f28 ,-1)"/>
+         <draw:equation draw:name="f31" draw:formula="$0 -21600"/>
+         <draw:equation draw:name="f32" draw:formula="if(?f31 ,?f33 ,-1)"/>
+         <draw:equation draw:name="f33" draw:formula="if(?f1 ,?f22 ,-1)"/>
+         <draw:equation draw:name="f34" draw:formula="if(?f31 ,?f35 ,-1)"/>
+         <draw:equation draw:name="f35" draw:formula="if(?f1 ,-1,?f22 )"/>
+         <draw:equation draw:name="f36" draw:formula="if($1 ,-1,?f37 )"/>
+         <draw:equation draw:name="f37" draw:formula="if(?f0 ,?f28 ,-1)"/>
+         <draw:equation draw:name="f38" draw:formula="if($1 ,-1,?f39 )"/>
+         <draw:equation draw:name="f39" draw:formula="if(?f0 ,-1,?f28 )"/>
+         <draw:equation draw:name="f40" draw:formula="$0 "/>
+         <draw:equation draw:name="f41" draw:formula="$1 "/>
+         <draw:handle draw:handle-position="$0 $1"/>
+        </draw:enhanced-geometry>
+       </draw:custom-shape><text:span text:style-name="T11">|</text:span>Еликѡ по силѣ <text:span text:style-name="T13">ѿд</text:span>ати дльгъ, тѡи же пакы ꙗко нетлѣннѣ благодатъ подати иже немощїѫ слова бѣдствꙋѫщїимъ намъ • Елма же къ иже сице свѣтлѡи намъ словѡ, и свѣтлѡ прѡчее начѧлѡ бѫдѧтъ съ свѣтлоѫ повѣстїѫ •</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Макар и не така достолепно, но трябва и ние да ѝ поднесем нещо пристойно. А за нас, които сме почетени с дара на словото, ще бъде най-пристойно словото да поднесем като предостойнолепно пред другите тленни неща, та да се ѝ издължим според силите си; а пък тя, като нетленна, да ни даде благодат – на нас, които страдаме от безсилието на словото. А понеже нашето слово е към толкова светлата, то чрез светлата повест ще започне светлото начало!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">Нѫ кто ꙋбѡ тоѫ по чѧсти иꙁречеть дѣанїа же и чюдеса • Кто благѡдѣанїа и ꙁастѫпленїа и прѣд<text:span text:style-name="T1">ъ</text:span>стателства . ꙗже вь епїватѡхъ . ꙗже вь Ѳракїи . трънѡвѣ же и мисїи, и далматїи • не тъчїѫ же, нѫ и по вьселенѣи тоѫ ѻбрѧщеши ѻбносимо имѧ • </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Кой прочее ще разкаже подробно за нейните деяния и чудеса? Кой – за благодеянията, застъпничествата и наставничествата ѝ в Епиват, в Тракия, в Търново и Мизия, и Далмация? Не само там, но и по целия свят ще чуеш да се разнася нейното име!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Пространна, че и дълга ще бъде повестта за преподобната и нашият ум не е способен, за да я предаде достойнолепно.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Но, тъй като силата на твоето благочестиво величество усърдствува и подбужда нашата немощ към това благо и богоугодно дело, няма да е прилично да пренебрегнем толкова голямото усърдие, а също и желанието на Твое благочестиво и властно величество2. А мисля, че повестта ще бъде твърде многополезна и най-вече, че ще полага божествена ревност в боголюбящите души. А има ли ревност, по-голяма от тази да обичаме бога и да почитаме неговите угодници?!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <text:soft-page-break/>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Аз, прочее, смятам, че преподобната по нищо не отстъпва на древните и знаменити светци. Ако ли някой каже, че те са доблестни в деянията, то и тя поради деянието просия! Ако пък – че са превисоки във видението, то и нея ще видиш украсена с него.3 Като слънце тя навсякъде отпраща лъчи!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Поради това и аз сега, по повелята на Твое владичество, не небрежно и безсмислено, но усърдно и със старание излагам същината на словото!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Защото онези, що бяха като в мрак, от едничкия неин ковчег сякаш от някаква лампада запалиха своите светилници, а по-точно – душите. И всеки, влязъл в къщата си, усеща нейното застъпничество, защото има щедър извор на изцеление. И колкото повече черпят от него, толкова повече извира; и колкото повече извира, толкова повече лекува каквото и да е страдание!</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <text:soft-page-break/>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="Климентина">Щом прочее тя извършва тези неща за нас по всяко време, то нека и ние да се устремим усърдно към нея и да я почетем достойнодлъжно заради премногото благодеяния. Нека да говорим и да вършим всичко за нейна благоугода и никак да не отстъпваме със слово или с дело от оная, която така се застъпва за нас. Не, няма да се погнуси преподобната майка, ако ни види притекли се, нито ще отхвърли ония, които така усърдно прииждат към нея, но многосладостно ще приеме и ще похвали подобно усърдие и непосредствено ще го принесе на своя творец. Рачителница4 на благия жених, тя всякак ще получи блага и опрощения. Щом пренебрегна всички прелести на света и се обручи за небесния жених, нима ще се лиши от желаното? Та нали нищо друго не съперничи толкова на ангелското житие, както чистото житие и светлостта на живота? На тях повече, отколкото на другите, се радват ангелите и пръв от всички бог – истинската чистота, чието лице, доколкото е възможно, те винаги съзерцават.</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body"/>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1">За изданието</text:h>
+   <text:p text:style-name="P11">Обяснения как е преписван текста откъде, защо и т.н</text:p>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1">Техн<text:span text:style-name="T7">ически средства</text:span></text:h>
+   <text:p text:style-name="Text_20_body">как е направено</text:p>
+   <text:p text:style-name="P11"><text:span text:style-name="T7">З</text:span><text:span text:style-name="T6">аключения</text:span></text:p>
+   <text:p text:style-name="P11">какво да кажа в заключение</text:p>
+   <text:p text:style-name="P11"><text:span text:style-name="T6">Използвана книжнина</text:span></text:p>
+   <text:p text:style-name="P11">Тук библиография</text:p>
+  </office:text>
+ </office:body>
+</office:document>
