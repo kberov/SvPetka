@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-26T19:56:08.922257676</meta:creation-date><dc:date>2020-07-29T00:23:27.086124996</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>PT2H30M56S</meta:editing-duration><meta:editing-cycles>25</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="10" meta:paragraph-count="55" meta:word-count="1859" meta:character-count="11112" meta:non-whitespace-character-count="9292"/></office:meta>
+ <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-26T19:56:08.922257676</meta:creation-date><dc:date>2020-07-31T00:30:20.585550538</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>PT5H18M42S</meta:editing-duration><meta:editing-cycles>38</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="12" meta:paragraph-count="70" meta:word-count="2586" meta:character-count="15491" meta:non-whitespace-character-count="12951"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">223603</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">273452</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">23844</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">12437</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">19736</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">17508</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">3422</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">227277</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">9513</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">285692</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">223603</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">23842</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">236038</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">273452</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">19734</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">290959</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="ZoomFactor" config:type="short">180</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">120</config:config-item>
      <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
      <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
     </config:config-item-map-entry>
@@ -79,7 +79,7 @@
    <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">9390099</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">10453392</config:config-item>
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
@@ -253,7 +253,9 @@
    <style:text-properties style:font-name="Bukyvede Light" fo:font-family="&apos;Bukyvede Light&apos;" style:font-style-name="Italic" style:font-pitch="variable" fo:font-size="14pt" fo:language="zxx" fo:country="none" fo:font-style="normal" fo:font-weight="normal"/>
   </style:style>
   <style:style style:name="Климентина" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="">
-   <style:paragraph-properties fo:margin-left="0.101cm" fo:margin-right="0cm" fo:hyphenation-ladder-count="no-limit" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto"/>
+   <style:paragraph-properties fo:margin-left="0.101cm" fo:margin-right="0cm" fo:text-align="end" style:justify-single-word="false" fo:hyphenation-ladder-count="no-limit" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto">
+    <style:tab-stops/>
+   </style:paragraph-properties>
    <style:text-properties style:font-name="Acari Sans Light" fo:font-family="&apos;Acari Sans Light&apos;" style:font-style-name="Light" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="13pt" fo:font-weight="250" fo:hyphenate="true" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
   </style:style>
   <text:outline-style style:name="Outline">
@@ -314,7 +316,7 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="Житието" style:family="table">
-   <style:table-properties style:width="17.302cm" fo:break-after="page" table:align="margins" fo:keep-with-next="always"/>
+   <style:table-properties style:width="17.302cm" fo:break-after="page" table:align="margins" fo:keep-with-next="auto"/>
   </style:style>
   <style:style style:name="Житието.A" style:family="table-column">
    <style:table-column-properties style:column-width="8.65cm" style:rel-column-width="32767*"/>
@@ -378,72 +380,92 @@
    <style:text-properties officeooo:rsid="000ccb4f" officeooo:paragraph-rsid="000ccb4f"/>
   </style:style>
   <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-left="2cm" fo:margin-right="0cm" fo:text-align="center" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:text-properties officeooo:paragraph-rsid="009aac99"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:margin-left="2cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false" fo:break-before="page"/>
   </style:style>
-  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="">
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:paragraph-rsid="000e0723"/>
   </style:style>
-  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Евтимий">
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Евтимий">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Евтимий">
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Евтимий">
    <style:text-properties officeooo:paragraph-rsid="001f5937"/>
   </style:style>
-  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
-   <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
-  </style:style>
-  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%"/>
-   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:background-color="#eeeeee" style:writing-mode="lr-tb"/>
-   <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Евтимий">
+   <style:text-properties officeooo:paragraph-rsid="0097f0ab"/>
   </style:style>
   <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-size="12pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+   <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
   </style:style>
   <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%"/>
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:background-color="#eeeeee" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-size="12pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
   </style:style>
-  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Климентина">
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%"/>
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:background-color="#eeeeee" style:writing-mode="lr-tb"/>
+   <style:text-properties fo:font-size="12pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Климентина">
    <style:text-properties officeooo:paragraph-rsid="0038697d"/>
   </style:style>
-  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Климентина">
+   <style:text-properties officeooo:paragraph-rsid="008f4813"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Климентина">
+   <style:text-properties officeooo:paragraph-rsid="0090ce8b"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Климентина">
+   <style:text-properties officeooo:paragraph-rsid="009401b1"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Климентина">
+   <style:text-properties officeooo:paragraph-rsid="00951ce5"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties fo:font-size="12pt"/>
   </style:style>
-  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="First_20_Page">
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Title" style:master-page-name="First_20_Page">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:paragraph-rsid="000e0723"/>
   </style:style>
-  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name=""/>
-  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Heading_20_1" style:list-style-name=""/>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
   </style:style>
-  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Климентина">
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Климентина">
+   <style:text-properties officeooo:paragraph-rsid="009c1493"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Климентина">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties officeooo:paragraph-rsid="0038697d"/>
   </style:style>
-  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Климентина">
-   <style:text-properties officeooo:paragraph-rsid="008f4813"/>
-  </style:style>
-  <style:style style:name="P31" style:family="paragraph">
+  <style:style style:name="P37" style:family="paragraph">
    <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-size="12pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph">
+  <style:style style:name="P38" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%"/>
    <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-size="12pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
   </style:style>
-  <style:style style:name="P33" style:family="paragraph">
+  <style:style style:name="P39" style:family="paragraph">
    <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
    <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
   </style:style>
-  <style:style style:name="P34" style:family="paragraph">
+  <style:style style:name="P40" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%"/>
    <style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
    <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
@@ -491,22 +513,40 @@
    <style:text-properties fo:background-color="#ffff00" loext:char-shading-value="0"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties officeooo:rsid="001f5937"/>
+   <style:text-properties officeooo:rsid="0097e28e" fo:background-color="#ffff00" loext:char-shading-value="0"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
+   <style:text-properties officeooo:rsid="001f5937"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties officeooo:rsid="00315bda"/>
+   <style:text-properties style:font-name="Bukyvede Light1" fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties officeooo:rsid="00328f02"/>
+   <style:text-properties officeooo:rsid="00315bda"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties officeooo:rsid="0036dc8a"/>
+   <style:text-properties officeooo:rsid="00328f02"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
+   <style:text-properties officeooo:rsid="0036dc8a"/>
+  </style:style>
+  <style:style style:name="T21" style:family="text">
    <style:text-properties officeooo:rsid="008f4813"/>
+  </style:style>
+  <style:style style:name="T22" style:family="text">
+   <style:text-properties officeooo:rsid="0090ce8b"/>
+  </style:style>
+  <style:style style:name="T23" style:family="text">
+   <style:text-properties officeooo:rsid="00951ce5"/>
+  </style:style>
+  <style:style style:name="T24" style:family="text">
+   <style:text-properties officeooo:rsid="0097e28e"/>
+  </style:style>
+  <style:style style:name="T25" style:family="text">
+   <style:text-properties officeooo:rsid="009aac99"/>
+  </style:style>
+  <style:style style:name="T26" style:family="text">
+   <style:text-properties officeooo:rsid="009e1265"/>
   </style:style>
   <style:style style:name="gr1" style:family="graphic">
    <style:graphic-properties svg:stroke-color="#cccccc" draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.374cm" fo:min-width="0.713cm" fo:wrap-option="no-wrap" draw:shadow-opacity="50%" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="char" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
@@ -517,7 +557,7 @@
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="gr3" style:family="graphic">
-   <style:graphic-properties svg:stroke-color="#cccccc" draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.374cm" fo:min-width="0.713cm" fo:wrap-option="no-wrap" draw:shadow-opacity="50%" style:protect="position size" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
+   <style:graphic-properties svg:stroke-color="#cccccc" draw:fill="solid" draw:fill-color="#eeeeee" draw:opacity="50%" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="0.374cm" fo:min-width="0.713cm" fo:wrap-option="no-wrap" draw:shadow-opacity="50%" style:protect="position size" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="middle" style:vertical-rel="char" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="gr4" style:family="graphic">
@@ -551,7 +591,7 @@
    </style:footer-style>
   </style:page-layout>
   <style:page-layout style:name="pm4" style:page-usage="left">
-   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="1.499cm" fo:margin-right="2.2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style>
@@ -599,7 +639,7 @@
     <text:p text:style-name="P1">Житие и живот на нашата преподобна майка Параскева</text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P2"><text:page-number text:select-page="current">9</text:page-number><text:s/><text:span text:style-name="T1">от </text:span><text:span text:style-name="T1"><text:page-count>10</text:page-count></text:span></text:p>
+    <text:p text:style-name="P2"><text:page-number text:select-page="current">9</text:page-number><text:s/><text:span text:style-name="T1">от </text:span><text:span text:style-name="T1"><text:page-count>12</text:page-count></text:span></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Left_20_Page" style:display-name="Left Page" style:page-layout-name="pm4" style:next-style-name="Right_20_Page">
@@ -607,7 +647,7 @@
     <text:p text:style-name="Header"><text:chapter text:display="name" text:outline-level="1">Житие и живот на нашата преподобна майка Параскева</text:chapter></text:p>
    </style:header>
    <style:footer>
-    <text:p text:style-name="P3"><text:page-number text:select-page="current">10</text:page-number><text:s/><text:span text:style-name="T1">от </text:span><text:span text:style-name="T1"><text:page-count>10</text:page-count></text:span></text:p>
+    <text:p text:style-name="P3"><text:page-number text:select-page="current">10</text:page-number><text:s/><text:span text:style-name="T1">от </text:span><text:span text:style-name="T1"><text:page-count>12</text:page-count></text:span></text:p>
    </style:footer>
   </style:master-page>
   <style:master-page style:name="Envelope" style:page-layout-name="pm5"/>
@@ -627,11 +667,12 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P26">Житие и Живот<text:line-break/>на <text:span text:style-name="T10">н</text:span>ашата Преподобна Майка Параскева</text:p>
+   <text:p text:style-name="P32">Житие и Живот<text:line-break/>на <text:span text:style-name="T10">н</text:span>ашата Преподобна Майка Параскева</text:p>
    <text:p text:style-name="P9">вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . <text:span text:style-name="T3">съписанѡ eѵѳѵмїемь патрїархѡмь трънѡвскыимъ</text:span></text:p>
-   <text:p text:style-name="P15">Превод: Климентина Иванова</text:p>
-   <text:p text:style-name="P14"><text:span text:style-name="T6">Съставил: </text:span>Красимир Беров, <text:span text:style-name="T4">София</text:span>, <text:span text:style-name="T6">август</text:span> 2020</text:p>
-   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P15">Превод: <text:span text:style-name="T25">проф. </text:span>Климентина Иванова</text:p>
+   <text:p text:style-name="P14"><text:span text:style-name="T6">Съставил: </text:span>Красимир Беров</text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="T4">София</text:span>, <text:span text:style-name="T6">август</text:span> 2020</text:p>
+   <text:p text:style-name="P17"/>
    <text:p text:style-name="P8"/>
    <text:p text:style-name="P12">Съдържание -таблица</text:p>
    <text:p text:style-name="Text_20_body"/>
@@ -644,7 +685,7 @@
    <text:p text:style-name="Text_20_body"/>
    <text:h text:style-name="P7" text:outline-level="1">Увод</text:h>
    <text:p text:style-name="Text_20_body">(малко думи за замисъла и реализацията)</text:p>
-   <text:h text:style-name="P27" text:outline-level="1"/>
+   <text:h text:style-name="P33" text:outline-level="1"/>
    <text:h text:style-name="P7" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc1451_1251171019"/>Житие и живот<text:line-break/>на нашата преподобна майка <text:span text:style-name="T7">П</text:span>араскева<text:bookmark-end text:name="__RefHeading___Toc1451_1251171019"/></text:h>
    <text:p text:style-name="Text_20_body"/>
    <table:table table:name="Житието" table:style-name="Житието">
@@ -652,8 +693,8 @@
     <table:table-column table:style-name="Житието.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P18"><draw:custom-shape text:anchor-type="char" draw:z-index="1" draw:name="_74r" draw:style-name="gr3" draw:text-style-name="P34" svg:width="0.77cm" svg:height="0.403cm" svg:x="-0.79cm" svg:y="1.704cm">
-        <text:p text:style-name="P33"><text:span text:style-name="T16">74r</text:span></text:p>
+      <text:p text:style-name="P19"><draw:custom-shape text:anchor-type="char" draw:z-index="1" draw:name="_74r" draw:style-name="gr3" draw:text-style-name="P40" svg:width="0.77cm" svg:height="0.403cm" svg:x="-0.79cm" svg:y="0.076cm">
+        <text:p text:style-name="P39"><text:span text:style-name="T17">74r</text:span></text:p>
         <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:text-areas="800 800 20800 20800" draw:type="round-rectangular-callout" draw:modifiers="25158.8100686499 14997.3799126638" draw:enhanced-path="M 3590 0 X 0 3590 L ?f2 ?f3 0 8970 0 12630 ?f4 ?f5 0 18010 Y 3590 21600 L ?f6 ?f7 8970 21600 12630 21600 ?f8 ?f9 18010 21600 X 21600 18010 L ?f10 ?f11 21600 12630 21600 8970 ?f12 ?f13 21600 3590 Y 18010 0 L ?f14 ?f15 12630 0 8970 0 ?f16 ?f17 Z N">
          <draw:equation draw:name="f0" draw:formula="$0 -10800"/>
          <draw:equation draw:name="f1" draw:formula="$1 -10800"/>
@@ -699,7 +740,7 @@
          <draw:equation draw:name="f41" draw:formula="$1 "/>
          <draw:handle draw:handle-position="$0 $1"/>
         </draw:enhanced-geometry>
-       </draw:custom-shape>житїе и жиꙁнь прѣподобныѫ матере нашѧ параскеви . вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . съписанѡ <text:span text:style-name="T11">===</text:span> еѵѳѵмїемь патрїархѡмь трънѡвскыимъ . благослѡви ѡтьче +</text:p>
+       </draw:custom-shape>житїе и жизнь прѣподобныѫ матере нашѧ параскеви . вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . съписанѡ <text:span text:style-name="T11">===</text:span> еѵѳѵмїемь патрїархѡмь трънѡвскыимъ . благослѡви ѡтьче +</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P10">ЖИТИЕ И ЖИВОТ НА НАШАТА ПРЕПОДОБНА МАЙКА ПАРАСКЕВА И КАК ТЯ БЕ ПРЕНЕСЕНА В ПРЕСЛАВНИЯ (НАШ) ГРАД ТЪРНОВО, НАПИСАНО ОТ (КИР)1 ЕВТИМИЙ, ПАТРИАРХ ТЪРНОВСКИ. <text:span text:style-name="T12">Благослови, Отче +</text:span></text:p>
@@ -707,7 +748,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Аще ꙋбѡ любовныи ѡбыче ꙁакѡнь еже любеꙁныихъ памѧти поминати . и тѣхъ съꙁръцовати ѡбраꙁы и дѣанїа же и глаголы. мнѡжицеѫ же и тѣхъ подобїа живѡписѡвати, мнѡгѡ паче мнѡжае ключимо бѫдетъ и ѕѣлѡ желателно боголюбеꙁныимь, еже божїихъ ꙋгодникъ чъстнѣ почитати, и тѣхъ памѧти и дѣанїа на пѡлѕѫ повѣствовати • не малѫ бѡ вьтварѣетъ слышателемь пѡлѕѫ еже ѻ пѡлѕи словѡ •</text:p>
+      <text:p text:style-name="Евтимий">Аще ꙋбѡ любовныи ѡбыче закѡнь еже любезныихъ памѧти поминати . и тѣхъ съзръцовати ѡбразы и дѣанїа же и глаголы. мнѡжицеѫ же и тѣхъ подобїа живѡписѡвати, мнѡгѡ паче мнѡжае ключимо бѫдетъ и ѕѣлѡ желателно боголюбезныимь, еже божїихъ ꙋгодникъ чъстнѣ почитати, и тѣхъ памѧти и дѣанїа на пѡлѕѫ повѣствовати • не малѫ бѡ вьтварѣетъ слышателемь пѡлѕѫ еже ѻ пѡлѕи словѡ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Ако законът на любовта изисква да си припомняме за поминалите дни на любимите, да съзерцаваме техните образи, дела и думи и – дори повече – да рисуваме изображенията им, много и многократно повече ще бъде достойно и твърде желателно за боголюбезните да почетат с почест божиите угодници и да разказват за полза спомените и техните деяния. Защото словото за полезното принася не малка полза на слушателите!</text:p>
@@ -723,7 +764,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">ꙗкоже бѡ слъньцꙋ вь прѡлѣтныѫ часы лꙋчѧ по вьсеи прострꙗвшꙋ ꙁемли вьсѣ живѡтнаа растꙋть и бѡтѣѫтъ на бѡлшее прѣспѣваѫще . и ꙗкоже ѻбновленїа вѡдѧтъ събѡръ, тако и дꙋховнаа повѣсть веселїа вѡдить събѡрь послꙋшаѫщимь дꙋшамь . и печалеи ѡблакъ весма ꙋдѡбъ раꙁѣваеть и ѡтгонитъ •</text:p>
+      <text:p text:style-name="Евтимий">ꙗкоже бѡ слъньцꙋ вь прѡлѣтныѫ часы лꙋчѧ по вьсеи прострꙗвшꙋ земли вьсѣ живѡтнаа растꙋть и бѡтѣѫтъ на бѡлшее прѣспѣваѫще . и ꙗкоже ѻбновленїа вѡдѧтъ събѡръ, тако и дꙋховнаа повѣсть веселїа вѡдить събѡрь послꙋшаѫщимь дꙋшамь . и печалеи ѡблакъ весма ꙋдѡбъ разѣваеть и ѡтгонитъ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Както, прочее, когато в пролетните часове слънцето изпраща лъчи по цялата земя и всички живи същества растат и едреят и се развиват все по-бързо, сякаш участвуват в общ празник на обновлението, така и духовната повест създава общ празник на веселие за душите на слушателите и леко разсейва и отгонва целия облак на скръбта!</text:p>
@@ -771,8 +812,8 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P19">аще бѡ и не по лѣпотѣ, ѻбаче достоить и намъ что любѡ ключимо тои принести . ключимо же вьсѣко бѫдетъ иже словѡмь почьтеныимь намь, слов<text:span text:style-name="T14">есъ</text:span> прѣжде иныхъ ꙗко вь лѣпотѫ прїнести и тлѣнных<text:span text:style-name="T15">ъ</text:span> <text:line-break/><draw:custom-shape text:anchor-type="char" draw:z-index="0" draw:name="_74v" draw:style-name="gr4" draw:text-style-name="P34" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1cm" svg:y="2.845cm">
-        <text:p text:style-name="P33"><text:span text:style-name="T16">74v</text:span></text:p>
+      <text:p text:style-name="P20">аще бѡ и не по лѣпотѣ, ѻбаче достоить и намъ что любѡ ключимо тои принести . ключимо же вьсѣко бѫдетъ иже словѡмь почьтеныимь намь, слов<text:span text:style-name="T14">есъ</text:span> прѣжде иныхъ ꙗко вь лѣпотѫ прїнести и тлѣнных<text:span text:style-name="T16">ъ</text:span> <text:line-break/><draw:custom-shape text:anchor-type="char" draw:z-index="0" draw:name="_74v" draw:style-name="gr4" draw:text-style-name="P40" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1cm" svg:y="2.845cm">
+        <text:p text:style-name="P39"><text:span text:style-name="T17">74v</text:span></text:p>
         <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:text-areas="800 800 20800 20800" draw:type="round-rectangular-callout" draw:modifiers="25158.8100686499 14997.3799126638" draw:enhanced-path="M 3590 0 X 0 3590 L ?f2 ?f3 0 8970 0 12630 ?f4 ?f5 0 18010 Y 3590 21600 L ?f6 ?f7 8970 21600 12630 21600 ?f8 ?f9 18010 21600 X 21600 18010 L ?f10 ?f11 21600 12630 21600 8970 ?f12 ?f13 21600 3590 Y 18010 0 L ?f14 ?f15 12630 0 8970 0 ?f16 ?f17 Z N">
          <draw:equation draw:name="f0" draw:formula="$0 -10800"/>
          <draw:equation draw:name="f1" draw:formula="$1 -10800"/>
@@ -818,7 +859,7 @@
          <draw:equation draw:name="f41" draw:formula="$1 "/>
          <draw:handle draw:handle-position="$0 $1"/>
         </draw:enhanced-geometry>
-       </draw:custom-shape><text:span text:style-name="T13">|</text:span>Еликѡ по силѣ <text:span text:style-name="T15">ѿд</text:span>ати дльгъ, тѡи же пакы ꙗко нетлѣннѣ благодатъ подати иже немощїѫ слова бѣдствꙋѫщїимъ намъ • Елма же къ иже сице свѣтлѡи намъ словѡ, и свѣтлѡ прѡчее начѧлѡ бѫдѧтъ съ свѣтлоѫ повѣстїѫ •</text:p>
+       </draw:custom-shape><text:span text:style-name="T13">|</text:span>Еликѡ по силѣ <text:span text:style-name="T16">ѿд</text:span>ати дльгъ, тѡи же пакы ꙗко нетлѣннѣ благодатъ подати иже немощїѫ слова бѣдствꙋѫщїимъ намъ • Елма же къ иже сице свѣтлѡи намъ словѡ, и свѣтлѡ прѡчее начѧлѡ бѫдѧтъ съ свѣтлоѫ повѣстїѫ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Макар и не така достолепно, но трябва и ние да ѝ поднесем нещо пристойно. А за нас, които сме почетени с дара на словото, ще бъде най-пристойно словото да поднесем като предостойнолепно пред другите тленни неща, та да се ѝ издължим според силите си; а пък тя, като нетленна, да ни даде благодат – на нас, които страдаме от безсилието на словото. А понеже нашето слово е към толкова светлата, то чрез светлата повест ще започне светлото начало!</text:p>
@@ -834,7 +875,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Нѫ кто ꙋбѡ тоѫ по чѧсти иꙁречеть дѣанїа же и чюдеса • Кто благѡдѣанїа и ꙁастѫпленїа и прѣд<text:span text:style-name="T1">ъ</text:span>стателства . ꙗже вь епїватѡхъ . ꙗже вь Ѳракїи . трънѡвѣ же и мисїи, и далматїи • не тъчїѫ же, нѫ и по вьселенѣи тоѫ ѻбрѧщеши ѻбносимо имѧ • </text:p>
+      <text:p text:style-name="Евтимий">Нѫ кто ꙋбѡ тоѫ по чѧсти изречеть дѣанїа же и чюдеса • Кто благѡдѣанїа и застѫпленїа и прѣд<text:span text:style-name="T1">ъ</text:span>стателства . ꙗже вь епїватѡхъ . ꙗже вь Ѳракїи . трънѡвѣ же и мисїи, и далматїи • не тъчїѫ же, нѫ и по вьселенѣи тоѫ ѻбрѧщеши ѻбносимо имѧ • </text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Кой прочее ще разкаже подробно за нейните деяния и чудеса? Кой – за благодеянията, застъпничествата и наставничествата ѝ в Епиват, в Тракия, в Търново и Мизия, и Далмация? Не само там, но и по целия свят ще чуеш да се разнася нейното име!</text:p>
@@ -866,7 +907,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Нѫ елма дръжава твоего благочъстїваагѡ царьства ꙋсръдьствꙋєть и понѫждаеть нашѫ немощь ; вь сие благѡе и богоꙋгѡдное дѣлѡ, не бѫдетъ ключимо еже тѡликое ꙋсръдїе же кꙋпно и желанїе прѣꙁрѣти твоегѡ благѡчьстивагѡ и дръжавнагѡ царьствїа • мнѧ же и ѕѣлѡ полеꙁнѣише паче быти и ревность божьствьнѫѧ вьлагати иже бога любѧщїимь дꙋшамъ • Котѡраа бѡ бѫдетъ бѡлша ревность ѿ еже бога любити и того почитати ꙋгѡдникы •</text:p>
+      <text:p text:style-name="Евтимий">Нѫ елма дръжава твоего благочъстїваагѡ царьства ꙋсръдьствꙋєть и понѫждаеть нашѫ немощь ; вь сие благѡе и богоꙋгѡдное дѣлѡ, не бѫдетъ ключимо еже тѡликое ꙋсръдїе же кꙋпно и желанїе прѣзрѣти твоегѡ благѡчьстивагѡ и дръжавнагѡ царьствїа • мнѧ же и ѕѣлѡ полезнѣише паче быти и ревность божьствьнѫѧ вьлагати иже бога любѧщїимь дꙋшамъ • Котѡраа бѡ бѫдетъ бѡлша ревность ѿ еже бога любити и того почитати ꙋгѡдникы •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Но, тъй като силата на твоето благочестиво величество усърдствува и подбужда нашата немощ към това благо и богоугодно дело, няма да е прилично да пренебрегнем толкова голямото усърдие, а също и желанието на Твое благочестиво и властно величество2. А мисля, че повестта ще бъде твърде многополезна и най-вече, че ще полага божествена ревност в боголюбящите души. А има ли ревност, по-голяма от тази да обичаме бога и да почитаме неговите угодници?!</text:p>
@@ -880,13 +921,12 @@
       <text:p text:style-name="ПразенРед"/>
      </table:table-cell>
     </table:table-row>
-    <text:soft-page-break/>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Аꙁъ ꙋбѡ ничимже прѣподобнѫѧ сїѧ мнѧ ѿ древнихъ и нарѡчитыхъ свѧтыхъ ѻстаѫщѫ . аще бѡ вь дѣанихъ речеть кто тѣхъ иꙁѧщны, и сїа дѣанїи ради прѡсїа • Аще видѣнїемь высѡчаишѫ тѣхъ, и сїѫ симь ꙋꙁриши ꙋкрашенѫ . вьсѫдꙋ ꙗкоже слъньце лꙋчѧ испꙋщаетъ •</text:p>
+      <text:p text:style-name="Евтимий">Азъ ꙋбѡ ничимже прѣподобнѫѧ сїѧ мнѧ ѿ <text:soft-page-break/>древнихъ и нарѡчитыхъ свѧтыхъ ѻстаѫщѫ . аще бѡ вь дѣанихъ речеть кто тѣхъ изѧщны, и сїа дѣанїи ради прѡсїа • Аще видѣнїемь высѡчаишѫ тѣхъ, и сїѫ симь ꙋзриши ꙋкрашенѫ . вьсѫдꙋ ꙗкоже слъньце лꙋчѧ испꙋщаетъ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="Климентина">Аз, прочее, смятам, че преподобната по нищо не отстъпва на древните и знаменити светци. Ако ли някой каже, че те са доблестни в деянията, то и тя поради деянието просия! Ако пък – че са превисоки във видението, то и нея ще видиш украсена с него.3 Като слънце тя навсякъде отпраща лъчи!</text:p>
+      <text:p text:style-name="Климентина">Аз, прочее, смятам, че преподобната <text:soft-page-break/>по нищо не отстъпва на древните и знаменити светци. Ако ли някой каже, че те са доблестни в деянията, то и тя поради деянието просия! Ако пък – че са превисоки във видението, то и нея ще видиш украсена с него.3 Като слънце тя навсякъде отпраща лъчи!</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -899,7 +939,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Сегѡ ради и аꙁъ по твоеѧ дръжавы повелѣнїꙋ нынѣ, не просто и тꙋне, нѫ ꙋсръдно и съ тъщанїемь словꙋ иꙁъꙗвлѣвленїе творѫ •</text:p>
+      <text:p text:style-name="Евтимий">Сегѡ ради и азъ по твоеѧ дръжавы повелѣнїꙋ нынѣ, не просто и тꙋне, нѫ ꙋсръдно и съ тъщанїемь словꙋ изъꙗвлѣвленїе творѫ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Поради това и аз сега, по повелята на Твое владичество, не небрежно и безсмислено, но усърдно и със старание излагам същината на словото!</text:p>
@@ -915,8 +955,8 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Ибѡ ꙗкоже вь тъмѣ сѣдѫще нѣцїи . ѿ единыѧ тоѫ ракы ꙗкоже ѿ нѣктѡрыѫ ламбады своѧ вьжегѡшѫ свѣтилникы, паче же дꙋшѫ .и вь храминѫ своѫ<draw:custom-shape text:anchor-type="char" draw:z-index="2" draw:name="_75r_0" draw:style-name="gr2" draw:text-style-name="P32" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1.041cm" svg:y="1.704cm">
-        <text:p text:style-name="P31"><text:span text:style-name="T16">75r</text:span></text:p>
+      <text:p text:style-name="Евтимий">Ибѡ ꙗкоже вь тъмѣ сѣдѫще нѣцїи . ѿ единыѧ тоѫ ракы ꙗкоже ѿ нѣктѡрыѫ ламбады своѧ вьжегѡшѫ свѣтилникы, паче же дꙋшѫ .и вь храминѫ своѫ<draw:custom-shape text:anchor-type="char" draw:z-index="2" draw:name="_75r_0" draw:style-name="gr2" draw:text-style-name="P38" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1.041cm" svg:y="1.704cm">
+        <text:p text:style-name="P37"><text:span text:style-name="T17">75r</text:span></text:p>
         <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:text-areas="800 800 20800 20800" draw:type="round-rectangular-callout" draw:modifiers="25158.8100686499 14997.3799126638" draw:enhanced-path="M 3590 0 X 0 3590 L ?f2 ?f3 0 8970 0 12630 ?f4 ?f5 0 18010 Y 3590 21600 L ?f6 ?f7 8970 21600 12630 21600 ?f8 ?f9 18010 21600 X 21600 18010 L ?f10 ?f11 21600 12630 21600 8970 ?f12 ?f13 21600 3590 Y 18010 0 L ?f14 ?f15 12630 0 8970 0 ?f16 ?f17 Z N">
          <draw:equation draw:name="f0" draw:formula="$0 -10800"/>
          <draw:equation draw:name="f1" draw:formula="$1 -10800"/>
@@ -962,7 +1002,7 @@
          <draw:equation draw:name="f41" draw:formula="$1 "/>
          <draw:handle draw:handle-position="$0 $1"/>
         </draw:enhanced-geometry>
-       </draw:custom-shape> <text:span text:style-name="T19">|</text:span>кьжьдѡ вьшедъ, тѡѫ ꙁастѫпленїе ѻщꙋщаѫ и покрѡвь . имат бѡ источникъ исцѣленїи неꙁавидимъ и еликѡ чръплемъ бываетъ, тѡликѡ кыпитъ · и еликѡ кыпитъ, тѡликѡ исцѣленїи мнѡжъствѡ истѣкаетъ ꙗко(вꙋ) же хѡщеши недѫгꙋ ·</text:p>
+       </draw:custom-shape> <text:span text:style-name="T20">|</text:span>кьжьдѡ вьшедъ, тѡѫ застѫпленїе ѻщꙋщаѫ и покрѡвь . имат бѡ источникъ исцѣленїи незавидимъ и еликѡ чръплемъ бываетъ, тѡликѡ кыпитъ · и еликѡ кыпитъ, тѡликѡ исцѣленїи мнѡжъствѡ истѣкаетъ ꙗко(вꙋ) же хѡщеши недѫгꙋ ·</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Защото онези, що бяха като в мрак, от едничкия неин ковчег сякаш от някаква лампада запалиха своите светилници, а по-точно – душите. И всеки, влязъл в къщата си, усеща нейното застъпничество, защото има щедър извор на изцеление. И колкото повече черпят от него, толкова повече извира; и колкото повече извира, толкова повече лекува каквото и да е страдание!</text:p>
@@ -981,24 +1021,23 @@
       <text:p text:style-name="Евтимий">Сїа ꙋбѡ сицеваа съдѣваѫщи намъ на кѡторѡеждѡ врѣмѧ, и мы къ неи притецѣмъ ꙋсръдно · и ради тѡликыхъ благодѣанїи, дѡстѡдлъжно тѫ почътѣмъ . въсѣ и глаголѧще и творѧще къ тоѫ благѡꙋгѡжденїꙋ, и никакоже ꙋстѫпаимъ словѡмъ и дѣлѡмъ иже такѡваа намъ хѡдатаиствꙋѫщѫѫ ·</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24">Щом прочее тя извършва тези неща за нас по всяко време, то нека и ние да се устремим усърдно към нея и да я почетем достойнодлъжно заради премногото благодеяния. Нека да говорим и да вършим всичко за нейна благоугода и никак да не отстъпваме със слово или с дело от оная, която така се застъпва за нас. </text:p>
+      <text:p text:style-name="P26">Щом прочее тя извършва тези неща за нас по всяко време, то нека и ние да се устремим усърдно към нея и да я почетем достойнодлъжно заради премногото благодеяния. Нека да говорим и да вършим всичко за нейна благоугода и никак да не отстъпваме със слово или с дело от оная, която така се застъпва за нас. </text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Не бѡ въꙁгнѫшает сѧ прѣподобнаа мати, нась видѧщи сице пририщѫщѫ, ни же ѿринетъ иже такѡ ꙋсръдно къ тѡи прихѡдѧщїихъ · Ѕѣлѡ бѡ въ сласть прїиметъ и похвалитъ таковое ꙋсръдїе, и принестъ къ своему творцꙋ (то н)ехѡдатаистъвнѣ . благаго бѡ сѫщи жениха рачителница ; благаа въсѣкѡ полꙋчитъ и прошенї(а) ·</text:p>
+      <text:p text:style-name="Евтимий">Не бѡ възгнѫшает сѧ прѣподобнаа мати, нась видѧщи сице пририщѫщѫ, ни же ѿринетъ иже такѡ ꙋсръдно къ тѡи прихѡдѧщїихъ · Ѕѣлѡ бѡ въ сласть прїиметъ и похвалитъ таковое ꙋсръдїе, и принестъ къ своему творцꙋ (то н)ехѡдатаистъвнѣ . благаго бѡ сѫщи жениха рачителница ; благаа въсѣкѡ полꙋчитъ и прошенї(а) ·</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24">Не, няма да се погнуси преподобната майка, ако ни види притекли се, нито ще отхвърли ония, които така усърдно прииждат към нея, но многосладостно ще приеме и ще похвали подобно усърдие и непосредствено ще го принесе на своя творец. Рачителница4 на благия жених, тя всякак ще получи блага и опрощения. </text:p>
+      <text:p text:style-name="P26">Не, няма да се погнуси преподобната майка, ако ни види притекли се, нито ще отхвърли ония, които така усърдно прииждат към нея, но многосладостно ще приеме и ще похвали подобно усърдие и непосредствено ще го принесе на своя творец. Рачителница4 на благия жених, тя всякак ще получи блага и опрощения. </text:p>
      </table:table-cell>
     </table:table-row>
-    <text:soft-page-break/>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Елма ꙋбѡ въсѣ прѣѻбидѣ мира краснаа и небеснѡмꙋ себе ꙋневѣсти женихꙋ, какѡ ꙋбѡ и погрѣшитъ просимаа · Ничто же бѡ инѡ тако ꙗкоже чистое житїе и жиꙁни свѣтлость, ангельскѡмꙋ ретѧтъ сѧ житіꙋ · Имже паче иныхъ радѹѫт сѧ ангели . и пръвѣе въсѣхъ, богъ . истинаа чистота, егѡже лице еликѡ по въꙁможномꙋ ти вынѫ ꙁрѧтъ ·</text:p>
+      <text:p text:style-name="Евтимий">Елма ꙋбѡ въсѣ прѣѻбидѣ мира краснаа и небеснѡмꙋ себе ꙋневѣсти женихꙋ, какѡ ꙋбѡ <text:soft-page-break/>и погрѣшитъ просимаа · Ничто же бѡ инѡ тако ꙗкоже чистое житїе и жизни свѣтлость, ангельскѡмꙋ ретѧтъ сѧ житіꙋ · Имже паче иныхъ радѹѫт сѧ ангели . и пръвѣе въсѣхъ, богъ . истинаа чистота, егѡже лице еликѡ по възможномꙋ ти вынѫ зрѧтъ ·</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24">Щом пренебрегна всички прелести на света и се обручи за небесния жених, нима ще се лиши от желаното? Та нали нищо друго не съперничи толкова на ангелското житие, както чистото житие и светлостта на живота? На тях повече, отколкото на другите, се радват ангелите и пръв от всички бог – истинската чистота, чието лице, доколкото е възможно, те винаги съзерцават.</text:p>
+      <text:p text:style-name="P26">Щом пренебрегна всички прелести на света и се обручи за небесния жених, <text:soft-page-break/>нима ще се лиши от желаното? Та нали нищо друго не съперничи толкова на ангелското житие, както чистото житие и светлостта на живота? На тях повече, отколкото на другите, се радват ангелите и пръв от всички бог – истинската чистота, чието лице, доколкото е възможно, те винаги съзерцават.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -1011,8 +1050,8 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">И что ми прочее въ дльготѫ простирати словѡ . и слова слышателемъ ꙋсръдїе ꙁаграждати, а не къ житїꙋ ѻбратити сѧ прѣподобныѫ, и тоѫ дѣанїа ꙗкоже на свѣщницѣ положити ; и въсѣхъ слꙋхы истиноѫ ѻгласити . не малѫ бѡ хѡдатаиствꙋетъ полѕѫ иже съ ꙋсръдїемъ сїе прохѡдити <draw:custom-shape text:anchor-type="char" draw:z-index="3" draw:name="_75v" draw:style-name="gr1" draw:text-style-name="P32" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1.014cm" svg:y="0.362cm">
-        <text:p text:style-name="P31"><text:span text:style-name="T16">75v</text:span></text:p>
+      <text:p text:style-name="Евтимий">И что ми прочее въ дльготѫ простирати словѡ . и слова слышателемъ ꙋсръдїе заграждати, а не къ житїꙋ ѻбратити сѧ прѣподобныѫ, и тоѫ дѣанїа ꙗкоже на свѣщницѣ положити ; и въсѣхъ слꙋхы истиноѫ ѻгласити . не малѫ бѡ хѡдатаиствꙋетъ полѕѫ иже съ ꙋсръдїемъ сїе прохѡдити <draw:custom-shape text:anchor-type="char" draw:z-index="3" draw:name="_75v" draw:style-name="gr1" draw:text-style-name="P38" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1.014cm" svg:y="0.362cm">
+        <text:p text:style-name="P37"><text:span text:style-name="T17">75v</text:span></text:p>
         <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:text-areas="800 800 20800 20800" draw:type="round-rectangular-callout" draw:modifiers="25158.8100686499 14997.3799126638" draw:enhanced-path="M 3590 0 X 0 3590 L ?f2 ?f3 0 8970 0 12630 ?f4 ?f5 0 18010 Y 3590 21600 L ?f6 ?f7 8970 21600 12630 21600 ?f8 ?f9 18010 21600 X 21600 18010 L ?f10 ?f11 21600 12630 21600 8970 ?f12 ?f13 21600 3590 Y 18010 0 L ?f14 ?f15 12630 0 8970 0 ?f16 ?f17 Z N">
          <draw:equation draw:name="f0" draw:formula="$0 -10800"/>
          <draw:equation draw:name="f1" draw:formula="$1 -10800"/>
@@ -1058,10 +1097,10 @@
          <draw:equation draw:name="f41" draw:formula="$1 "/>
          <draw:handle draw:handle-position="$0 $1"/>
         </draw:enhanced-geometry>
-       </draw:custom-shape><text:span text:style-name="T20">|</text:span>окꙋшаѫщим сѧ, и по нельстнѣи и неблаꙁнънѣи шествꙋѫщимъ стъѕи</text:p>
+       </draw:custom-shape><text:span text:style-name="T21">|</text:span>окꙋшаѫщим сѧ, и по нельстнѣи и неблазнънѣи шествꙋѫщимъ стъѕи</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24">И защо да преудължавам речта и да бъда преграда за усърдието на слушащите словото, а да не се обърна към живота на преподобната, да положа нейните деяния като върху светилник, та чрез истината да поразя всички уши?! Не малка полза ще измоли тя за ония, които се опитват да вникнат с усърдие, а не вървят по лъстив и измамен път.</text:p>
+      <text:p text:style-name="P26">И защо да преудължавам речта и да бъда преграда за усърдието на слушащите словото, а да не се обърна към живота на преподобната, да положа нейните деяния като върху светилник, та чрез истината да поразя всички уши?! Не малка полза ще измоли тя за ония, които се опитват да вникнат с усърдие, а не вървят по лъстив и измамен път.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -1074,10 +1113,176 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий"/>
+      <text:p text:style-name="Евтимий">+ Сїа ꙋбѡ сїа прѣподобнаа ѿьчъство имѣаше єпїваты . рѡдителе и благѡчъстивѣишихъ и боголюбезнѣишихъ сѫщи ѿрасли . хѡдѧщїихъ въ всѣхъ божїихъ заповѣдехъ неꙋклонно . милостынѣми и блг͠ѡтворенми въсѧ своѫ ꙋкрашаѫщихъ жизнь . такѡви ꙋбѡ сѫще ѻни, и такѡвыхъ дѡбрѡдѣтѣлеи дѣлателе бывше, ѻбѡимъ ѻтрѡчѧтемъ сподобишѫсѧ быти ѡц͠и · <text:span text:style-name="T22">и</text:span>хже ѻвъ ꙋбѡ мѫжъскы, ѻвѡ же женскы ꙗвлѣаше сѧ пѡлъ .</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P30">Тази, прочее, тази преподобна беше родена в Епиват, издънка от преблагочестиви и пребогоугодни родители, които спазваха неотклонно всички божии заповеди, украсяваха живота си с милостиня и добри дела.5 Понеже бяха такива и добротворци на такива благотворения, сподобиха се да станат баща и майка на две деца: едното момче, а другото момиче. </text:p>
+      <text:p text:style-name="P27">Тази, прочее, тази преподобна беше родена в Епиват, издънка от преблагочестиви и пребогоугодни родители, които спазваха неотклонно всички божии заповеди, украсяваха живота си с милостиня и добри дела.5 Понеже бяха такива и добротворци на такива благотворения, сподобиха се да станат баща и майка на две деца: едното момче, а другото момиче. </text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">и ꙗко ꙋбѡ сихъ на свѣтъ изведше, свѧтымъ тѣхъ порѡдишѫ крьщенїемъ . и мѫжъскыи ꙋбѡ полъ, свѧщенныимъ въдашѫ ꙋчити сѧ писменемъ . прѣподобнѫѫ же въ дѡмꙋ имѣахѫ младагѡ ради тоѫ възраста и естестъвнагѡ ради ꙋсвоенїа </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P27">След като ги сътвориха на света, родиха ги повторно чрез светото кръщение. И момчето дадоха да се учи на свещеното писание, а преподобната държаха вкъщи заради крехката ѝ възраст и заради естествената привързаност. </text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">+ Врѣмени ꙋбѡ дѡвѡлнꙋ прѣшеⷣшꙋ, и възрастъ єстестъвныи достигши, въсѣкъ пѫть дѡбрѡдѣтѣли извѣстно навыче · <text:soft-page-break/>десѧтомꙋ же лѣтꙋ тоѫ възраста ꙗко пришедшꙋ, въ цр͠ковь прѣчистыѫ богородицѫ и присно дѣвы маріѫ, по ѡбычаꙋ прїиде . и ѻбычнѣ божьстьвномꙋ еѵаггелїꙋ прочитаемꙋ, Слыша божьстьвныи ѻнъ гласъ глаголѧщїи . иже хѡщетъ по мнѣ ити, да ѿвръжет сѧ себе и възметъ крьстъ свои и послѣдꙋет ми ·</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P28">Така измина дълго време. Достигнала съзнателна възраст, тя грижливо усвои всички пътища на добродетелта. <text:soft-page-break/>Щом навърши десет години, отиде по обичая в църквата на пречистата Богородица и приснодева Мария. Там, както винаги, бе прочетено божественото евангелие. Петка чу оня божествен глас, казващ: «Който иска да върви след мене, да се отрече от себе си, да вземе кръста си и да ме последва.»6</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">и ꙗко ꙋбѡ сїа въ ꙋмѣ прїемъ, и съмыслънѣ расѫдивъ, и ꙗко стрѣлѡѫ нѣкѡтѡрѡѫ ꙋꙗзвена бывши, абїе изъ цръкве изшедьши . и ꙋбѡга нѣкѡегѡ срѣтши, сънемши съ себе ризы и въсѧ ѧже нѡшааше дѣвичьскѫѧ ꙋтварь, тѡмꙋ въсѣ ꙋсръдно ѿдастъ . сама же тѡго ризами себе ѻдѣа никѡмꙋ же сїа ѿнѫдь вѣдѧщꙋ въ прѣмѫдрѣмъ нѣкѡемъ разꙋмѣ сѫщи,<draw:custom-shape text:anchor-type="char" draw:z-index="4" draw:name="_76r" draw:style-name="gr1" draw:text-style-name="P38" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1.011cm" svg:y="0.499cm">
+        <text:p text:style-name="P37"><text:span text:style-name="T17">76r</text:span></text:p>
+        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:text-areas="800 800 20800 20800" draw:type="round-rectangular-callout" draw:modifiers="25158.8100686499 14997.3799126638" draw:enhanced-path="M 3590 0 X 0 3590 L ?f2 ?f3 0 8970 0 12630 ?f4 ?f5 0 18010 Y 3590 21600 L ?f6 ?f7 8970 21600 12630 21600 ?f8 ?f9 18010 21600 X 21600 18010 L ?f10 ?f11 21600 12630 21600 8970 ?f12 ?f13 21600 3590 Y 18010 0 L ?f14 ?f15 12630 0 8970 0 ?f16 ?f17 Z N">
+         <draw:equation draw:name="f0" draw:formula="$0 -10800"/>
+         <draw:equation draw:name="f1" draw:formula="$1 -10800"/>
+         <draw:equation draw:name="f2" draw:formula="if(?f18 ,$0 ,0)"/>
+         <draw:equation draw:name="f3" draw:formula="if(?f18 ,$1 ,6280)"/>
+         <draw:equation draw:name="f4" draw:formula="if(?f23 ,$0 ,0)"/>
+         <draw:equation draw:name="f5" draw:formula="if(?f23 ,$1 ,15320)"/>
+         <draw:equation draw:name="f6" draw:formula="if(?f26 ,$0 ,6280)"/>
+         <draw:equation draw:name="f7" draw:formula="if(?f26 ,$1 ,21600)"/>
+         <draw:equation draw:name="f8" draw:formula="if(?f29 ,$0 ,15320)"/>
+         <draw:equation draw:name="f9" draw:formula="if(?f29 ,$1 ,21600)"/>
+         <draw:equation draw:name="f10" draw:formula="if(?f32 ,$0 ,21600)"/>
+         <draw:equation draw:name="f11" draw:formula="if(?f32 ,$1 ,15320)"/>
+         <draw:equation draw:name="f12" draw:formula="if(?f34 ,$0 ,21600)"/>
+         <draw:equation draw:name="f13" draw:formula="if(?f34 ,$1 ,6280)"/>
+         <draw:equation draw:name="f14" draw:formula="if(?f36 ,$0 ,15320)"/>
+         <draw:equation draw:name="f15" draw:formula="if(?f36 ,$1 ,0)"/>
+         <draw:equation draw:name="f16" draw:formula="if(?f38 ,$0 ,6280)"/>
+         <draw:equation draw:name="f17" draw:formula="if(?f38 ,$1 ,0)"/>
+         <draw:equation draw:name="f18" draw:formula="if($0 ,-1,?f19 )"/>
+         <draw:equation draw:name="f19" draw:formula="if(?f1 ,-1,?f22 )"/>
+         <draw:equation draw:name="f20" draw:formula="abs(?f0 )"/>
+         <draw:equation draw:name="f21" draw:formula="abs(?f1 )"/>
+         <draw:equation draw:name="f22" draw:formula="?f20 -?f21 "/>
+         <draw:equation draw:name="f23" draw:formula="if($0 ,-1,?f24 )"/>
+         <draw:equation draw:name="f24" draw:formula="if(?f1 ,?f22 ,-1)"/>
+         <draw:equation draw:name="f25" draw:formula="$1 -21600"/>
+         <draw:equation draw:name="f26" draw:formula="if(?f25 ,?f27 ,-1)"/>
+         <draw:equation draw:name="f27" draw:formula="if(?f0 ,-1,?f28 )"/>
+         <draw:equation draw:name="f28" draw:formula="?f21 -?f20 "/>
+         <draw:equation draw:name="f29" draw:formula="if(?f25 ,?f30 ,-1)"/>
+         <draw:equation draw:name="f30" draw:formula="if(?f0 ,?f28 ,-1)"/>
+         <draw:equation draw:name="f31" draw:formula="$0 -21600"/>
+         <draw:equation draw:name="f32" draw:formula="if(?f31 ,?f33 ,-1)"/>
+         <draw:equation draw:name="f33" draw:formula="if(?f1 ,?f22 ,-1)"/>
+         <draw:equation draw:name="f34" draw:formula="if(?f31 ,?f35 ,-1)"/>
+         <draw:equation draw:name="f35" draw:formula="if(?f1 ,-1,?f22 )"/>
+         <draw:equation draw:name="f36" draw:formula="if($1 ,-1,?f37 )"/>
+         <draw:equation draw:name="f37" draw:formula="if(?f0 ,?f28 ,-1)"/>
+         <draw:equation draw:name="f38" draw:formula="if($1 ,-1,?f39 )"/>
+         <draw:equation draw:name="f39" draw:formula="if(?f0 ,-1,?f28 )"/>
+         <draw:equation draw:name="f40" draw:formula="$0 "/>
+         <draw:equation draw:name="f41" draw:formula="$1 "/>
+         <draw:handle draw:handle-position="$0 $1"/>
+        </draw:enhanced-geometry>
+       </draw:custom-shape> <text:span text:style-name="T23">|</text:span>зане жилище бѣше прѣст͠гѡ дх͠а ·</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P29">Като запомни тези думи, тя вникна разумно. И сякаш устрелена от някаква стрела, веднага излезе от църквата, срещна един просяк, смъкна от себе си одеждите и цялата моминска украса, що носеше, и от сърце му даде всичко, а сама се облече с неговите дрехи, без никой никак да знае за това, с някакво премъдро прозрение, понеже бе жилище на пресветия дух.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">Въ такѡвѣмъ оубѡ ѻбразѣ въ дѡмъ ꙗко пришдьши и ѿ рѡдителеи ꙗко видѣна бывши, что подѡбаетъ и глаголати кѡликѡ ꙋкѡрена быстъ и понѡсима ѿ нихъ и биема, ꙗко да не такожьде дрꙋгоици сътворитъ . нѫ дѡбраа ѻна дѣва, и благоѡчъстиваа вѣтвь параскеви, ни въ что же тѣхь ꙋкоризны въмѣни . нѫ божьствьнымъ распаливши сѧ желанїемъ, богоѿъца давида въ ꙋмѣ ѻбношааше <text:span text:style-name="T14">г</text:span><text:span text:style-name="T15">ласъ </text:span>. паче же прѣсвѧтагѡ дꙋха иже въ немъ глаголѧща ; <text:s/>имже ѡбразомъ желаетъ еленъ на истѡчникы вѡдныѫ, сице желаетъ дꙋша моа к тебѣ боже . въжѫда дꙋша моа къ богуꙋ крѣпкомꙋ и живѡмꙋ . кѡгда прїидѫ и ꙗвлѧ сѧ лицꙋ божїꙋ .</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P28">Когато се върна в такъв вид вкъщи, и родителите ѝ я съзряха – защо ли трябва и да се говори! – колко я подиграваха и кориха, и биха, та да не прави друг път така. Обаче добрата девойка и клонка благочестива Параскева никак не зачете техните укори, но, изгаряна от божествено желание, мислено повтаряше думите на богоотеца Давид, а по-точно – думите на Светия дух, говорещ чрез него: «Както жадува елен за водни извори, така и душата ми жадува за тебе, боже! Зажадня душата ми за бога крепкия и живия, кога ще дойда и ще се явя пред лицето божие!»7</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">Сїа въ ꙋмѣ ꙗко прѣдрече сѧ вынѫ имѧщи ·̈ ·̈ не по мноѕѣ врѣмени пакы подобнѣ пръвѡмꙋ сътвори и дрꙋгаго такожде нища обрѣте ѿдастъ томꙋ въсѧ своѫ ꙋтварь · </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P30">Понеже винаги пазеше тези думи в ума си, както вече се каза, не след дълго тя постъпи както първия път: намери друг бедняк и му даде всичките си украшения. </text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="P21">и не тъчїѫ дващи или тріщи, но и мнѡгажди такѡжде своꙗ ѻдѣанїа нищїимъ ѿдааше . ни въ что же <text:soft-page-break/>въмѣнѣѫщи сихъ ради рѡдителнѧѫ дѡсады же и прѣщенїа и несътръпимыѫ ꙗзвы . сїа ꙋбѡ ꙗже въ дѡмꙋ ѡчи прѣдначрътанїа, вънѧтрънее тоѫ ꙗвлѣахѫ чистое еже къ богꙋ ꙋсръдїе и ревность • Елма ꙋбѡ сръдечное раждеженїе и ѧже по боѕѣ ревность тръпѣти на мнѡѕѣ не възможе, въсѣхъ абїе ꙋтаив сѧ . рѡдителѧ кꙋпно и сърѡдникы . рабъ же и рабынь, пꙋстынное съ тъщанїемъ постиже нѣдрѡ . Извѣстно вѣдѧщи, ꙗко ничто же тако ино плътскаа ѡбыче ꙋспивати възыгранїа, ꙗкоже пꙋстынѣ • </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P26">И не два или три пъти, но многократно по същия начин даваше своите дрехи на бедните и пренебрегваше заради <text:soft-page-break/>тях родителските обиди, забрани и нетърпими рани. Всички предзнаменования, що ставаха в бащиния ѝ дом, показваха нейното вътрешно чисто усърдие и ревност към бога. Понеже прочее не можа да изтърпи по-дълго и сърдечната пламенност, и ревността към бога, укрила се изведнъж от всички – от родители и сродници, от роби и робини, – бързешком стигна до вътрешността на пустинята; уверена беше, че нищо не може да успокоява възбудите на плътта така, както пустинята.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="ПразенРед"/>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
+      <text:p text:style-name="Евтимий">Прѣдреченное же ѻтрочѧ сеѫ прѣподобныѫ (петкы) брать . ꙗко ꙋбѡ свѧщеннаа дѡбрѣ иꙁвыче писанїа, рѡдителѧ дѡбрѣ къ б͠ꙋ прѣдпосла, инѡчъскыимъ себе ѻдѣа ѻбраꙁомъ . кѵръ еѵѳѵмїемъ именованъ <draw:custom-shape text:anchor-type="char" draw:z-index="5" draw:name="_76r_0" draw:style-name="gr1" draw:text-style-name="P38" svg:width="0.77cm" svg:height="0.403cm" svg:x="-1.011cm" svg:y="0.499cm">
+        <text:p text:style-name="P37"><text:span text:style-name="T17">76r</text:span></text:p>
+        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:text-areas="800 800 20800 20800" draw:type="round-rectangular-callout" draw:modifiers="25158.8100686499 14997.3799126638" draw:enhanced-path="M 3590 0 X 0 3590 L ?f2 ?f3 0 8970 0 12630 ?f4 ?f5 0 18010 Y 3590 21600 L ?f6 ?f7 8970 21600 12630 21600 ?f8 ?f9 18010 21600 X 21600 18010 L ?f10 ?f11 21600 12630 21600 8970 ?f12 ?f13 21600 3590 Y 18010 0 L ?f14 ?f15 12630 0 8970 0 ?f16 ?f17 Z N">
+         <draw:equation draw:name="f0" draw:formula="$0 -10800"/>
+         <draw:equation draw:name="f1" draw:formula="$1 -10800"/>
+         <draw:equation draw:name="f2" draw:formula="if(?f18 ,$0 ,0)"/>
+         <draw:equation draw:name="f3" draw:formula="if(?f18 ,$1 ,6280)"/>
+         <draw:equation draw:name="f4" draw:formula="if(?f23 ,$0 ,0)"/>
+         <draw:equation draw:name="f5" draw:formula="if(?f23 ,$1 ,15320)"/>
+         <draw:equation draw:name="f6" draw:formula="if(?f26 ,$0 ,6280)"/>
+         <draw:equation draw:name="f7" draw:formula="if(?f26 ,$1 ,21600)"/>
+         <draw:equation draw:name="f8" draw:formula="if(?f29 ,$0 ,15320)"/>
+         <draw:equation draw:name="f9" draw:formula="if(?f29 ,$1 ,21600)"/>
+         <draw:equation draw:name="f10" draw:formula="if(?f32 ,$0 ,21600)"/>
+         <draw:equation draw:name="f11" draw:formula="if(?f32 ,$1 ,15320)"/>
+         <draw:equation draw:name="f12" draw:formula="if(?f34 ,$0 ,21600)"/>
+         <draw:equation draw:name="f13" draw:formula="if(?f34 ,$1 ,6280)"/>
+         <draw:equation draw:name="f14" draw:formula="if(?f36 ,$0 ,15320)"/>
+         <draw:equation draw:name="f15" draw:formula="if(?f36 ,$1 ,0)"/>
+         <draw:equation draw:name="f16" draw:formula="if(?f38 ,$0 ,6280)"/>
+         <draw:equation draw:name="f17" draw:formula="if(?f38 ,$1 ,0)"/>
+         <draw:equation draw:name="f18" draw:formula="if($0 ,-1,?f19 )"/>
+         <draw:equation draw:name="f19" draw:formula="if(?f1 ,-1,?f22 )"/>
+         <draw:equation draw:name="f20" draw:formula="abs(?f0 )"/>
+         <draw:equation draw:name="f21" draw:formula="abs(?f1 )"/>
+         <draw:equation draw:name="f22" draw:formula="?f20 -?f21 "/>
+         <draw:equation draw:name="f23" draw:formula="if($0 ,-1,?f24 )"/>
+         <draw:equation draw:name="f24" draw:formula="if(?f1 ,?f22 ,-1)"/>
+         <draw:equation draw:name="f25" draw:formula="$1 -21600"/>
+         <draw:equation draw:name="f26" draw:formula="if(?f25 ,?f27 ,-1)"/>
+         <draw:equation draw:name="f27" draw:formula="if(?f0 ,-1,?f28 )"/>
+         <draw:equation draw:name="f28" draw:formula="?f21 -?f20 "/>
+         <draw:equation draw:name="f29" draw:formula="if(?f25 ,?f30 ,-1)"/>
+         <draw:equation draw:name="f30" draw:formula="if(?f0 ,?f28 ,-1)"/>
+         <draw:equation draw:name="f31" draw:formula="$0 -21600"/>
+         <draw:equation draw:name="f32" draw:formula="if(?f31 ,?f33 ,-1)"/>
+         <draw:equation draw:name="f33" draw:formula="if(?f1 ,?f22 ,-1)"/>
+         <draw:equation draw:name="f34" draw:formula="if(?f31 ,?f35 ,-1)"/>
+         <draw:equation draw:name="f35" draw:formula="if(?f1 ,-1,?f22 )"/>
+         <draw:equation draw:name="f36" draw:formula="if($1 ,-1,?f37 )"/>
+         <draw:equation draw:name="f37" draw:formula="if(?f0 ,?f28 ,-1)"/>
+         <draw:equation draw:name="f38" draw:formula="if($1 ,-1,?f39 )"/>
+         <draw:equation draw:name="f39" draw:formula="if(?f0 ,-1,?f28 )"/>
+         <draw:equation draw:name="f40" draw:formula="$0 "/>
+         <draw:equation draw:name="f41" draw:formula="$1 "/>
+         <draw:handle draw:handle-position="$0 $1"/>
+        </draw:enhanced-geometry>
+       </draw:custom-shape><text:span text:style-name="T26">|</text:span>бывъ ·</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
+      <text:p text:style-name="P35">А споменатият отрок, братът на преподобната Петка, след като усвои добре свещените книги и достойно изпрати при бога родителите си, облече се в иночески образ и бе наречен кир Евтимий. Той измина добродетелния път и възлезе върху добродетелната лествица8, така че името му се прочу навсякъде. За премногото му добродетели бе възведен на архиерейския престол и бе ръкоположен за Мадитски първопрестолник и пастир; много и преславни чудеса извърши той там!</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -1085,16 +1290,7 @@
       <text:p text:style-name="Евтимий"/>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P30">След като ги сътвориха на света, родиха ги повторно чрез светото кръщение. И момчето дадоха да се учи на свещеното писание, а преподобната държаха вкъщи заради крехката ѝ възраст и заради естествената привързаност. Така измина дълго време. Достигнала съзнателна възраст, тя грижливо усвои всички пътища на добродетелта. </text:p>
-     </table:table-cell>
-    </table:table-row>
-    <text:soft-page-break/>
-    <table:table-row>
-     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24">Щом навърши десет години, отиде по обичая в църквата на пречистата Богородица и приснодева Мария. Там, както винаги, бе прочетено божественото евангелие. Петка чу оня божествен глас, казващ: «Който иска да върви след мене, да се отрече от себе си, да вземе кръста си и да ме последва.»6 Като запомни тези думи, тя вникна разумно. И сякаш устрелена от някаква стрела, веднага излезе от църквата, срещна един просяк, смъкна от себе си одеждите и цялата моминска украса, що носеше, и от сърце му даде всичко, а сама се облече с неговите дрехи, без никой никак да знае за това, с някакво премъдро прозрение, понеже бе жилище на пресветия дух. Когато се върна в такъв вид вкъщи, и родителите ѝ я съзряха – защо ли трябва и да се говори! – колко я подиграваха и кориха, и биха, та да не прави друг път така. Обаче добрата девойка и клонка благочестива Параскева никак не зачете техните укори, но, изгаряна от божествено желание, мислено повтаряше думите на богоотеца Давид, а по-точно – думите на Светия дух, говорещ чрез него: «Както жадува елен за водни извори, така и душата ми жадува за тебе, боже! Зажадня душата ми за бога крепкия и живия, кога ще дойда и ще се явя пред лицето божие!»7</text:p>
+      <text:p text:style-name="P36">Различни ереси от стадото изгони, паството към живоносни пасбища напъти, всички църковни дела добре уреди, дълги години живя и в дълбока старост при господа отиде9. Много и преславни чудеса извършиха мощите му, положени в същата църква. И чрез чудесата му цялата околност се прослави; не само това! – те изливаха преславно миро, изтичащо на едно пъприще!&quot; в морето. Отиващите там добре знаят това.</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -1102,7 +1298,7 @@
       <text:p text:style-name="Евтимий"/>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24"/>
+      <text:p text:style-name="P26"/>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -1110,7 +1306,7 @@
       <text:p text:style-name="Евтимий"/>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24"/>
+      <text:p text:style-name="P26"/>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -1118,44 +1314,12 @@
       <text:p text:style-name="Евтимий"/>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24"/>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24"/>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24"/>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24"/>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Житието.B1" office:value-type="string">
-      <text:p text:style-name="P24"/>
+      <text:p text:style-name="P26"/>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="Text_20_body"/>
-   <text:h text:style-name="Heading_20_1" text:outline-level="1">За изданието</text:h>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1"><text:soft-page-break/>За изданието</text:h>
    <text:p text:style-name="P11">Обяснения как е преписван текста откъде, защо и т.н</text:p>
    <text:h text:style-name="Heading_20_1" text:outline-level="1">Техн<text:span text:style-name="T9">ически средства</text:span></text:h>
    <text:p text:style-name="Text_20_body">как е направено</text:p>
