@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="ТекущаСтраница-с-Маркер.svg">
+   sodipodi:docname="working-page-with-marker.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,17 +26,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="215.43537"
-     inkscape:cy="794.16608"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="103.85793"
+     inkscape:cy="6516.2962"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="954"
-     inkscape:window-height="1019"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
      inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,18 +56,288 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/076b-077a_ok.jpg"
        xlink:href="076b-077a_ok.jpg"
+       y="-927.86548"
+       x="-40.512241"
+       id="image104"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-16.180258"
+       y="-901.80719"
+       id="text11"><tspan
+         sodipodi:role="line"
+         x="-16.180258"
+         y="-901.80719"
+         style="stroke-width:0.26458332"
+         id="tspan13">76v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="208.45978"
+       y="-896.86267"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         x="208.45978"
+         y="-896.86267"
+         style="stroke-width:0.26458332">77r</tspan></text>
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/077b-078a_ok.jpg"
+       xlink:href="077b-078a_ok.jpg"
        width="423.33334"
        height="317.5"
        preserveAspectRatio="none"
-       id="image104"
-       x="-20.857481"
-       y="39.753544" />
+       id="image80"
+       x="-40.512241"
+       y="-610.36548" />
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/078b-079a_ok.jpg"
+       xlink:href="078b-079a_ok.jpg"
+       width="423.33334"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image142"
+       x="-40.512241"
+       y="-292.86548" />
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/075b-076a_ok.jpg"
+       xlink:href="075b-076a_ok.jpg"
+       width="423.33334"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image204"
+       x="-40.512241"
+       y="-1245.3655" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="29.399649"
+       y="-1217.3276"
+       id="text209"><tspan
+         sodipodi:role="line"
+         id="tspan207"
+         x="29.399649"
+         y="-1217.3276"
+         style="stroke-width:0.26458332">75v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="216.48831"
+       y="-1221.6254"
+       id="text213"><tspan
+         sodipodi:role="line"
+         id="tspan211"
+         x="216.48831"
+         y="-1221.6254"
+         style="stroke-width:0.26458332">76r</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="8.0180855"
+       y="-588.59753"
+       id="text217"><tspan
+         sodipodi:role="line"
+         id="tspan215"
+         x="8.0180855"
+         y="-588.59753"
+         style="stroke-width:0.26458332">77v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="210.34111"
+       y="-582.65906"
+       id="text221"><tspan
+         sodipodi:role="line"
+         id="tspan219"
+         x="210.34111"
+         y="-582.65906"
+         style="stroke-width:0.26458332">78r</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-2.5390604"
+       y="-281.37125"
+       id="text225"><tspan
+         sodipodi:role="line"
+         id="tspan223"
+         x="-2.5390604"
+         y="-281.37125"
+         style="stroke-width:0.26458332">78v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="204.99573"
+       y="-269.87863"
+       id="text229"><tspan
+         sodipodi:role="line"
+         id="tspan227"
+         x="204.99573"
+         y="-269.87863"
+         style="stroke-width:0.26458332">79r</tspan></text>
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/079b-080a_ok.jpg"
+       xlink:href="079b-080a_ok.jpg"
+       width="423.33334"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image290"
+       x="-40.512241"
+       y="24.634521" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1.5119048"
+       y="40.732143"
+       id="text295"><tspan
+         sodipodi:role="line"
+         id="tspan293"
+         x="1.5119048"
+         y="40.732143"
+         style="stroke-width:0.26458332">79v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="219.22618"
+       y="41.488094"
+       id="text299"><tspan
+         sodipodi:role="line"
+         id="tspan297"
+         x="219.22618"
+         y="41.488094"
+         style="stroke-width:0.26458332">80r</tspan></text>
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/080b-081a_ok.jpg"
+       xlink:href="080b-081a_ok.jpg"
+       width="423.33334"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image360"
+       x="-40.512241"
+       y="342.13452" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-3.7797618"
+       y="365.79166"
+       id="text365"><tspan
+         sodipodi:role="line"
+         id="tspan363"
+         x="-3.7797618"
+         y="365.79166"
+         style="stroke-width:0.26458332">80v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="225.2738"
+       y="362.0119"
+       id="text369"><tspan
+         sodipodi:role="line"
+         id="tspan367"
+         x="225.2738"
+         y="362.0119"
+         style="stroke-width:0.26458332">81r</tspan></text>
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/081b-082a_ok.jpg"
+       xlink:href="081b-082a_ok.jpg"
+       width="423.33334"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image430"
+       x="-40.512241"
+       y="659.63452" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-11.339286"
+       y="678.75592"
+       id="text435"><tspan
+         sodipodi:role="line"
+         id="tspan433"
+         x="-11.339286"
+         y="678.75592"
+         style="stroke-width:0.26458332">81v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="201.83928"
+       y="680.26782"
+       id="text439"><tspan
+         sodipodi:role="line"
+         id="tspan437"
+         x="201.83928"
+         y="680.26782"
+         style="stroke-width:0.26458332">82r</tspan></text>
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/082b-083a_ok.jpg"
+       xlink:href="082b-083a_ok.jpg"
+       width="423.33334"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image500"
+       x="-40.512241"
+       y="977.13452" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-9.8273811"
+       y="991.72021"
+       id="text505"><tspan
+         sodipodi:role="line"
+         id="tspan503"
+         x="-9.8273811"
+         y="991.72021"
+         style="stroke-width:0.26458332">82v</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="206.375"
+       y="991.72021"
+       id="text509"><tspan
+         sodipodi:role="line"
+         id="tspan507"
+         x="206.375"
+         y="991.72021"
+         style="stroke-width:0.26458332">83r</tspan></text>
     <rect
        id="rect107"
        width="66.282845"
-       height="2.9399648"
-       x="24.45516"
-       y="75.834465"
-       style="fill:#ff0000;stroke-width:0.26458332" />
+       height="1.4280601"
+       x="192.92586"
+       y="-877.14111"
+       style="fill:#ff0000;stroke-width:0.18440157" />
+    <image
+       sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/073b-074a_ok.jpg"
+       xlink:href="073b-074a_ok.jpg"
+       width="423.33334"
+       height="317.5"
+       preserveAspectRatio="none"
+       id="image91"
+       x="-40.512241"
+       y="-1562.8655" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-2.6726952"
+       y="-1548.7633"
+       id="text96"><tspan
+         sodipodi:role="line"
+         id="tspan94"
+         x="-2.6726952"
+         y="-1548.7633"
+         style="stroke-width:0.26458332">73r</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="188.69229"
+       y="-1550.9015"
+       id="text100"><tspan
+         sodipodi:role="line"
+         id="tspan98"
+         x="188.69229"
+         y="-1550.9015"
+         style="stroke-width:0.26458332">74v</tspan></text>
   </g>
 </svg>
