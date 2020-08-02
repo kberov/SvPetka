@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="985.43485"
-     inkscape:cy="2599.3621"
+     inkscape:zoom="1.0955638"
+     inkscape:cx="232.83504"
+     inkscape:cy="540.3254"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,12 +56,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/076b-077a_ok.jpg"
        xlink:href="076b-077a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image104"
+       y="-927.86548"
        x="-40.512241"
-       y="-927.86548" />
+       id="image104"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -87,30 +87,30 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/077b-078a_ok.jpg"
        xlink:href="077b-078a_ok.jpg"
-       y="-610.36548"
-       x="-40.512241"
-       id="image80"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image80"
+       x="-40.512241"
+       y="-610.36548" />
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/078b-079a_ok.jpg"
        xlink:href="078b-079a_ok.jpg"
-       y="-292.86548"
-       x="-40.512241"
-       id="image142"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image142"
+       x="-40.512241"
+       y="-292.86548" />
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/075b-076a_ok.jpg"
        xlink:href="075b-076a_ok.jpg"
-       y="-1245.3655"
-       x="-40.512241"
-       id="image204"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image204"
+       x="-40.512241"
+       y="-1245.3655" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -180,12 +180,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/079b-080a_ok.jpg"
        xlink:href="079b-080a_ok.jpg"
-       y="24.634521"
-       x="-40.512241"
-       id="image290"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image290"
+       x="-40.512241"
+       y="24.634521" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -211,12 +211,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/080b-081a_ok.jpg"
        xlink:href="080b-081a_ok.jpg"
-       y="342.13452"
-       x="-40.512241"
-       id="image360"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image360"
+       x="-40.512241"
+       y="342.13452" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -242,12 +242,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/081b-082a_ok.jpg"
        xlink:href="081b-082a_ok.jpg"
-       y="659.63452"
-       x="-40.512241"
-       id="image430"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image430"
+       x="-40.512241"
+       y="659.63452" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -273,12 +273,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/082b-083a_ok.jpg"
        xlink:href="082b-083a_ok.jpg"
-       y="977.13452"
-       x="-40.512241"
-       id="image500"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image500"
+       x="-40.512241"
+       y="977.13452" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -304,12 +304,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/073b-074a_ok.jpg"
        xlink:href="073b-074a_ok.jpg"
-       y="-1562.8655"
-       x="-40.512241"
-       id="image91"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image91"
+       x="-40.512241"
+       y="-1562.8655" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -336,8 +336,8 @@
        id="rect107"
        width="66.282845"
        height="1.4280601"
-       x="223.28554"
-       y="-360.60922"
+       x="31.232727"
+       y="188.62807"
        style="fill:#ff0000;stroke-width:0.1844016" />
   </g>
 </svg>
