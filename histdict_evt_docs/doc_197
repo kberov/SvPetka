@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Corpus - Vapros Nikodimov</title>
+	<meta charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/dict_edit.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/dict_public.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/textcorpus.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/textcorpus_search.css" />
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/static/images/hdict-logo.ico" />
+	
+	<script src="/static/js/jquery-1.11.2.js"></script>
+	<script src="/static/js/jquery-migrate-1.2.1.js"></script>
+	<script src="/static/js/jquery.ez-pinned-footer.js"></script>
+
+<script>
+	$(window).load
+	(
+		function (){
+			$("#footer").pinFooter('static');
+		}
+	);
+
+	$(window).resize
+	(
+		function (){
+			$("#footer").pinFooter('static');
+		}
+	);
+</script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/tipTip.css" />
+<script src="/static/js/jquery.tipTip.minified.js"></script>
+
+<script>
+function confirm_deletion(ttl){
+	var msg = "Сигурни ли сте, че искате да изтриете този текст?"
+	return confirm(msg);
+}
+
+function showInfo(obj, ids){
+	var content = "<div>";
+	$(ids).each
+	(
+		function (idx, id){
+			obj_class = $(id).attr("class");
+			if (obj_class == "comment"){
+				title = "Бележка под линия";
+			}
+			else{
+				title = "Разночетене";
+			}
+			content = content+"<h1>"+title+"<\/h1>";
+			content = content +"<p>"+$(id).html()+"<\/p>";
+		}
+	);
+	content = content+"<\/div>";
+	$(obj).tipTip({content: content, maxWidth: "400px", defaultPosition: "top", delay: 100, activation: "click", keepAlive: true});
+}
+
+$(window).load
+(
+	function (){
+		if ($("div.editor_text").html().trim() == ""){
+			$("div.editor_text").css("margin-top", "0px");
+		}
+	}
+);
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="header">
+		
+			
+			<a href="/" title="Български исторически речник">
+			
+			<img src="/static/images/logo.png" alt="Лого" />
+			</a>
+		
+	</div>
+
+	<div id="menu">
+		
+		<ul>
+			
+			<li><a href="/session/login" title="">&raquo;&nbsp;Вход</a></li>
+			
+			<li><a href="/textcorpus/list" title="">&raquo;&nbsp;Текстов&nbsp;корпус</a></li>
+			
+			<li><a href="/chronograph/clist" title="">&raquo;&nbsp;Хронограф</a></li>
+			
+
+			
+			<li><a href="/oldbgdict/oldbg_search" title="">&raquo;&nbsp;Стб.&nbsp;речник</a></li>
+
+			
+			<li><a href="/dictionary/search" title="">&raquo;&nbsp;Ист.&nbsp;речник</a></li>
+			
+			<li style="margin-left:20px"><a href="/dictionary/resolve_forms" title="">&raquo;&nbsp;Словоформи</a></li>
+			
+			
+
+			
+			<li><a href="/evtdict/evt_search" title="">&raquo;&nbsp;Евт.&nbsp;речник</a></li>
+			
+			
+
+			
+			<li><a href="/trmdict/trm_search" title="">&raquo;&nbsp;Терм.&nbsp;речник</a></li>
+			
+			
+
+			
+			<li><a href="/textcorpus/search" title="">&raquo;&nbsp;Търсене</a></li>
+
+			<li><a href="http://e-medievalia.uni-sofia.bg/moodle" title="">&raquo;&nbsp;Средновековен&nbsp;речник</a></li>
+			
+		</ul>
+		
+	</div>
+
+	<div id="content">
+		
+
+<div class="content_title">
+	Текстов корпус
+</div>
+
+
+	
+		<div class="content_title title_lang_chu">
+			<span>Въпросъ Никодимѡв</span>
+			
+		</div>
+
+	<div id="doc_header">
+	
+
+	
+		
+		
+			<span class="label">Заглавие на латински:</span>Vapros Nikodimov<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Жанр:</span>Послание<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Автор:</span>Патриарх Евтимий<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на ръкописа:</span>XVI в.<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на превода:</span><br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на преписа:</span>1554-1561 г.<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Правопис:</span>Старобългарски<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Име на ръкописа:</span>Ръкопис №116 на църковноархеологическия музей на Киевската духовна академия<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Хранилище на ръкописа:</span>църковноархеологическия музей на Киевската духовна академия<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Сигнатура на ръкописа:</span>№116<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Издание:</span>Werke des Patriarchen von Bulgarien Euthymius  (1375-1393) nach den besten Handschriften herausgegeben von Emil Kałužniazki. Wien 1901<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Страници:</span>с. 221-224<br />
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+			<span class="label">doc_id</span>doc_197<br />
+		
+	
+
+	
+		
+		
+	
+
+	</div>
+
+<div class="real_text">
+	<div class="body">
+		<p><span>Въпросъ Никодимѡв. Понеже въ правилох</span><br/><span>свѧтых ѡт(ь)цъ ѡбрѣтаем мѫжьскꙋ полоу ѡт выше е͠і</span><br/><span>лѣт расѫждати ꙗже ѡ блѫдѣ съгрѣшенїа, ѡбрѣтаем</span><br/><span>же нынѣ, ꙗко не оу дорастъше въ връстѫ толикѫ і͗еще,</span><br/><span>нѫ ѡт многа, да рекѫ, бѣсованїа творѧще рѫчнаа</span><br/><span>блѫжденїа, аще и не съвръшено истеченїе. нѫ нѣкако ꙗко</span><br/><span>вода истечет ѡт оуда съ сладострастїемь, аще таковомꙋ</span><br/><span>тако съ скотѡм или мѫжьскым полом бѫдет, достоит</span><br/><span>ли сих възводити на свѧщеничьство, или ни?</span><br/><span>Еѵѳїмїа патрїарха ѡтвѣт. Въпрошенїе се</span><br/><span>мнѡга въниманїа и страха трѣбоуеть, ꙗко да не кто,</span><br/><span>ѡт безмѣрнаго милованїа подвижемъ, въпаднет въ Маласїанꙿскѫ</span><br/><span>єрес(ь) или пакы, ради опаснаго истѧѕанїа, впаднет</span><br/><span>въ Наватꙿскѫ прѣлъст(ь). Аще бо и даже до нынѣ въ нѣкыих</span><br/><span>обычай оудръжа сѧ съходити нѣкыим доуховникѡм,</span><br/><span>милованїемь пѡдвижимѡм, къ своимъ ихъ чѧдѡмꙿ,</span><br/><span>нѫ опасство бож(ь)ствных правиль не тако имат. Аще аг͠гель</span><br/><span>господа въседръжителѣ свѧщенник єст(ь) и глаголет сѧ,</span><br/><br/><span>222</span><br/><br/><span>ꙗкоже великый рече Диѡнисїе, и над бож(ь)ствными дарꙿми</span><br/><span>молѧ сѧ, господ(ь)нь чинь имат, прочее аг͠гелское житїе</span><br/><span>имѣти длъжень єст(ь) свѧщенник, ꙗко да достоинствоу</span><br/><span>и милованїе имат. Сего ради о чистотѧ тѣлеснѣй мнѡго</span><br/><span>ѡпасство трѣбѣ єст(ь) хотѣщомꙋ на свѧщенничьскый</span><br/><span>възыти степень, ꙗкоже рече апостолъ: „Братїе, молѧ вы,</span><br/><span>прѣдставите тѣлеса ваша чиста, жрътвѫ живѫ богови”.</span><br/><span>Достоить оубо не на лѣта юных блюсти, нѫ на желанїе,</span><br/><span>сѫщее въ них. Сѫт бо нѣцїи въ юных, ѡт топлаго растворенїа</span><br/><span>подвижеми, не тъчїѧ ѡт д͠і-го или е͠і-го лѣт, нѫ</span><br/><span>ѡт тринадесѧтаго и ѡт в͠і-го къ истицанїю ѡт єст(ь)ства</span><br/><span>понѫждаемы. Аз бо видѣх отрочѧ, не оу доспѣло дванадесѧте</span><br/><span>съвръшити лѣт. дѣвицѫ съвръшенѣ растлившее.</span><br/><span>И не невѣрꙋй; сѫт бо мнѡѕи свѣдѣтеле сим, иже и до</span><br/><span>нынѣ живи съ нами сѫт. А иже стꙋденаго сълоучꙿшеи сѧ</span><br/><span>єст(ь)ства, ни по е͠і-тих, ниже по ѕ͠і-тих лѣтѣх, нѣцїи</span><br/><span>же ни по и͠і-тих лѣтѣх къ желанїю пѡдвижими сѫт, не</span><br/><span>сѫщꙋ раждиѕанїю, подвижѫщомꙋ тѣх къ похоти. Тѣмже</span><br/><span>достойнѣ непщꙋѫ таковых на свѧщенничьство дръзати;</span><br/><span>прѣдреченыѧ же не тако, нѫ съ мноѕѣмь истѧѕанїемь и</span><br/><span>расмотренїемь доухѡвным, да не како, съхожденїе ѡ нихь</span><br/><span>творѧще, вина тѣх погыбѣли бѫдем по иже ѡт апостола</span><br/><span>реченомꙋ: „Чиста себѣ съблюдай въ вꙿсем и не причащай сѧ</span><br/><span>грѣсѣх тоуждиих”. А иже съ мѫжьскым полѡм или</span><br/><span>съ скотѡм падшеи, ѡтнѫд възбранѣет тѣх правило. Даже</span><br/><span>бодоистицанїа мокротѣ раждиѕанїем сверѣпѣѫть; мокротѣ</span><br/><span>же ис тѣла истекши, прочее оувѧдает и бездѣлен</span><br/><span>прѣбывает оудъ. Аще бо малакыѧ ѡт царствїа божїа</span><br/><span>изгонит Павель великый, что оубо рекѫт, иже съ иным</span><br/><span>тѣлом бѫдѫт съгрѣшили? Въ малакыѧ бо єдиноѧ или</span><br/><span>дващи поплъзшаго сѧ и по сем много показавшаго трꙋди</span><br/><span>єдва и по нѫжди пращает на свѧщенничьство правило,</span><br/><br/><span>223</span><br/><br/><span>инакоже никакоже; а иже съ тоуждимь тѣлом съгрѣшившаго</span><br/><span>въсѣчьскы ѡтрѣвает. Тѣло, иже своѧ нечистотѫ</span><br/><span>смѣшенїемь скврънным въ ино тѣло излїавшее, како чисто</span><br/><span>наричет сѧ? Не мнѧ азь. и свѣдѣтель симь свѧтый</span><br/><span>Іѡань постник, иже съходителнѣйши и милостивнѣйшїй</span><br/><span>ꙗви сѧ чловѣчьскомꙋ родꙋ. Глаголет бо ѡнь сице: „Аще</span><br/><span>кто въ дѣвꙿствѣ сый и въ мирꙿстѣмь или иночьстѣмꙿ</span><br/><span>чинѣ и їерейстѣм, растлив же сѧ ѡт нѣкоего и аще въ</span><br/><span>бедрѫ тъчїѧ, запрѣщенїе оубо прїѧти подобает, приходити</span><br/><span>же въ свѧщенничьство, паче же, аще единоѧ или дващи</span><br/><span>быст(ь); аще ли множае сего и въ афедронь, никакоже</span><br/><span>ѡтнѫд да не приходит въ дїаконскый степень, или въ</span><br/><span>їерейскый сань. Аще бо и онь не съгрѣши, нѫ съсѫд</span><br/><span>растѫпи сѧ; ѡскврꙿни бо сѧ и не възꙿможно ємꙋ єст(ь)</span><br/><span>свѧщеннодѣйствовати. Аще ли въ малакїѧ въпаднет</span><br/><span>прѣжде прїѧтїѧ свѧщенничьска, не вѣды, что єст(ь) и</span><br/><span>ꙗко възбранѣет єго не прїити въ свѧщенничьство, или по</span><br/><span>неразꙋмїю или ѡт иного доушетлѣнна семꙋ наꙋчивь сѧ, и</span><br/><span>єст(ь) чловѣкь или мѫдръ или благоговѣинь или и обоа,</span><br/><span>запрѣщенїе оубо прїемати пръвѣе, потом же сподоблѣвати же сѧ</span><br/><span>свѧщенничьствꙋ. Аще ли по свѧщенничьствѣ въ сїе</span><br/><span>въпаднет, по разꙋмꙋ, єгоже прѣдрекохѡм или по невѣдѣнїю</span><br/><span>или ѡт иного наꙋчень бывь, не быти злоу, да</span><br/><span>прїимет запрѣщенїе, оудръжаваем єже не свѧщеннодѣйствовати,</span><br/><span>и тако да свѧщенничьствоует. Аще ли повторит или</span><br/><span>потретит, к томꙋ да не свѧщенничьствоует”. И сїа оубо</span><br/><br/><span>224</span><br/><br/><span>тако. Подобает же въсѣкомꙋ, произволѣѫщомꙋ на свѧщенничьства</span><br/><span>възыти степень, чисто житїе имѣти и тѣло</span><br/><span>несквръно, ꙗко да въ агг͠ельское постигнет достоинство.</span><br/><span>А ꙗко аг͠гелꙿ господ(ь)нь єст(ь) свѧщенник, глаголетꙿ</span><br/><span>бож(ь)ствный Анастасїе. Бѣше въ нѣкоем градци, лежѫщом</span><br/><span>при горѣ Ливанꙿстѣй, презвитерь нѣкый, къ немоуже</span><br/><span>пръвый чловѣкъ мѣста оного прїиде нощїѧ, принѫждаѧ</span><br/><span>єго въстати и кр(ъ)стити отрочѧ єго, младо сѫще и</span><br/><span>хотѧщее скончати сѧ. Въставь оубо презвитерь, и молитвы</span><br/><span>начѧт свѧтаго кр(ъ)щенїа, вода готовааше и</span><br/><span>масло. Нѫ, прѣжде, даже оуготовати сїа по ѡбычаю, сконча сѧ</span><br/><span>отрочѧ. Възем прочеє тѡ и прѣд кръстилницеѧ положи.</span><br/><span>Таже что? Къ аг͠гелоу сице рече: „Тебѣ, дроугꙋ моемꙋ,</span><br/><span>аг͠гелꙋ божїю, глаголѧ власти оустоуди сѧ сїа, ѧже богъ</span><br/><span>дарова свѧщенникѡм вѧзати и рѣшити ꙗже на небеси и</span><br/><span>ꙗже на земли, и възврати доушѫ отрочѧте въ тѣло єго,</span><br/><span>дондеже кръстит сѧ; не бѡ повелѣнꙿ єси прѣжде кр(ъ)щенїа</span><br/><span>възѧти доушѫ єго. Сїа презвитероу рекшꙋ къ</span><br/><span>аг͠гелоу, въста отрочѧ и, кр(ъ)стив сѧ, пакы ꙋспе ѡ</span><br/><span>господи. Се єст(ь) чистоты дѣйство, сице вѣст(ь) господь</span><br/><span>възмъздѣвати иже чистотѫ тѣлеснѫѧ нескврънѫ съхраншїих</span><br/><span>на свое благооугожденїе и славѫ.</span></p></div>
+</div>
+
+	</div>
+
+	<div id="footer">
+		
+		<div>&copy; Софийски университет &bdquo;Св. Климент Охридски&ldquo; 2011-2019</div>
+		
+	</div>
+
+</div>
+
+</body>
+</html>

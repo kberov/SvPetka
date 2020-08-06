@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Corpus - Благодарим тѧ, господи, боже нашъ, ѡ въсѣх, ихже ѡт вѣка</title>
+	<meta charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/dict_edit.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/dict_public.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/textcorpus.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/textcorpus_search.css" />
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/static/images/hdict-logo.ico" />
+	
+	<script src="/static/js/jquery-1.11.2.js"></script>
+	<script src="/static/js/jquery-migrate-1.2.1.js"></script>
+	<script src="/static/js/jquery.ez-pinned-footer.js"></script>
+
+<script>
+	$(window).load
+	(
+		function (){
+			$("#footer").pinFooter('static');
+		}
+	);
+
+	$(window).resize
+	(
+		function (){
+			$("#footer").pinFooter('static');
+		}
+	);
+</script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/tipTip.css" />
+<script src="/static/js/jquery.tipTip.minified.js"></script>
+
+<script>
+function confirm_deletion(ttl){
+	var msg = "Сигурни ли сте, че искате да изтриете този текст?"
+	return confirm(msg);
+}
+
+function showInfo(obj, ids){
+	var content = "<div>";
+	$(ids).each
+	(
+		function (idx, id){
+			obj_class = $(id).attr("class");
+			if (obj_class == "comment"){
+				title = "Бележка под линия";
+			}
+			else{
+				title = "Разночетене";
+			}
+			content = content+"<h1>"+title+"<\/h1>";
+			content = content +"<p>"+$(id).html()+"<\/p>";
+		}
+	);
+	content = content+"<\/div>";
+	$(obj).tipTip({content: content, maxWidth: "400px", defaultPosition: "top", delay: 100, activation: "click", keepAlive: true});
+}
+
+$(window).load
+(
+	function (){
+		if ($("div.editor_text").html().trim() == ""){
+			$("div.editor_text").css("margin-top", "0px");
+		}
+	}
+);
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="header">
+		
+			
+			<a href="/" title="Български исторически речник">
+			
+			<img src="/static/images/logo.png" alt="Лого" />
+			</a>
+		
+	</div>
+
+	<div id="menu">
+		
+		<ul>
+			
+			<li><a href="/session/login" title="">&raquo;&nbsp;Вход</a></li>
+			
+			<li><a href="/textcorpus/list" title="">&raquo;&nbsp;Текстов&nbsp;корпус</a></li>
+			
+			<li><a href="/chronograph/clist" title="">&raquo;&nbsp;Хронограф</a></li>
+			
+
+			
+			<li><a href="/oldbgdict/oldbg_search" title="">&raquo;&nbsp;Стб.&nbsp;речник</a></li>
+
+			
+			<li><a href="/dictionary/search" title="">&raquo;&nbsp;Ист.&nbsp;речник</a></li>
+			
+			<li style="margin-left:20px"><a href="/dictionary/resolve_forms" title="">&raquo;&nbsp;Словоформи</a></li>
+			
+			
+
+			
+			<li><a href="/evtdict/evt_search" title="">&raquo;&nbsp;Евт.&nbsp;речник</a></li>
+			
+			
+
+			
+			<li><a href="/trmdict/trm_search" title="">&raquo;&nbsp;Терм.&nbsp;речник</a></li>
+			
+			
+
+			
+			<li><a href="/textcorpus/search" title="">&raquo;&nbsp;Търсене</a></li>
+
+			<li><a href="http://e-medievalia.uni-sofia.bg/moodle" title="">&raquo;&nbsp;Средновековен&nbsp;речник</a></li>
+			
+		</ul>
+		
+	</div>
+
+	<div id="content">
+		
+
+<div class="content_title">
+	Текстов корпус
+</div>
+
+
+	
+		<div class="content_title title_lang_chu">
+			<span>Благодарим тѧ, господи, боже нашъ, ѡ въсѣх, ихже ѡт вѣка</span>
+			
+		</div>
+
+	<div id="doc_header">
+	
+
+	
+		
+		
+			<span class="label">Заглавие на латински:</span>-<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Жанр:</span>Служба<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Автор:</span>Патриарх Евтимий<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на ръкописа:</span>ХV в.<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на превода:</span><br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на преписа:</span><br />
+		
+	
+
+	
+		
+		
+			<span class="label">Правопис:</span>Среднобългарски<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Име на ръкописа:</span>-<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Хранилище на ръкописа:</span>Зографски манастир<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Сигнатура на ръкописа:</span><br />
+		
+	
+
+	
+		
+		
+			<span class="label">Издание:</span>Werke des Patriarchen von Bulgarien Euthymius  (1375-1393) nach den besten Handschriften herausgegeben von Emil Kałužniacki. Wien 1901<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Страници:</span>344-345<br />
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+			<span class="label">doc_id</span>doc_217<br />
+		
+	
+
+	
+		
+		
+	
+
+	</div>
+
+<div class="real_text">
+	<div class="body">
+		<p><p><span class="pagenum"><span>344</span></span><br/><span>Благодарим тѧ, господи, боже нашъ, ѡ въсѣх, ихже</span><br/><span>ѡт вѣка бывшїихь на нас чюдесь твоих, славимь твое</span><br/><span>безчисльное благоѫтрѡбїе и благость, величаемь свѣтломъ</span><br/><span>гласом и възпроповѣдꙋемь твоѫ безмѣрнѫѧ благость,</span><br/><span>ѧже на въсѣх богатно излїаль еси. Ибо ѡт небытїа въ</span><br/><span>бытїе нас приведе, доушеѫ оумноѫ и ѡбразѡмь своимь</span><br/><span>бож(ь)стьвнымъ почьт въсе чювестъвное създанїе и</span><br/><span>ꙗкоже раба нѣкоего и слꙋгѫ чловѣчьскомꙋ ст(ь)ствꙋ</span><br/><span>покори, таже и падша сѧ завистїѫ лютоѫ и прѣльстїѫ</span><br/><span>лѫкавааго ѕвѣрѣ въ пръвѣмь достоиньствѣ и царствїи</span><br/><span>ꙋстрои и враждѫ раздрꙋши и къ себѣ примири нас</span><br/><span>ч(ь)стныимъ единороднаагѡ сына твоегѡ кр(ъ)стомъ и кръвїѧ.</span><br/><span>И кто доволень изглаголати силы твоѫ, или кто слышана</span><br/><span>благодѣанїа сътворить, ꙗже на наше ест(ь)ство ѡбещнѣ</span><br/><br/><span class="pagenum"><span>345</span></span><br/><span>прострѣтъ? Благодарим тѧ, чловѣколюбче владыко, и ѡ</span><br/><span>новыих дарѡванїих, ихже на нас недостойных съдѣлаль</span><br/><span>еси, браней междѡсобныих и меча варварскаго и ѡгнынаго</span><br/><span>належа и горкаго плѣненїа же и порабѡщенїа вышьшѫ</span><br/><span>показавь, паче въсѣкогѡ слова дръжавы твоеѫ.</span><br/><span>Познаваемь благодѣанїе, не ѡтмѣтаемь благод(ѣ)ть, дарѡванїй</span><br/><span>величьство благоразꙋмно възпроповѣдꙋемъ, нѫ съблюди</span><br/><span>нас и въ прочее врѣмѧ ѡт злыих безьстрастны. Молим</span><br/><span>ти сѧ, чловѣколюбче, да не грѣх наших мнѡжьство, ꙗкоже</span><br/><span>стѣна желѣзна прѣд лицем нашимъ ставши, сѣчеть рѣкѫ</span><br/><span>твоеѫ неизреченныѫ благости, ни же иже единоѫ нам</span><br/><span>данныѫ помѡщи и покрова ради недостоинꙿства ѡбнажим сѧ,</span><br/><span>да не порадоует сѧ врагь ѡ погибѣли нашей, ниже да</span><br/><span>бѫдемъ сѫсѣдѡмъ нашимъ, безаконѣйшимь ѫзыком,</span><br/><span>поношенїе. Избави, господи, град нашь съй и въсѣкь град</span><br/><span>и странѫ, на нейже правѣ и непорѡчнѣ нарече сѧ имѧ</span><br/><span>твое свѧтое, ѡт гладѣ, гꙋбительства, ѡгнѣ, меча,</span><br/><span>нашествїа иноплеменникь, и ѡт междѡсобныѫ брани и</span><br/><span>варварскыѫ и ѡт въсѣкогѡ зла молитвами и</span><br/><span>прѣдстательствомь госпождѫ и владычицѫ нашѫ богородицѫ и</span><br/><span>приснодѣвы Марїѧ, застѫпницѫ и хранителницѫ</span><br/><span>свѧщеннаго твоего сего града, и лика апостолаго начѧлникь,</span><br/><span>Петра и Павла, благод(ѣ)тїѧ и чловѣколюбїемь</span><br/><span>единорѡднааго сына твоего, съ нимже благословень еси</span><br/><span>съ прѣсвѧтыимь и благыимь и живѡтворѧщїим ти доухѡмъ</span><br/><span>н(ы)нѣ и присно и въ вѣкы вѣкѡм.</span><br/><br/></p></p></div>
+</div>
+
+	</div>
+
+	<div id="footer">
+		
+		<div>&copy; Софийски университет &bdquo;Св. Климент Охридски&ldquo; 2011-2019</div>
+		
+	</div>
+
+</div>
+
+</body>
+</html>
