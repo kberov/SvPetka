@@ -45,27 +45,24 @@ c(
 };
 # бꙋкви за създаване на израз ѿ примерна дума и търсене
 has bukvi => sub{
-    {
+    my $l = {
         'о' =>"[оѡꙫѻꙩ]",
         'ѡ' =>"[оѡꙫѻꙩ]",
         'ꙫ' =>"[оѡꙫѻꙩ]",
         'ѻ' =>"[оѡꙫѻꙩ]",
         'ꙩ' =>"[оѡꙫѻꙩ]",
-        'з' =>"[зѕꙁꙃ]",
-        'ѕ' =>"[зѕꙁꙃ]",
-        'ꙁ' =>"[зѕꙁꙃ]",
-        'ꙁ' =>"[зѕꙁꙁ]",
         'ы' =>"[ыꙑ]",
         'ыи' =>"[ыꙑ]и?",
         'ꙑ' =>"[ыꙑ]",
         'ꙑи' =>"[ыꙑ]и?",
-        'ъ' =>"[ьъ]?",
+        'ъ' =>"[ъьꙿ]?",
         'ь' =>"[ьъꙿ]?",
-        'ꙿ' =>"[ьъꙿ]?",
-        'е' =>"[єеѧꙙ]",
-        'є' =>"[еєѧꙙ]",
-        'ѧ' =>"[ѧꙙеє]",
-        'ꙙ' =>"[ꙙѧеє]",
+        'ꙿ' =>"[ꙿьъ]?",
+        'е' =>"[еєѥ]",
+        'є' =>"[єеѥ]",
+        'ѥ' =>"[ѥеє]",
+        'ѧ' =>"[ѧꙙ]",
+        'ꙙ' =>"[ꙙѧ]",
         'и' =>"[ийії]",
         'й' =>"[йиії]",
         'і' =>"[іїий]",
@@ -77,21 +74,46 @@ has bukvi => sub{
         'ꙋ' => '[ꙋѹу]',
         'ѹ' => '[ѹꙋу]',
         'у' => '[уꙋѹ]',
-        'їе' =>'(?:їе|ѥ|іе)'
+        'ѫ' => '[ѫуꙋ]',
+        'їе' =>'(?:їе|ѥ|іе)',
+    };
+    my @glasni = keys %$l;
+    $l ={
+        'з' =>"[зѕꙁꙃ]",
+        'ѕ' =>"[ѕзꙁꙃ]",
+        'ꙁ' =>"[ꙁзѕꙃ]",
+        'ꙃ' =>"[ꙃзѕꙁ]",
+        %$l
+    };
+    
+    my @syglasni = (qw(б в г д ж к л м н п р с т ф х ц ч ш щ з ѕ ꙁ ꙃ ѿ));
+    for my $b (@syglasni){
+        for my $y(@glasni){
+            $l->{"$b$y"}  = "$b$l->{$y}";
+            $l->{$b} = "$b$l->{ъ}";
+        }
+            $l->{н} = "[eьъꙿ]?н$l->{ъ}";
+
     }
+    return $l;
 };
 
 sub make_word_regex ($self,$w){
     state $l = $self->bukvi;
     # longer keys first
-    my $rex_keys =  [sort {length($b)<=>length($a)} keys %$l];
+    state $rex_keys =  [sort {length($b)<=>length($a)} sort keys %$l];
     # build the regex for this word
-   my $rex_keys_rex = join '|', @$rex_keys;  
-    my $rex = $w =~ s/($rex_keys_rex)/$l->{$1}?$l->{$1}:$1/ger;
+    state $rex_keys_rex = join '|', @$rex_keys;  
+    #say $rex_keys_rex;
+    my $m ='';
+    my $rex = $w =~ s/($rex_keys_rex)/
+        (($m = lc $1) && ($l->{$m} ? $l->{$m} : $m))
+        /xiger;
     $rex = qr/$rex/iu;
-    say "$w:$rex";
+    say "$w:/$rex/";
     return $rex;
 }
+
 sub main() {
     my $word_forms = [];
     getopt 'W|words=s@' => \$word_forms;
@@ -100,7 +122,8 @@ sub main() {
    } 
 
    @$word_forms  || do {
-        say "Please pass at least one word to search for";
+        say "Please pass at least one word to search for:$/"
+        ."$0 -W ѿьче";
         exit;
     };
     my $wf = __PACKAGE__->new;
