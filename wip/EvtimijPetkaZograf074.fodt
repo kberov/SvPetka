@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-26T19:56:08.922257676</meta:creation-date><dc:date>2020-08-06T02:04:04.392786231</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>P1DT11H25M24S</meta:editing-duration><meta:editing-cycles>134</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="31" meta:paragraph-count="266" meta:word-count="10845" meta:character-count="64907"/></office:meta>
+ <office:meta><meta:initial-creator>Красимир Беров</meta:initial-creator><meta:creation-date>2020-07-26T19:56:08.922257676</meta:creation-date><dc:date>2020-08-08T23:51:15.342461141</dc:date><dc:creator>Красимир Беров</dc:creator><meta:editing-duration>P1DT11H27M30S</meta:editing-duration><meta:editing-cycles>136</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="0" meta:object-count="0" meta:page-count="31" meta:paragraph-count="266" meta:word-count="10847" meta:character-count="64919" meta:non-whitespace-character-count="54187"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">126977</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">693817</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">984</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">18359</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">16288</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">8186</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">133182</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">9648</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">703561</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">984</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">126977</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">693817</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">19341</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">143263</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">710103</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -88,7 +88,7 @@
    </config:config-item-map-indexed>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">16199398</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">16258735</config:config-item>
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
@@ -160,7 +160,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="bg" fo:country="BG" style:letter-kerning="true" style:font-name-asian="Noto Serif CJK SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Lohit Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -701,52 +701,55 @@
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="1.499cm" fo:text-indent="0cm" style:auto-text-indent="false" style:page-number="auto"/>
    <style:text-properties officeooo:paragraph-rsid="000e0723"/>
   </style:style>
-  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:paragraph-rsid="00b3b57e"/>
+  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Евтимий">
+   <style:text-properties officeooo:paragraph-rsid="00f3ad62"/>
   </style:style>
   <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties officeooo:paragraph-rsid="00b3b57e"/>
   </style:style>
   <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
+  </style:style>
+  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties style:font-name="Noto Sans" fo:font-size="18.2000007629395pt" fo:font-weight="250" officeooo:rsid="00f22c20" officeooo:paragraph-rsid="00f22c20" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18.2000007629395pt" style:font-weight-asian="bold" style:font-name-complex="Lohit Devanagari" style:font-size-complex="18.2000007629395pt" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:paragraph-rsid="00bd45b1"/>
   </style:style>
-  <style:style style:name="P103" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L1">
+  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L1">
    <style:text-properties officeooo:paragraph-rsid="00bb8a69"/>
   </style:style>
-  <style:style style:name="P104" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L1">
+  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L1">
    <style:text-properties officeooo:paragraph-rsid="00c77a4a"/>
   </style:style>
-  <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties officeooo:paragraph-rsid="00b755e9"/>
   </style:style>
-  <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffff00" draw:opacity="100%"/>
    <style:paragraph-properties fo:background-color="#ffff00"/>
    <style:text-properties officeooo:paragraph-rsid="00b755e9"/>
   </style:style>
-  <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties officeooo:paragraph-rsid="00ed8584"/>
   </style:style>
-  <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties officeooo:paragraph-rsid="00da7ec2"/>
   </style:style>
-  <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties officeooo:rsid="00b4e4da" officeooo:paragraph-rsid="00b755e9"/>
   </style:style>
-  <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:text-properties officeooo:paragraph-rsid="00be08b2"/>
   </style:style>
-  <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:text-properties officeooo:paragraph-rsid="00bf0d7b"/>
   </style:style>
-  <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+  <style:style style:name="P113" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
    <style:text-properties officeooo:rsid="00be08b2" officeooo:paragraph-rsid="00dd1744"/>
   </style:style>
-  <style:style style:name="P113" style:family="paragraph">
+  <style:style style:name="P114" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:paragraph-properties style:writing-mode="lr-tb"/>
    <style:text-properties style:font-name="Acari Sans Light1"/>
@@ -1196,52 +1199,61 @@
    <style:text-properties style:font-name="Bukyvede Light" fo:font-size="14pt" fo:language="zxx" fo:country="none" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00eb3564"/>
   </style:style>
   <style:style style:name="T149" style:family="text">
-   <style:text-properties officeooo:rsid="00da7ec2"/>
+   <style:text-properties style:font-name="Bukyvede Light" fo:font-size="14pt" fo:language="zxx" fo:country="none" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00f816af"/>
   </style:style>
   <style:style style:name="T150" style:family="text">
-   <style:text-properties officeooo:rsid="00dc69e1"/>
+   <style:text-properties officeooo:rsid="00da7ec2"/>
   </style:style>
   <style:style style:name="T151" style:family="text">
-   <style:text-properties officeooo:rsid="00dd1744"/>
+   <style:text-properties officeooo:rsid="00dc69e1"/>
   </style:style>
   <style:style style:name="T152" style:family="text">
-   <style:text-properties style:font-name="Acari Sans Light1"/>
+   <style:text-properties officeooo:rsid="00dd1744"/>
   </style:style>
   <style:style style:name="T153" style:family="text">
-   <style:text-properties officeooo:rsid="00dd7f07"/>
+   <style:text-properties style:font-name="Acari Sans Light1"/>
   </style:style>
   <style:style style:name="T154" style:family="text">
-   <style:text-properties officeooo:rsid="00df2ae9"/>
+   <style:text-properties officeooo:rsid="00dd7f07"/>
   </style:style>
   <style:style style:name="T155" style:family="text">
-   <style:text-properties officeooo:rsid="00e2a30e"/>
+   <style:text-properties officeooo:rsid="00df2ae9"/>
   </style:style>
   <style:style style:name="T156" style:family="text">
-   <style:text-properties officeooo:rsid="00e49591"/>
+   <style:text-properties officeooo:rsid="00e2a30e"/>
   </style:style>
   <style:style style:name="T157" style:family="text">
-   <style:text-properties officeooo:rsid="00eb3564"/>
+   <style:text-properties officeooo:rsid="00e49591"/>
   </style:style>
   <style:style style:name="T158" style:family="text">
-   <style:text-properties officeooo:rsid="00eb8637"/>
+   <style:text-properties officeooo:rsid="00eb3564"/>
   </style:style>
   <style:style style:name="T159" style:family="text">
-   <style:text-properties officeooo:rsid="00ecbac4"/>
+   <style:text-properties officeooo:rsid="00eb8637"/>
   </style:style>
   <style:style style:name="T160" style:family="text">
-   <style:text-properties officeooo:rsid="00f19640"/>
+   <style:text-properties officeooo:rsid="00ecbac4"/>
   </style:style>
   <style:style style:name="T161" style:family="text">
-   <style:text-properties officeooo:rsid="00f20816"/>
+   <style:text-properties officeooo:rsid="00f19640"/>
   </style:style>
   <style:style style:name="T162" style:family="text">
-   <style:text-properties officeooo:rsid="00f22c20"/>
+   <style:text-properties officeooo:rsid="00f20816"/>
   </style:style>
   <style:style style:name="T163" style:family="text">
-   <style:text-properties officeooo:rsid="00f4edd0"/>
+   <style:text-properties officeooo:rsid="00f22c20"/>
   </style:style>
   <style:style style:name="T164" style:family="text">
+   <style:text-properties officeooo:rsid="00f4edd0"/>
+  </style:style>
+  <style:style style:name="T165" style:family="text">
    <style:text-properties style:font-name="Acari Sans Light"/>
+  </style:style>
+  <style:style style:name="T166" style:family="text">
+   <style:text-properties officeooo:rsid="00f816af"/>
+  </style:style>
+  <style:style style:name="T167" style:family="text">
+   <style:text-properties officeooo:rsid="00f3ad62"/>
   </style:style>
   <style:style style:name="Sect1" style:family="section">
    <style:section-properties style:editable="false">
@@ -1461,12 +1473,12 @@
    </text:sequence-decls>
    <text:p text:style-name="P98"/>
    <text:p text:style-name="P13">Житие и Живот на нашата Преподобна Майка Параскева</text:p>
-   <text:p text:style-name="Subtitle"><draw:frame text:anchor-type="paragraph" draw:z-index="0" draw:name="authors_box" draw:style-name="gr1" draw:text-style-name="P113" svg:width="10.314cm" svg:height="3.051cm" svg:x="3.515cm" svg:y="12.635cm">
+   <text:p text:style-name="Subtitle"><draw:frame text:anchor-type="paragraph" draw:z-index="0" draw:name="authors_box" draw:style-name="gr1" draw:text-style-name="P114" svg:width="10.314cm" svg:height="3.051cm" svg:x="3.515cm" svg:y="12.635cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T152">Превод: проф. Климентина Иванова</text:span></text:p>
-      <text:p><text:span text:style-name="T152">Набор: проф. Татяна Славова</text:span></text:p>
-      <text:p><text:span text:style-name="T152">Научен ръководител: доц. Диана Атанасова</text:span></text:p>
-      <text:p><text:span text:style-name="T152">Съставил: Красимир Беров</text:span></text:p>
+      <text:p><text:span text:style-name="T153">Превод: проф. Климентина Иванова</text:span></text:p>
+      <text:p><text:span text:style-name="T153">Набор: проф. Татяна Славова</text:span></text:p>
+      <text:p><text:span text:style-name="T153">Научен ръководител: доц. Диана Атанасова</text:span></text:p>
+      <text:p><text:span text:style-name="T153">Съставил: Красимир Беров</text:span></text:p>
      </draw:text-box>
     </draw:frame>вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . съписанѡ eѵѳѵмїемь патрїархѡмь трънѡвскыимъ</text:p>
    <text:table-of-content text:style-name="Sect1" text:protected="true" text:name="Table of Contents1">
@@ -1590,7 +1602,7 @@
     <table:table-column table:style-name="Житието.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P54"><text:span text:style-name="T158">74r&gt;</text:span>житїе и жизнь прѣподобныѫ матере нашѧ параскеви . вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . съписанѡ <text:span text:style-name="T51">===</text:span> еѵѳѵмїемь патрїархѡмь трънѡвскыимъ . благослѡви ѡтьче +</text:p>
+      <text:p text:style-name="P54"><text:span text:style-name="T159">74r&gt;</text:span>житїе и жизнь прѣподобныѫ матере нашѧ параскеви . вь нем же и како прѣнесена быстъ вь прѣславныи . градъ тръновь . съписанѡ <text:span text:style-name="T51">===</text:span> еѵѳѵмїемь патрїархѡмь трънѡвскыимъ . благослѡви ѡтьче +</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P15">ЖИТИЕ И ЖИВОТ НА НАШАТА ПРЕПОДОБНА МАЙКА ПАРАСКЕВА И КАК ТЯ БЕ ПРЕНЕСЕНА В ПРЕСЛАВНИЯ (НАШ) ГРАД ТЪРНОВО, НАПИСАНО ОТ (КИР)1 ЕВТИМИЙ, ПАТРИАРХ ТЪРНОВСКИ. <text:span text:style-name="T52">Благослови, Отче +</text:span></text:p>
@@ -1662,7 +1674,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P55">аще бѡ и не по лѣпотѣ, ѻбаче достоить и намъ что любѡ ключимо тои принести . ключимо же вьсѣко бѫдетъ иже словѡмь почьтеныимь намь, слов<text:span text:style-name="T54">есъ</text:span> прѣжде иныхъ ꙗко вь лѣпотѫ прїнести и тлѣнных<text:span text:style-name="T59">ъ </text:span><text:span text:style-name="T158">74v&gt;</text:span>Еликѡ по силѣ <text:span text:style-name="T59">ѿд</text:span>ати дльгъ, тѡи же пакы ꙗко нетлѣннѣ благодатъ подати иже немощїѫ слова бѣдствꙋѫщїимъ намъ • Елма же къ иже сице свѣтлѡи намъ словѡ, и свѣтлѡ прѡчее начѧлѡ бѫдѧтъ съ свѣтлоѫ повѣстїѫ •</text:p>
+      <text:p text:style-name="P55">аще бѡ и не по лѣпотѣ, ѻбаче достоить и намъ что любѡ ключимо тои принести . ключимо же вьсѣко бѫдетъ иже словѡмь почьтеныимь намь, слов<text:span text:style-name="T54">есъ</text:span> прѣжде иныхъ ꙗко вь лѣпотѫ прїнести и тлѣнных<text:span text:style-name="T59">ъ </text:span><text:span text:style-name="T159">74v&gt;</text:span>Еликѡ по силѣ <text:span text:style-name="T59">ѿд</text:span>ати дльгъ, тѡи же пакы ꙗко нетлѣннѣ благодатъ подати иже немощїѫ слова бѣдствꙋѫщїимъ намъ • Елма же къ иже сице свѣтлѡи намъ словѡ, и свѣтлѡ прѡчее начѧлѡ бѫдѧтъ съ свѣтлоѫ повѣстїѫ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Макар и не така достолепно, но трябва и ние да ѝ поднесем нещо пристойно. А за нас, които сме почетени с дара на словото, ще бъде най-пристойно словото да поднесем като предостойнолепно пред другите тленни неща, та да се ѝ издължим според силите си; а пък тя, като нетленна, да ни даде благодат – на нас, които страдаме от безсилието на словото. А понеже нашето слово е към толкова светлата, то чрез светлата повест ще започне светлото начало!</text:p>
@@ -1758,7 +1770,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Ибѡ ꙗкоже вь тъмѣ сѣдѫще нѣцїи . ѿ единыѧ тоѫ ракы ꙗкоже ѿ нѣктѡрыѫ ламбады своѧ вьжегѡшѫ свѣтилникы, паче же дꙋшѫ .и вь храминѫ своѫ <text:span text:style-name="T63">|</text:span><text:span text:style-name="T158">75r&gt;</text:span>кьжьдѡ вьшедъ, тѡѫ застѫпленїе ѻщꙋщаѫ и покрѡвь . имат бѡ источникъ исцѣленїи незавидимъ и еликѡ чръплемъ бываетъ, тѡликѡ кыпитъ · и еликѡ кыпитъ, тѡликѡ исцѣленїи мнѡжъствѡ истѣкаетъ ꙗко(вꙋ) же хѡщеши недѫгꙋ ·</text:p>
+      <text:p text:style-name="Евтимий">Ибѡ ꙗкоже вь тъмѣ сѣдѫще нѣцїи . ѿ единыѧ тоѫ ракы ꙗкоже ѿ нѣктѡрыѫ ламбады своѧ вьжегѡшѫ свѣтилникы, паче же дꙋшѫ .и вь храминѫ своѫ <text:span text:style-name="T63">|</text:span><text:span text:style-name="T159">75r&gt;</text:span>кьжьдѡ вьшедъ, тѡѫ застѫпленїе ѻщꙋщаѫ и покрѡвь . имат бѡ источникъ исцѣленїи незавидимъ и еликѡ чръплемъ бываетъ, тѡликѡ кыпитъ · и еликѡ кыпитъ, тѡликѡ исцѣленїи мнѡжъствѡ истѣкаетъ ꙗко(вꙋ) же хѡщеши недѫгꙋ ·</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="Климентина">Защото онези, що бяха като в мрак, от едничкия неин ковчег сякаш от някаква лампада запалиха своите светилници, а по-точно – душите. И всеки, влязъл в къщата си, усеща нейното застъпничество, защото има щедър извор на изцеление. И колкото повече черпят от него, толкова повече извира; и колкото повече извира, толкова повече лекува каквото и да е страдание!</text:p>
@@ -1806,7 +1818,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">И что ми прочее въ дльготѫ простирати словѡ . и слова слышателемъ ꙋсръдїе заграждати, а не къ житїꙋ ѻбратити сѧ прѣподобныѫ, и тоѫ дѣанїа ꙗкоже на свѣщницѣ положити ; и въсѣхъ слꙋхы истиноѫ ѻгласити . не малѫ бѡ хѡдатаиствꙋетъ полѕѫ иже съ ꙋсръдїемъ сїе прохѡдити <text:span text:style-name="T158">75v&gt;</text:span>окꙋшаѫщим сѧ, и по нельстнѣи и неблазнънѣи шествꙋѫщимъ стъѕи</text:p>
+      <text:p text:style-name="Евтимий">И что ми прочее въ дльготѫ простирати словѡ . и слова слышателемъ ꙋсръдїе заграждати, а не къ житїꙋ ѻбратити сѧ прѣподобныѫ, и тоѫ дѣанїа ꙗкоже на свѣщницѣ положити ; и въсѣхъ слꙋхы истиноѫ ѻгласити . не малѫ бѡ хѡдатаиствꙋетъ полѕѫ иже съ ꙋсръдїемъ сїе прохѡдити <text:span text:style-name="T159">75v&gt;</text:span>окꙋшаѫщим сѧ, и по нельстнѣи и неблазнънѣи шествꙋѫщимъ стъѕи</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">И защо да преудължавам речта и да бъда преграда за усърдието на слушащите словото, а да не се обърна към живота на преподобната, да положа нейните деяния като върху светилник, та чрез истината да поразя всички уши?! Не малка полза ще измоли тя за ония, които се опитват да вникнат с усърдие, а не вървят по лъстив и измамен път.</text:p>
@@ -1846,7 +1858,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">и ꙗко ꙋбѡ сїа въ ꙋмѣ прїемъ, и съмыслънѣ расѫдивъ, и ꙗко стрѣлѡѫ нѣкѡтѡрѡѫ ꙋꙗзвена бывши, абїе изъ цръкве изшедьши . и ꙋбѡга нѣкѡегѡ срѣтши, сънемши съ себе ризы и въсѧ ѧже нѡшааше дѣвичьскѫѧ ꙋтварь, тѡмꙋ въсѣ ꙋсръдно ѿдастъ . сама же тѡго ризами себе ѻдѣа никѡмꙋ же сїа ѿнѫдь вѣдѧщꙋ въ прѣмѫдрѣмъ нѣкѡемъ разꙋмѣ сѫщи, <text:span text:style-name="T158">76r&gt;</text:span>зане жилище бѣше прѣст͠гѡ дх͠а ·</text:p>
+      <text:p text:style-name="Евтимий">и ꙗко ꙋбѡ сїа въ ꙋмѣ прїемъ, и съмыслънѣ расѫдивъ, и ꙗко стрѣлѡѫ нѣкѡтѡрѡѫ ꙋꙗзвена бывши, абїе изъ цръкве изшедьши . и ꙋбѡга нѣкѡегѡ срѣтши, сънемши съ себе ризы и въсѧ ѧже нѡшааше дѣвичьскѫѧ ꙋтварь, тѡмꙋ въсѣ ꙋсръдно ѿдастъ . сама же тѡго ризами себе ѻдѣа никѡмꙋ же сїа ѿнѫдь вѣдѧщꙋ въ прѣмѫдрѣмъ нѣкѡемъ разꙋмѣ сѫщи, <text:span text:style-name="T159">76r&gt;</text:span>зане жилище бѣше прѣст͠гѡ дх͠а ·</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P69">Като запомни тези думи, тя вникна разумно. И сякаш устрелена от някаква стрела, веднага излезе от църквата, срещна един просяк, смъкна от себе си одеждите и цялата моминска украса, що носеше, и от сърце му даде всичко, а сама се облече с неговите дрехи, без никой никак да знае за това, с някакво премъдро прозрение, понеже бе жилище на пресветия дух.</text:p>
@@ -1895,7 +1907,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Прѣдреченное же ѻтрочѧ сеѫ прѣподобныѫ п<text:span text:style-name="T71">ѧ</text:span>ткы брать . ꙗко ꙋбѡ свѧщеннаа дѡбрѣ иꙁвыче <text:span text:style-name="T71">пис</text:span>анїа, рѡдителѧ дѡбрѣ къ б<text:span text:style-name="T71">огꙋ</text:span> прѣдпосла, инѡчъскыимъ себе ѻдѣа ѻбраꙁомъ . кѵръ еѵѳѵмїемъ именованъ <text:span text:style-name="T158">76v&gt;</text:span>бывъ · и вьськь дѡбрѡдѣтѣлныи прошедши пѫть , на врьхъ дѡбрѡдѣтѣлныѫ прѣвъꙁыде лѣствицѫ . Ꙗкоже имени егѡ по въсѫдꙋ ѻбносимо быти • иже ꙁа прѣмнѡгыѫ егѡ дѡбрѡдѣтѣли , на архїереиства прѣстѡлъ въꙁведьнъ быстъ. и мадитьскы поставленъ быстъ пръвѡпрѣстѡлникь же и пастырь ⸱идеже и мнѡгаа и прѣславна съдѣа чюдеса .</text:p>
+      <text:p text:style-name="Евтимий">Прѣдреченное же ѻтрочѧ сеѫ прѣподобныѫ п<text:span text:style-name="T71">ѧ</text:span>ткы брать . ꙗко ꙋбѡ свѧщеннаа дѡбрѣ иꙁвыче <text:span text:style-name="T71">пис</text:span>анїа, рѡдителѧ дѡбрѣ къ б<text:span text:style-name="T71">огꙋ</text:span> прѣдпосла, инѡчъскыимъ себе ѻдѣа ѻбраꙁомъ . кѵръ еѵѳѵмїемъ именованъ <text:span text:style-name="T159">76v&gt;</text:span>бывъ · и вьськь дѡбрѡдѣтѣлныи прошедши пѫть , на врьхъ дѡбрѡдѣтѣлныѫ прѣвъꙁыде лѣствицѫ . Ꙗкоже имени егѡ по въсѫдꙋ ѻбносимо быти • иже ꙁа прѣмнѡгыѫ егѡ дѡбрѡдѣтѣли , на архїереиства прѣстѡлъ въꙁведьнъ быстъ. и мадитьскы поставленъ быстъ пръвѡпрѣстѡлникь же и пастырь ⸱идеже и мнѡгаа и прѣславна съдѣа чюдеса .</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P71">А споменатият отрок, братът на преподобната Петка, след като усвои добре свещените книги и достойно изпрати при бога родителите си, облече се в иночески образ и бе наречен кир Евтимий. Той измина добродетелния път и възлезе върху добродетелната лествица8, така че името му се прочу навсякъде. За премногото му добродетели бе възведен на архиерейския престол и бе ръкоположен за Мадитски първопрестолник и пастир; много и преславни чудеса извърши той там!</text:p>
@@ -1929,7 +1941,7 @@
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
       <text:p text:style-name="Евтимий">и пꙋстынѧ полꙋчьши , тамо невещестъвное </text:p>
-      <text:p text:style-name="Евтимий">и ангельскѡе прѣбывааше житїе ⸱ ничимже мнее боговидца иліѫ подражаваѫ жителствѡ (ил)и истиннѣишее рещи , крьстителѣ въ въсемъ подражаваѫщи житїемъ ⸱ пѡстѡмъ и бдѣнїемъ себе ꙋдрѫчаѫщи . пꙋстынное же былїе прїчѧщаѫ сѧ . и се скарѧдѣ же и хꙋдѣ . стꙋденїѫ же и ꙁноемъ иставаема, и къ единомꙋ тъчїѫ въꙁираѫщи спасти могꙋщамꙋ ѿ малѡдꙋшиа и бꙋрѧ смѣреннѧ сръдцемъ ⸱ нѫ ни же тѡ самое былїе ни же вѡдѫ дѡ сытѡсти <text:span text:style-name="T87">|</text:span><text:span text:style-name="T158">77r&gt;</text:span><text:span text:style-name="T87">прїемльше , нѫ малѡ и хꙋдѣ и се ѕѣлѡ кь вечерꙋ •</text:span></text:p>
+      <text:p text:style-name="Евтимий">и ангельскѡе прѣбывааше житїе ⸱ ничимже мнее боговидца иліѫ подражаваѫ жителствѡ (ил)и истиннѣишее рещи , крьстителѣ въ въсемъ подражаваѫщи житїемъ ⸱ пѡстѡмъ и бдѣнїемъ себе ꙋдрѫчаѫщи . пꙋстынное же былїе прїчѧщаѫ сѧ . и се скарѧдѣ же и хꙋдѣ . стꙋденїѫ же и ꙁноемъ иставаема, и къ единомꙋ тъчїѫ въꙁираѫщи спасти могꙋщамꙋ ѿ малѡдꙋшиа и бꙋрѧ смѣреннѧ сръдцемъ ⸱ нѫ ни же тѡ самое былїе ни же вѡдѫ дѡ сытѡсти <text:span text:style-name="T87">|</text:span><text:span text:style-name="T159">77r&gt;</text:span><text:span text:style-name="T87">прїемльше , нѫ малѡ и хꙋдѣ и се ѕѣлѡ кь вечерꙋ •</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P72">След като бе получила пустинята, тя прекарваше там невеществено и ангелско житие, подражаваше, без да отстъпва в нищо, на битието на боговидеца Илия, или, казано по-точно, чрез живота си във всичко подражаваше на Кръстителя; измъчваше се чрез пост и бдение, вкусваше* само пустинна трева, а и нея – оскъдно и рядко; топеше се от зной и студ, взряна единствено в бога, в единствения, който може да спаси от малодушие и бури11 смирените по сърце. Но нито тази трева, нито вода не приемаше достатъчно, а малко и рядко, повече – привечер.</text:p>
@@ -1996,7 +2008,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Сице ꙋбѡ тѡи въ женскѡмъ естъствѣ мѫжьскыи стѧжавши раꙁꙋмъ , вьсѧ вражїѧ ꙗкоже нѣкотѡрѫѫ паѫчинѫ раꙁарѣаше къꙁни , и ꙗкоже давидъ на къждѡ дьнь мыслънагѡ ниꙁлагааше гѡлїаѳа • и бѣ <text:span text:style-name="T158">77v&gt;</text:span>нѣкако видѣти иже въ ꙁлѡбѣ хвалѧщаго сѧ велми ꙁъмі̇а , хꙋдѣ ниꙁлагаема и попираема ѿ мѫдрыѫ сеѫ дѣвы ꙗкоже хꙋдѫ нѣкоторѫѫ птицѫ •</text:p>
+      <text:p text:style-name="Евтимий">Сице ꙋбѡ тѡи въ женскѡмъ естъствѣ мѫжьскыи стѧжавши раꙁꙋмъ , вьсѧ вражїѧ ꙗкоже нѣкотѡрѫѫ паѫчинѫ раꙁарѣаше къꙁни , и ꙗкоже давидъ на къждѡ дьнь мыслънагѡ ниꙁлагааше гѡлїаѳа • и бѣ <text:span text:style-name="T159">77v&gt;</text:span>нѣкако видѣти иже въ ꙁлѡбѣ хвалѧщаго сѧ велми ꙁъмі̇а , хꙋдѣ ниꙁлагаема и попираема ѿ мѫдрыѫ сеѫ дѣвы ꙗкоже хꙋдѫ нѣкоторѫѫ птицѫ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P74">Тя придоби в женската природа мъжки разум, като някаква паяжина раздираше всички враждебни козни и сякаш Давид всекидневно поваляше мисления Голиат17. И можеше да се види как змията, величаеща се много в злобата, сякаш някаква зла птица, е повалена и стъпкана зле от тази мъдра дева!</text:p>
@@ -2053,7 +2065,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">И по семъ , ꙗкоже любѡдѣлнаа пчела вьсѧ пролѣтные цвѣты , сице иже тамо вьсѣ свѧтаа любѡтрꙋднѣ ѻбыдше мѣста, кь прѣсвѣтлѡмꙋ христовы <text:s/>матере прїиде храмꙋ , иже и влахерна именꙋет сѧ <text:span text:style-name="T157">78r&gt;</text:span>даже до дьне съ • и тамо къ тоѫ чьстнѣи припадши икѡнѣ , тѡплыѫ нещѫднѡ иꙁливааше слъꙁы •</text:p>
+      <text:p text:style-name="Евтимий">И по семъ , ꙗкоже любѡдѣлнаа пчела вьсѧ пролѣтные цвѣты , сице иже тамо вьсѣ свѧтаа любѡтрꙋднѣ ѻбыдше мѣста, кь прѣсвѣтлѡмꙋ христовы <text:s/>матере прїиде храмꙋ , иже и влахерна именꙋет сѧ <text:span text:style-name="T158">78r&gt;</text:span>даже до дьне съ • и тамо къ тоѫ чьстнѣи припадши икѡнѣ , тѡплыѫ нещѫднѡ иꙁливааше слъꙁы •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">После, като обходи любоусърдно, сякаш трудолюбна пчела всички пролетни цветя, всички тамошни свети места, тя стигна до пресветия храм на Христовата майка, наричан даже и до днес Влахерна. Там, паднала пред Богородичната честна икона, тя щедро лееше топли сълзи, говорейки:</text:p>
@@ -2231,7 +2243,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">и нынѣ вьсещедре господи , повели ангелꙋ мирнꙋ прїѧти мирнѡ ꙋбѡгѫѧ ми дꙋшѫ. и да не вьꙁбранен ми бѫдеть вьсхѡдь ѿ нечистхъ и скврънныихъ и лѫкавыихъ <text:span text:style-name="T157">78v&gt;</text:span>бѣсѡвь . нѫ сподоби мѧ съ дръꙁновленїемь прѣдьстати твоемꙋ страшномꙋ прѣстѡлꙋ , ꙗко благословень еси въ вѣкы вѣкѡмъ амин ⸱</text:p>
+      <text:p text:style-name="Евтимий">и нынѣ вьсещедре господи , повели ангелꙋ мирнꙋ прїѧти мирнѡ ꙋбѡгѫѧ ми дꙋшѫ. и да не вьꙁбранен ми бѫдеть вьсхѡдь ѿ нечистхъ и скврънныихъ и лѫкавыихъ <text:span text:style-name="T158">78v&gt;</text:span>бѣсѡвь . нѫ сподоби мѧ съ дръꙁновленїемь прѣдьстати твоемꙋ страшномꙋ прѣстѡлꙋ , ꙗко благословень еси въ вѣкы вѣкѡмъ амин ⸱</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">И днес, господи, заповядай на мирния ангел да приеме мирно бедната ми душа, та отхождането ми да не бъде спряно от нечисти и скверни, и лукави бесове! Но сподоби ме с дързостта да застана пред твоя страшен престол, защото си благословен вовеки веков, амин!»</text:p>
@@ -2287,7 +2299,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Ꙋжасни же бывше и чюдесе кꙋпно исплъншє сѧ , недоꙋмѣваахѫ сѧ <text:span text:style-name="T157">79r&gt;</text:span>ѻ сълꙋчьшим сѧ ѻбаче ꙗко неискꙋсни и нєвѣжде сѫще сълꙋчьшее сѧ ꙗкже нѣкѫѫ малѫ и ничьсѡ же сѫщѫ вещь прѣꙁрѣвше , блиꙁꙋ нѣгде тѫ трꙋпъ ѻнъ ꙁлѡсмрадныи ꙁаринѫшѫ • по домѡх же ꙗко раꙁьшедше сѧ вьси , ꙗвѣ сътворишѫ вьсѣмъ сълꙋчьшее сѧ •</text:p>
+      <text:p text:style-name="Евтимий">Ꙋжасни же бывше и чюдесе кꙋпно исплъншє сѧ , недоꙋмѣваахѫ сѧ <text:span text:style-name="T158">79r&gt;</text:span>ѻ сълꙋчьшим сѧ ѻбаче ꙗко неискꙋсни и нєвѣжде сѫще сълꙋчьшее сѧ ꙗкже нѣкѫѫ малѫ и ничьсѡ же сѫщѫ вещь прѣꙁрѣвше , блиꙁꙋ нѣгде тѫ трꙋпъ ѻнъ ꙁлѡсмрадныи ꙁаринѫшѫ • по домѡх же ꙗко раꙁьшедше сѧ вьси , ꙗвѣ сътворишѫ вьсѣмъ сълꙋчьшее сѧ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P77">Ужасени и едновременно удивени, те не можеха да проумеят случилото се. Обаче бидейки неопитни и невежи, те пренебрегнаха станалото като нещо незначително и несъществено и заровиха зловонния труп съвсем близо до светицата. После се разотидоха по домовете си, известявайки случилото се на всички.</text:p>
@@ -2360,7 +2372,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P58">Въ тѡ же врѣмѧ благѡчьстїе свѣтлѣ и ꙗвленїѣ крѣпцѣ ꙋдръжавшꙋ благѡчьстивѡмꙋ царю блъгарскомꙋ і̇ѡаннꙋ асѣню сынꙋ стараагѡ царѣ асѣнѣ • И никако же тѣхъ лаанїи ꙋжасшꙋ сѧ . нѫ и паче врѣмѧ благѡполꙋчно ѻбрѣтъ нечьстивых ѻдръжанїе , храбѡрнѣ вьскѡчи и вьсе македѡнскѡе ѻбьемшꙋ ѻдръжанїе . и еще же сѣрь тако и съ вьсеѫ аѳѡнскѡѫ паче же истѣннѣе рещи , свѧтоѫ гѡрѡѫ . <text:span text:style-name="T157">80r&gt;</text:span>къ симже и славныи сѡлꙋнь съ вьсеѫ Ѳетталїеѫ , такожде же и трївалы . такожде и далматїѫ , ꙗже и арванитскаа глаголеть сѧ дръжава , даже и до драчѣ . вь нихже и митрѡпѡлиты и епїскѡпы свѣтлѣ и благѡчьстивѣ постави , ꙗко же свѣтлїи егѡ хрїсѡвꙋли вь славнѣи лаврѣ свѧтыѫ гѡры и прѡтатѣ ѿкръвенѡмь свѣдѣтелствꙋѫть лицемъ • И не тъчїѫ сими доволень бысть , нѫ и даже до царьтвꙋѫщаго града крѣпкѡ и мѫжестъвнѣ вьсѣ покѡри же и поѡблада . и самыи тъ царьствꙋѫщїи градъ повѡюва же и покори . и иже тамо дръжѫщѫѧ фрѫгы подъ данїѧ ꙋстрѡи •</text:p>
+      <text:p text:style-name="P58">Въ тѡ же врѣмѧ благѡчьстїе свѣтлѣ и ꙗвленїѣ крѣпцѣ ꙋдръжавшꙋ благѡчьстивѡмꙋ царю блъгарскомꙋ і̇ѡаннꙋ асѣню сынꙋ стараагѡ царѣ асѣнѣ • И никако же тѣхъ лаанїи ꙋжасшꙋ сѧ . нѫ и паче врѣмѧ благѡполꙋчно ѻбрѣтъ нечьстивых ѻдръжанїе , храбѡрнѣ вьскѡчи и вьсе македѡнскѡе ѻбьемшꙋ ѻдръжанїе . и еще же сѣрь тако и съ вьсеѫ аѳѡнскѡѫ паче же истѣннѣе рещи , свѧтоѫ гѡрѡѫ . <text:span text:style-name="T158">80r&gt;</text:span>къ симже и славныи сѡлꙋнь съ вьсеѫ Ѳетталїеѫ , такожде же и трївалы . такожде и далматїѫ , ꙗже и арванитскаа глаголеть сѧ дръжава , даже и до драчѣ . вь нихже и митрѡпѡлиты и епїскѡпы свѣтлѣ и благѡчьстивѣ постави , ꙗко же свѣтлїи егѡ хрїсѡвꙋли вь славнѣи лаврѣ свѧтыѫ гѡры и прѡтатѣ ѿкръвенѡмь свѣдѣтелствꙋѫть лицемъ • И не тъчїѫ сими доволень бысть , нѫ и даже до царьтвꙋѫщаго града крѣпкѡ и мѫжестъвнѣ вьсѣ покѡри же и поѡблада . и самыи тъ царьствꙋѫщїи градъ повѡюва же и покори . и иже тамо дръжѫщѫѧ фрѫгы подъ данїѧ ꙋстрѡи •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">По това време благочестивият български цар Иван Асен, син на стария цар Асен, светло, открито и твърдо запази благочестието. Той съвсем не се уплаши от техния лай. Нещо повече: намерил време, благоприятно за победа над нечестивите, вдигна се храбро и покори цялата Македонска област, също и Сяр с цялата Атонска, а по-точно да кажа – Света гора; освен тях и славния град Солун с цяла Тесалия, и Тривали, сиреч Сърбия,28 и Далмация, що се нарича Арванитска държава,28а та чак до Драч. В тях той тържествено и благочестиво постави митрополити и епископи, както с ясния си лик свидетелствуват светлите му хрисовули в славната Лавра на Света гора и в Прота̀та.29 Царят не се задоволи само с това, но крепко и мъжествено покори и овладя всичко чак до царствуващия град. Той завоюва и покори и самия този царствуващ град, а франките, които господствуваха там, обложи с данък.30</text:p>
@@ -2408,7 +2420,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Ꙗко ꙋбѡ сїа слышавше фрѫѕи , 80v<text:span text:style-name="T153">|</text:span>абїе готѡви къ прошенїꙋ бышѫ . и съ вьсѣмь ꙋсръдїем же и спѣхѡмь ꙗко же и вь вьсемь , сице и вьсемь тогѡ послꙋшашѫ , и желателное томꙋ полꙋчити повелѣшѫ • И инаа же прѡчаа ꙗже къ съмиренїꙋ послашѫ . ѻбѣщаваѫще сѧ и иꙁвѣствꙋѫще и своѫ ѿдати дꙋшѫ аще мощно бѝ . Сїа же ꙗко слышавь самодръжець , мнѣше себе по небеси лѣтати , и ѿ ѕѣлныѫ не имѣаше камо дѣнѫти сѧ радости . и тꙋ абїе посла вьсеѡсвѧщеннагѡ марка , митропѡлита сѫща великаагѡ прѧслава съ мнѡгоѫ чьстїѫ , вь еже прїнести тѣлѡ прѣподобныѫ ѿ єпїватъ вь славныи градъ трїнѡвъ •</text:p>
+      <text:p text:style-name="Евтимий">Ꙗко ꙋбѡ сїа слышавше фрѫѕи , 80v<text:span text:style-name="T154">|</text:span>абїе готѡви къ прошенїꙋ бышѫ . и съ вьсѣмь ꙋсръдїем же и спѣхѡмь ꙗко же и вь вьсемь , сице и вьсемь тогѡ послꙋшашѫ , и желателное томꙋ полꙋчити повелѣшѫ • И инаа же прѡчаа ꙗже къ съмиренїꙋ послашѫ . ѻбѣщаваѫще сѧ и иꙁвѣствꙋѫще и своѫ ѿдати дꙋшѫ аще мощно бѝ . Сїа же ꙗко слышавь самодръжець , мнѣше себе по небеси лѣтати , и ѿ ѕѣлныѫ не имѣаше камо дѣнѫти сѧ радости . и тꙋ абїе посла вьсеѡсвѧщеннагѡ марка , митропѡлита сѫща великаагѡ прѧслава съ мнѡгоѫ чьстїѫ , вь еже прїнести тѣлѡ прѣподобныѫ ѿ єпїватъ вь славныи градъ трїнѡвъ •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P79">Когато франките научиха, веднага се отзоваха на молбата; с всякакво усърдие и бързина, както във всичко, така и в това, те го послушаха и заповядаха да получи желаното. И други неща в знак на покорство му изпратиха, обещавайки и известявайки, че ще му дадат и душата си, ако би било възможно. Изслушал това, самодържецът мислеше, че лети в небето, и от огромната радост не знаеше къде да се дене. И веднага изпрати там с голяма почест всеосвещения Марко, митрополита на Преслав Велики, та да пренесе тялото на преподобната от Епиват33 в славния град Търнов. </text:p>
@@ -2424,7 +2436,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P58">Царь же и вьси Сѫщїи съ нимъ, пѣши идѡшѫ ѿ града на четыри пъпрїща съ мнѡгоѫ чьстїѫ вь срѣтенїе прѣподобнѣи . ѧже и своима чъстнѣ ѻбьемше рѫкама , дꙋшеѫ же и въсѣмъ сръдцемь , любеꙁно лѡбꙁаахѫ • и прїнесше полѡжишѫ вь црькви царьстѣи, идеже и до дьнешнѣгѡ лежить дьне . раꙁлична исцѣленїа подаваѫщи 81r<text:span text:style-name="T157">&gt;</text:span>иже съ вѣрѡѫ и любѡві̇ѧ къ тѡи славнѣи притѣкаѫщимъ сѧ рацѣ .</text:p>
+      <text:p text:style-name="P58">Царь же и вьси Сѫщїи съ нимъ, пѣши идѡшѫ ѿ града на четыри пъпрїща съ мнѡгоѫ чьстїѫ вь срѣтенїе прѣподобнѣи . ѧже и своима чъстнѣ ѻбьемше рѫкама , дꙋшеѫ же и въсѣмъ сръдцемь , любеꙁно лѡбꙁаахѫ • и прїнесше полѡжишѫ вь црькви царьстѣи, идеже и до дьнешнѣгѡ лежить дьне . раꙁлична исцѣленїа подаваѫщи 81r<text:span text:style-name="T158">&gt;</text:span>иже съ вѣрѡѫ и любѡві̇ѧ къ тѡи славнѣи притѣкаѫщимъ сѧ рацѣ .</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P79"><text:s/>Царят и всички с него излязоха пешком на четири пъприща от града да посрещнат с много почит преподобната; на ръце я поеха тържествено, от душа и от все сърце я целуваха с обич. Пренесоха я и я положиха в царската църква,34 където лежи и до ден днешен и дава различни изцеления на прибягващите с вяра и любов към нейния славен ковчег.</text:p>
@@ -2537,7 +2549,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">тѣмже блажѫ твоегѡ тѣлесе пѧтко <text:span text:style-name="T156">с</text:span>вѧщенныи съсѫдъ .</text:p>
+      <text:p text:style-name="Евтимий">тѣмже блажѫ твоегѡ тѣлесе пѧтко <text:span text:style-name="T157">с</text:span>вѧщенныи съсѫдъ .</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">И затова облажавам, Петко, свещения съсъд на твоето тяло?</text:p>
@@ -2553,7 +2565,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">блажѫ и чъстныѫ 81v<text:span text:style-name="T157">&gt;</text:span>твоѫ ꙋды .</text:p>
+      <text:p text:style-name="Евтимий">блажѫ и чъстныѫ 81v<text:span text:style-name="T158">&gt;</text:span>твоѫ ꙋды .</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">Облажавам твоите досточтими членове!</text:p>
@@ -2698,7 +2710,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="Евтимий">Ты женамъ слава . дѣвамъ красѡта. <text:soft-page-break/>апостольскаго 82r<text:span text:style-name="T157">&gt;</text:span>житїа ѻбраꙁъ . пꙋстынникѡмь ꙋдобренїе . юнныимь ꙁастѫпница . Сѫщїимь подь бракѡмъ хранителница •</text:p>
+      <text:p text:style-name="Евтимий">Ты женамъ слава . дѣвамъ красѡта. <text:soft-page-break/>апостольскаго 82r<text:span text:style-name="T158">&gt;</text:span>житїа ѻбраꙁъ . пꙋстынникѡмь ꙋдобренїе . юнныимь ꙁастѫпница . Сѫщїимь подь бракѡмъ хранителница •</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">Ти си слава на жените, красота на де<text:soft-page-break/>виците, образ на апостолски живот, наставление за пустинниците, застъпница на младите, пазителка на омъжените!</text:p>
@@ -2795,7 +2807,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P59">Вьспрїими прѣдꙋготованнаа блага , ꙋготѡваннаа ѿ сложенїа мирꙋ иже благѡчьстивнѣ пожившїмь • Слышала еси , и виждъ . и приклони ꙋхо твое вь ꙗже ꙩко не видѣ , и ꙋхо не слыша . и на сръце чловѣкꙋ вьꙁыде, ꙗже ꙋготова бысть любѧщїимъ егѡ . 82v&gt;и ꙁабѫди люди твоѧ плътьскыѫ пѡмыслы . и домь ѻтца твоегѡ тлѣнное тѣлѡ и ѿ ꙁемлѧ съꙁданное. сего ради и вьсхотѣ царь добротѣ твоеи • Да припѣваѫ солѡмонѡвѡ и аꙁъ • въведѣ тѧ царь вь клѣть своѫ . вьꙁрадꙋем сѧ и вьꙁвеселим сѧ ѻ тебѣ • чтѡ <text:s/>ꙋкрасистѣ сѧ ланитѣ твои ꙗко грълици .</text:p>
+      <text:p text:style-name="P99"><text:span text:style-name="T167">Вьспрїими прѣдꙋготованнаа блага , ꙋготѡваннаа ѿ сложенїа мирꙋ иже благѡчьстивнѣ пожившїмь • Слышала еси , и виждъ . и приклони ꙋхо твое вь ꙗже ꙩко не видѣ , и ꙋхо не слыша . и на сръ</text:span><text:span text:style-name="T166">д</text:span><text:span text:style-name="T167">це чловѣкꙋ вьꙁыде, ꙗже ꙋготова </text:span><text:span text:style-name="T149">богъ</text:span><text:span text:style-name="T167"> любѧщїимъ егѡ . 82v&gt;и ꙁабѫди люди твоѧ плътьскыѫ пѡмыслы . и домь ѻтца твоегѡ тлѣнное тѣлѡ и ѿ ꙁемлѧ съꙁданное. сего ради и вьсхотѣ царь добротѣ твоеи • Да припѣваѫ солѡмонѡвѡ и аꙁъ • въведѣ тѧ царь вь клѣть своѫ . вьꙁрадꙋем сѧ и вьꙁвеселим сѧ ѻ тебѣ • чтѡ <text:s/>ꙋкрасистѣ сѧ ланитѣ твои ꙗко грълици .</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">Приеми отнапред приготвените ти блага, благата, приготвени от сътворението на света за ония, що живеят благочестиво. «Чула си и виж, наклони ухо»37 към думите: «око не е виждало, и ухо не е чувало, и не е прониквало в сърцето на човека онова, което бог е приготвил за обичащите го».38 Забрави плътските помисли, «своите хора, дома на баща си»39 и тленното, от земята създадено, тяло. «Затова царят възжела твоята красота!»40 <text:s/>– ще пея и аз заедно със Соломон. «Царят те въведе в своя чертог! Ще се радваме и ще ликуваме за тебе! Колко се украсиха твоите ланити – като гълъбици41.</text:p>
@@ -2819,7 +2831,7 @@
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Житието.A1" office:value-type="string">
-      <text:p text:style-name="P60">Нѫ ѡ прѣподобнаа мати и вьсекраснаа параскеви , милѡстивнѣ и насъ наꙁираи съ выше . нынѣ бѡ не ꙗко ꙁръцалѡмь гаданїемь ꙁриши єгоже вьꙁжделѣла еси христа . нѫ лицемь кь лицꙋ чистѣ <text:soft-page-break/>събесѣдꙋеши емꙋ . Моли сѧ ꙋбѡ о съмирени мира . и вьсѣхъ иже вь чьстныи твои храмъ прїишедшїих днесъ , ѻгради ненавѣтны силоѫ данноѫ ти ѿ спаса христа , и ѿ съблаꙁни вражїѫ вышъшѫ сътвори •<text:line-break/><text:span text:style-name="T163">{</text:span><text:span text:style-name="T80">Част от текста у Калужняцки липсва в Зографския сборник.</text:span><text:span text:style-name="T163">}</text:span></text:p>
+      <text:p text:style-name="P60">Нѫ ѡ прѣподобнаа мати и вьсекраснаа параскеви , милѡстивнѣ и насъ наꙁираи съ выше . нынѣ бѡ не ꙗко ꙁръцалѡмь гаданїемь ꙁриши єгоже вьꙁжделѣла еси христа . нѫ лицемь кь лицꙋ чистѣ <text:soft-page-break/>събесѣдꙋеши емꙋ . Моли сѧ ꙋбѡ о съмирени мира . и вьсѣхъ иже вь чьстныи твои храмъ прїишедшїих днесъ , ѻгради ненавѣтны силоѫ данноѫ ти ѿ спаса христа , и ѿ съблаꙁни вражїѫ вышъшѫ сътвори •<text:line-break/><text:span text:style-name="T164">{</text:span><text:span text:style-name="T80">Част от текста у Калужняцки липсва в Зографския сборник.</text:span><text:span text:style-name="T164">}</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Житието.B1" office:value-type="string">
       <text:p text:style-name="P66">Но, о, преподобна майко и прекрасна Параскево, погледни милостиво от висините към нас. Сега ти виждаш този, когото си жадувала – Христос – не като през огледало или загадка, но от<text:soft-page-break/>крито, лице в лице, беседваш с него46. Моли се прочее, за омиротворяването на света47, и запази от пагуба и коварство нашия благочестив цар, който ни подтикна към словото за тебе. На тебе той се надява, затова се и постара чрез всичко да подбуди твоето застъпничество. Закриляй го със свещените си ходатайства, защити стадото му от всички врагове, дарувай дълголетие на царството, а на него – мирни дни. И всички, дошли днес в честния ти храм48, запази от зло и издигни над дяволската съблазън чрез силата, дадена ти от спасителя Христос.</text:p>
@@ -2872,52 +2884,52 @@
    <text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc3271_1256985097"/>За изданието<text:bookmark-end text:name="__RefHeading___Toc3271_1256985097"/></text:h>
    <text:p text:style-name="P27">Произведението е представено в две колони – лява и дясна. В лявата колона е разположен ръкописа на поп Герасим, а в дясната колона – преводът на съвременен български от проф. Климентина Иванова <text:span text:style-name="T138">–</text:span><text:span text:style-name="T132"> СБЛ.Т4-1986 </text:span><text:span text:style-name="T138">стр. 191</text:span><text:span text:style-name="T132">.</text:span></text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc3273_1256985097"/><text:span text:style-name="T49">Представяне на</text:span> <text:span text:style-name="T49">ръкописа</text:span><text:bookmark-end text:name="__RefHeading___Toc3273_1256985097"/></text:h>
-   <text:p text:style-name="P45"><text:span text:style-name="T93">Използван</text:span><text:span text:style-name="T38">и са</text:span><text:span text:style-name="T93"> копие на ръкописа </text:span><text:span text:style-name="T101">(снимк</text:span><text:span text:style-name="T159">и</text:span><text:span text:style-name="T101">) </text:span><text:span text:style-name="T93">и набран от проф. Татяна Славова, буквално </text:span><text:span text:style-name="T101">(ред по ред, дума по дума, едно към едно)</text:span><text:span text:style-name="T93"> по ръкописа текст. </text:span><text:span text:style-name="T159">Набраният </text:span><text:span text:style-name="T162">от нея</text:span><text:span text:style-name="T159"> текст сравн</text:span><text:span text:style-name="T162">их с</text:span><text:span text:style-name="T159"> ръкописа. </text:span></text:p>
-   <text:p text:style-name="P46"><text:span text:style-name="T40">Р</text:span><text:span text:style-name="T160">азликите между набрания текст и ръкописа са:<text:line-break/></text:span><text:span text:style-name="T83">а)</text:span><text:span text:style-name="T160"> Набраният текст е разделен на думи. Пример: </text:span><text:span text:style-name="T161">в ръкописа – </text:span><text:span text:style-name="T79">шꙋицаегѡнаглавѣмоеи</text:span><text:span text:style-name="T161">; в набрания текст: </text:span><text:span text:style-name="T79">шꙋица егѡ на главѣ моеи</text:span><text:span text:style-name="T161">.</text:span><text:span text:style-name="T160"> <text:line-break/></text:span><text:span text:style-name="T83">б)</text:span><text:span text:style-name="T160"> думите, когато в ръкописа се случи да са в края на реда, не се пренасят на следващия ред, както е в ръкописа, а се изписват цели на следващия ред. Пример: <text:s/>в ръкописа – </text:span><text:span text:style-name="T78">ѻбъ имеⷮмѧ</text:span><text:span text:style-name="T160"> ; в текста – </text:span><text:span text:style-name="T78">ѻбъимеⷮ мѧ</text:span><text:span text:style-name="T160">. <text:line-break/></text:span><text:span text:style-name="T57">Не бяха открити </text:span><text:span text:style-name="T58">други </text:span><text:span text:style-name="T57">н</text:span><text:span text:style-name="T42">есъответствия </text:span><text:span text:style-name="T38">между набрания текст и снимките на ръкописа. </text:span></text:p>
+   <text:p text:style-name="P45"><text:span text:style-name="T93">Използван</text:span><text:span text:style-name="T38">и са</text:span><text:span text:style-name="T93"> копие на ръкописа </text:span><text:span text:style-name="T101">(снимк</text:span><text:span text:style-name="T160">и</text:span><text:span text:style-name="T101">) </text:span><text:span text:style-name="T93">и набран от проф. Татяна Славова, буквално </text:span><text:span text:style-name="T101">(ред по ред, дума по дума, едно към едно)</text:span><text:span text:style-name="T93"> по ръкописа текст. </text:span><text:span text:style-name="T160">Набраният </text:span><text:span text:style-name="T163">от нея</text:span><text:span text:style-name="T160"> текст сравн</text:span><text:span text:style-name="T163">их с</text:span><text:span text:style-name="T160"> ръкописа. </text:span></text:p>
+   <text:p text:style-name="P46"><text:span text:style-name="T40">Р</text:span><text:span text:style-name="T161">азликите между набрания текст и ръкописа са:<text:line-break/></text:span><text:span text:style-name="T83">а)</text:span><text:span text:style-name="T161"> Набраният текст е разделен на думи. Пример: </text:span><text:span text:style-name="T162">в ръкописа – </text:span><text:span text:style-name="T79">шꙋицаегѡнаглавѣмоеи</text:span><text:span text:style-name="T162">; в набрания текст: </text:span><text:span text:style-name="T79">шꙋица егѡ на главѣ моеи</text:span><text:span text:style-name="T162">.</text:span><text:span text:style-name="T161"> <text:line-break/></text:span><text:span text:style-name="T83">б)</text:span><text:span text:style-name="T161"> думите, когато в ръкописа се случи да са в края на реда, не се пренасят на следващия ред, както е в ръкописа, а се изписват цели на следващия ред. Пример: <text:s/>в ръкописа – </text:span><text:span text:style-name="T78">ѻбъ имеⷮмѧ</text:span><text:span text:style-name="T161"> ; в текста – </text:span><text:span text:style-name="T78">ѻбъимеⷮ мѧ</text:span><text:span text:style-name="T161">. <text:line-break/></text:span><text:span text:style-name="T57">Не бяха открити </text:span><text:span text:style-name="T58">други </text:span><text:span text:style-name="T57">н</text:span><text:span text:style-name="T42">есъответствия </text:span><text:span text:style-name="T38">между набрания текст и снимките на ръкописа. </text:span></text:p>
    <text:p text:style-name="P46"><text:span text:style-name="T41">Аз направих следните п</text:span><text:span text:style-name="T38">ромени в текста с цел представяне на ръкописа във възможно най-лесно четим вид за широк кръг читатели. </text:span><text:span text:style-name="T39">Ето какви са.</text:span><text:span text:style-name="T93"> </text:span></text:p>
-   <text:list xml:id="list566054918" text:style-name="L1">
+   <text:list xml:id="list1890402772" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P105"><text:span text:style-name="T94">Не е запазено изложението на текста ред по ред, както е при </text:span><text:span text:style-name="T29">ЗогрСб-74v-83r</text:span><text:span text:style-name="T94">, </text:span><text:span text:style-name="T95">за да може </text:span><text:span text:style-name="T36">читателят лесно да сравнява стари</text:span><text:span text:style-name="T39">я</text:span><text:span text:style-name="T36"> ни език </text:span><text:span text:style-name="T95">с</text:span><text:span text:style-name="T36"> днешния </text:span><text:span text:style-name="T41">ни</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">от превода вдясно</text:span><text:span text:style-name="T96">. </text:span><text:span text:style-name="T138">Равнението на потока на текста е </text:span><text:span text:style-name="T32">в</text:span><text:span text:style-name="T138">ляво. </text:span><text:span text:style-name="T32">Думите са винаги цели. Не се пренасят на следващия ред.</text:span></text:p>
+     <text:p text:style-name="P106"><text:span text:style-name="T94">Не е запазено изложението на текста ред по ред, както е при </text:span><text:span text:style-name="T29">ЗогрСб-74v-83r</text:span><text:span text:style-name="T94">, </text:span><text:span text:style-name="T95">за да може </text:span><text:span text:style-name="T36">читателят лесно да сравнява стари</text:span><text:span text:style-name="T39">я</text:span><text:span text:style-name="T36"> ни език </text:span><text:span text:style-name="T95">с</text:span><text:span text:style-name="T36"> днешния </text:span><text:span text:style-name="T41">ни</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">от превода вдясно</text:span><text:span text:style-name="T96">. </text:span><text:span text:style-name="T138">Равнението на потока на текста е </text:span><text:span text:style-name="T32">в</text:span><text:span text:style-name="T138">ляво. </text:span><text:span text:style-name="T32">Думите са винаги цели. Не се пренасят на следващия ред.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P107"><text:span text:style-name="T95">Отбелязани са само начал</text:span><text:span text:style-name="T99">ата</text:span><text:span text:style-name="T95"> на страниците на листите в ръкописа. </text:span><text:span text:style-name="T29">Н</text:span><text:span text:style-name="T97">овата страница е отбелязана </text:span><text:span text:style-name="T39">с номер на страницата и ъглова скоба</text:span><text:span text:style-name="T97"> </text:span><text:span text:style-name="T98">непосредствено пред първата дума на новата страница, </text:span><text:span text:style-name="T39">ето така</text:span><text:span text:style-name="T98">: „</text:span><text:span text:style-name="T75">…</text:span><text:span text:style-name="T73">иже и </text:span><text:soft-page-break/><text:span text:style-name="T73">влахерна именꙋет сѧ </text:span><text:span text:style-name="T76">78r&gt;</text:span><text:span text:style-name="T73">даже до дьне съ • и тамо къ тоѫ</text:span><text:span text:style-name="T75">…</text:span><text:span text:style-name="T98">“</text:span><text:span text:style-name="T97">.</text:span><text:span text:style-name="T93"> </text:span><text:span text:style-name="T142">Лицевата страна на листа се отбелязва с „v“, а гърбът – с „r“.</text:span></text:p>
+     <text:p text:style-name="P108"><text:span text:style-name="T95">Отбелязани са само начал</text:span><text:span text:style-name="T99">ата</text:span><text:span text:style-name="T95"> на страниците на листите в ръкописа. </text:span><text:span text:style-name="T29">Н</text:span><text:span text:style-name="T97">овата страница е отбелязана </text:span><text:span text:style-name="T39">с номер на страницата и ъглова скоба</text:span><text:span text:style-name="T97"> </text:span><text:span text:style-name="T98">непосредствено пред първата дума на новата страница, </text:span><text:span text:style-name="T39">ето така</text:span><text:span text:style-name="T98">: „</text:span><text:span text:style-name="T75">…</text:span><text:span text:style-name="T73">иже и </text:span><text:soft-page-break/><text:span text:style-name="T73">влахерна именꙋет сѧ </text:span><text:span text:style-name="T76">78r&gt;</text:span><text:span text:style-name="T73">даже до дьне съ • и тамо къ тоѫ</text:span><text:span text:style-name="T75">…</text:span><text:span text:style-name="T98">“</text:span><text:span text:style-name="T97">.</text:span><text:span text:style-name="T93"> </text:span><text:span text:style-name="T142">Лицевата страна на листа се отбелязва с „v“, а гърбът – с „r“.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P109">Лигатурите не се разлагат. </text:p>
+     <text:p text:style-name="P110">Лигатурите не се разлагат. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P106"><text:span text:style-name="T70">Защо съм използвал </text:span><text:span text:style-name="T6">З</text:span><text:span text:style-name="T70">, а не Ꙁ </text:span><text:span text:style-name="T92">(ако остана със З, а не Ꙁ )</text:span><text:span text:style-name="T70">? Защото З-то на поп Герасим изглежда като </text:span><text:span text:style-name="T31">съвременното българско З</text:span><text:span text:style-name="T70">. </text:span></text:p>
+     <text:p text:style-name="P107"><text:span text:style-name="T70">Защо съм използвал </text:span><text:span text:style-name="T6">З</text:span><text:span text:style-name="T70">, а не Ꙁ </text:span><text:span text:style-name="T92">(ако остана със З, а не Ꙁ )</text:span><text:span text:style-name="T70">? Защото З-то на поп Герасим изглежда като </text:span><text:span text:style-name="T31">съвременното българско З</text:span><text:span text:style-name="T70">. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P108"><text:span text:style-name="T70">Съкращенията са </text:span><text:span text:style-name="T35">разгърнати</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T101">с цел по-лесна разпознаваемост </text:span><text:span text:style-name="T149">на думите</text:span><text:span text:style-name="T101"> от читателя.</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T37">В</text:span><text:span text:style-name="T70">сяка </text:span><text:span text:style-name="T35">разгърната</text:span><text:span text:style-name="T70"> дума е </text:span><text:span text:style-name="T31">показана и</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T30">в първичния си вид</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T88">в</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T88">„</text:span><text:span text:style-name="T8"><text:bookmark-ref text:reference-format="chapter" text:ref-name="__RefHeading___Toc2464_1256985097"/></text:span><text:span text:style-name="T8"><text:bookmark-ref text:reference-format="text" text:ref-name="__RefHeading___Toc2464_1256985097">Речник на съкращенията</text:bookmark-ref></text:span><text:span text:style-name="T9">“</text:span><text:span text:style-name="T70">. </text:span><text:span text:style-name="T103">Правописът </text:span><text:span text:style-name="T120">на</text:span><text:span text:style-name="T103"> </text:span><text:span text:style-name="T119">разгърнатите </text:span><text:span text:style-name="T103">съкратен</text:span><text:span text:style-name="T119">и</text:span><text:span text:style-name="T103"> думи е </text:span><text:span text:style-name="T104">установен</text:span><text:span text:style-name="T103"> от други </text:span><text:span text:style-name="T28">сродни</text:span><text:span text:style-name="T103"> или същите думи, които </text:span><text:span text:style-name="T108">са засвидетелствани на друго място в </text:span><text:span text:style-name="T28">житието</text:span><text:span text:style-name="T15">, </text:span><text:span text:style-name="T22">сборника</text:span><text:span text:style-name="T23">(</text:span><text:span text:style-name="T24">ЗогрСб</text:span><text:span text:style-name="T23">)</text:span><text:span text:style-name="T125"> или в друго произведение </text:span><text:span text:style-name="T25">на</text:span><text:span text:style-name="T125"> св. Патриарх Евтимий, </text:span><text:span text:style-name="T22">публикувано на адрес</text:span><text:span text:style-name="T126"> </text:span><text:a xlink:type="simple" xlink:href="http://histdict.uni-sofia.bg/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T56">http://histdict.uni-sofia.bg</text:span></text:a><text:span text:style-name="T105">. </text:span><text:span text:style-name="T130">Подробности за алгоритъма на вземане на решение, относно </text:span><text:span text:style-name="T28">начина на изписване</text:span><text:span text:style-name="T130"> на разгърнатите думи, ще намерите в речника.</text:span></text:p>
+     <text:p text:style-name="P109"><text:span text:style-name="T70">Съкращенията са </text:span><text:span text:style-name="T35">разгърнати</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T101">с цел по-лесна разпознаваемост </text:span><text:span text:style-name="T150">на думите</text:span><text:span text:style-name="T101"> от читателя.</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T37">В</text:span><text:span text:style-name="T70">сяка </text:span><text:span text:style-name="T35">разгърната</text:span><text:span text:style-name="T70"> дума е </text:span><text:span text:style-name="T31">показана и</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T30">в първичния си вид</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T88">в</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T88">„</text:span><text:span text:style-name="T8"><text:bookmark-ref text:reference-format="chapter" text:ref-name="__RefHeading___Toc2464_1256985097"/></text:span><text:span text:style-name="T8"><text:bookmark-ref text:reference-format="text" text:ref-name="__RefHeading___Toc2464_1256985097">Речник на съкращенията</text:bookmark-ref></text:span><text:span text:style-name="T9">“</text:span><text:span text:style-name="T70">. </text:span><text:span text:style-name="T103">Правописът </text:span><text:span text:style-name="T120">на</text:span><text:span text:style-name="T103"> </text:span><text:span text:style-name="T119">разгърнатите </text:span><text:span text:style-name="T103">съкратен</text:span><text:span text:style-name="T119">и</text:span><text:span text:style-name="T103"> думи е </text:span><text:span text:style-name="T104">установен</text:span><text:span text:style-name="T103"> от други </text:span><text:span text:style-name="T28">сродни</text:span><text:span text:style-name="T103"> или същите думи, които </text:span><text:span text:style-name="T108">са засвидетелствани на друго място в </text:span><text:span text:style-name="T28">житието</text:span><text:span text:style-name="T15">, </text:span><text:span text:style-name="T22">сборника</text:span><text:span text:style-name="T23">(</text:span><text:span text:style-name="T24">ЗогрСб</text:span><text:span text:style-name="T23">)</text:span><text:span text:style-name="T125"> или в друго произведение </text:span><text:span text:style-name="T25">на</text:span><text:span text:style-name="T125"> св. Патриарх Евтимий, </text:span><text:span text:style-name="T22">публикувано на адрес</text:span><text:span text:style-name="T126"> </text:span><text:a xlink:type="simple" xlink:href="http://histdict.uni-sofia.bg/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T56">http://histdict.uni-sofia.bg</text:span></text:a><text:span text:style-name="T105">. </text:span><text:span text:style-name="T130">Подробности за алгоритъма на вземане на решение, относно </text:span><text:span text:style-name="T28">начина на изписване</text:span><text:span text:style-name="T130"> на разгърнатите думи, ще намерите в речника.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P103"><text:span text:style-name="T110">Използван е шрифта Bukyvede, </text:span><text:span text:style-name="T131">тъй като изглежда по-лек на вид, а в ръкописа </text:span><text:span text:style-name="T137">се използва</text:span><text:span text:style-name="T131"> бързопис</text:span><text:span text:style-name="T103">. Жертваме </text:span><text:span text:style-name="T11">буквалното</text:span><text:span text:style-name="T103"> предаване на начертанието на буквите, </text:span><text:span text:style-name="T111">което така или иначе е загубено при всеки опит за представяне </text:span><text:span text:style-name="T112">на</text:span><text:span text:style-name="T111"> </text:span><text:span text:style-name="T133">първоизточник</text:span><text:span text:style-name="T111"> чрез компютърен шрифт.</text:span></text:p>
+     <text:p text:style-name="P104"><text:span text:style-name="T110">Използван е шрифта Bukyvede, </text:span><text:span text:style-name="T131">тъй като изглежда по-лек на вид, а в ръкописа </text:span><text:span text:style-name="T137">се използва</text:span><text:span text:style-name="T131"> бързопис</text:span><text:span text:style-name="T103">. Жертваме </text:span><text:span text:style-name="T11">буквалното</text:span><text:span text:style-name="T103"> предаване на начертанието на буквите, </text:span><text:span text:style-name="T111">което така или иначе е загубено при всеки опит за представяне </text:span><text:span text:style-name="T112">на</text:span><text:span text:style-name="T111"> </text:span><text:span text:style-name="T133">първоизточник</text:span><text:span text:style-name="T111"> чрез компютърен шрифт.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P104"><text:span text:style-name="T110">Използвани са само стандартните начертания на съответните букви според </text:span><text:span text:style-name="T128">кодовата </text:span><text:span text:style-name="T110">таблица </text:span><text:span text:style-name="T136">на</text:span><text:span text:style-name="T128"> стандарта </text:span><text:a xlink:type="simple" xlink:href="https://bg.wikipedia.org/wiki/Уникод" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T103">У</text:span></text:a><text:a xlink:type="simple" xlink:href="https://bg.wikipedia.org/wiki/Уникод" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T110">никод</text:span></text:a><text:span text:style-name="T110">. Например използва се само </text:span><text:span text:style-name="T106">„</text:span><text:span text:style-name="T134">ч</text:span><text:span text:style-name="T106">“</text:span><text:span text:style-name="T110"> с код „U+0447 CYRILLIC SMALL LETTER CHE“ </text:span><text:span text:style-name="T135">според стандарта</text:span><text:span text:style-name="T110"> и не се използва</text:span><text:span text:style-name="T122">т знаци от областта за лична употреба в Уникод таблицата.</text:span><text:span text:style-name="T110"> </text:span><text:span text:style-name="T12">Така </text:span><text:span text:style-name="T106">постиг</text:span><text:span text:style-name="T107">аме</text:span><text:span text:style-name="T106"> по-лесна</text:span><text:span text:style-name="T103"> откриваемост на части от текста </text:span><text:span text:style-name="T12">при</text:span><text:span text:style-name="T103"> търсене </text:span><text:span text:style-name="T122">чрез въвеждане </text:span><text:span text:style-name="T103">от клавиатурата в документа, </text:span><text:span text:style-name="T106">а</text:span><text:span text:style-name="T103"> и в световната мрежа. </text:span><text:span text:style-name="T131">Освен това така лесно можем да подменим използвания шрифт с друг, съобразяващ се със стандарта и съдържащ знаковете от старата ни азбука на стандартните им места. </text:span><text:span text:style-name="T103">Целта на този труд е достъпност <text:s/>на </text:span><text:span text:style-name="T107">стария </text:span><text:span text:style-name="T103">текст до възможно най-широк кръг читатели. </text:span><text:span text:style-name="T113">Повече за </text:span><text:span text:style-name="T131">осъществяването</text:span><text:span text:style-name="T113"> </text:span><text:span text:style-name="T137">на този замисъл</text:span><text:span text:style-name="T113"> ще намерите в раздел „</text:span><text:span text:style-name="T113"><text:bookmark-ref text:reference-format="text" text:ref-name="__RefHeading___Toc2681_1256985097">Технически средства</text:bookmark-ref></text:span><text:span text:style-name="T113"> (Шрифтове, </text:span><text:span text:style-name="T122">Vim и .XCompose</text:span><text:span text:style-name="T113">)“.</text:span></text:p>
+     <text:p text:style-name="P105"><text:span text:style-name="T110">Използвани са само стандартните начертания на съответните букви според </text:span><text:span text:style-name="T128">кодовата </text:span><text:span text:style-name="T110">таблица </text:span><text:span text:style-name="T136">на</text:span><text:span text:style-name="T128"> стандарта </text:span><text:a xlink:type="simple" xlink:href="https://bg.wikipedia.org/wiki/Уникод" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T103">У</text:span></text:a><text:a xlink:type="simple" xlink:href="https://bg.wikipedia.org/wiki/Уникод" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T110">никод</text:span></text:a><text:span text:style-name="T110">. Например използва се само </text:span><text:span text:style-name="T106">„</text:span><text:span text:style-name="T134">ч</text:span><text:span text:style-name="T106">“</text:span><text:span text:style-name="T110"> с код „U+0447 CYRILLIC SMALL LETTER CHE“ </text:span><text:span text:style-name="T135">според стандарта</text:span><text:span text:style-name="T110"> и не се използва</text:span><text:span text:style-name="T122">т знаци от областта за лична употреба в Уникод таблицата.</text:span><text:span text:style-name="T110"> </text:span><text:span text:style-name="T12">Така </text:span><text:span text:style-name="T106">постиг</text:span><text:span text:style-name="T107">аме</text:span><text:span text:style-name="T106"> по-лесна</text:span><text:span text:style-name="T103"> откриваемост на части от текста </text:span><text:span text:style-name="T12">при</text:span><text:span text:style-name="T103"> търсене </text:span><text:span text:style-name="T122">чрез въвеждане </text:span><text:span text:style-name="T103">от клавиатурата в документа, </text:span><text:span text:style-name="T106">а</text:span><text:span text:style-name="T103"> и в световната мрежа. </text:span><text:span text:style-name="T131">Освен това така лесно можем да подменим използвания шрифт с друг, съобразяващ се със стандарта и съдържащ знаковете от старата ни азбука на стандартните им места. </text:span><text:span text:style-name="T103">Целта на този труд е достъпност <text:s/>на </text:span><text:span text:style-name="T107">стария </text:span><text:span text:style-name="T103">текст до възможно най-широк кръг читатели. </text:span><text:span text:style-name="T113">Повече за </text:span><text:span text:style-name="T131">осъществяването</text:span><text:span text:style-name="T113"> </text:span><text:span text:style-name="T137">на този замисъл</text:span><text:span text:style-name="T113"> ще намерите в раздел „</text:span><text:span text:style-name="T113"><text:bookmark-ref text:reference-format="text" text:ref-name="__RefHeading___Toc2681_1256985097">Технически средства</text:bookmark-ref></text:span><text:span text:style-name="T113"> (Шрифтове, </text:span><text:span text:style-name="T122">Vim и .XCompose</text:span><text:span text:style-name="T113">)“.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc3275_1256985097"/><text:span text:style-name="T113">П</text:span><text:span text:style-name="T102">редставяне на </text:span><text:span text:style-name="T50">превода</text:span><text:bookmark-end text:name="__RefHeading___Toc3275_1256985097"/></text:h>
    <text:p text:style-name="P30"><text:span text:style-name="T114">Използван е текст</text:span><text:span text:style-name="T118">ът</text:span><text:span text:style-name="T114"> от СБЛ.Т4-1986 стр. 191. Текстът е </text:span><text:span text:style-name="T13">цифровизиран</text:span><text:span text:style-name="T114"> </text:span><text:span text:style-name="T13">чрез</text:span><text:span text:style-name="T114"> технологията „Разпознаване на </text:span><text:span text:style-name="T115">Видимите</text:span><text:span text:style-name="T114"> Знакове“ </text:span><text:span text:style-name="T116">(РВЗ), от английски</text:span><text:span text:style-name="T114"> </text:span><text:span text:style-name="T116">– </text:span><text:span text:style-name="T114">Optical Character Recognition.</text:span></text:p>
-   <text:list xml:id="list2021223" text:style-name="L2">
+   <text:list xml:id="list1045943806" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P110"><text:span text:style-name="T115">За РВЗ </text:span><text:span text:style-name="T14">са използвани приложенията gscan2pdf и</text:span><text:span text:style-name="T114"> Tesseract. </text:span></text:p>
+     <text:p text:style-name="P111"><text:span text:style-name="T115">За РВЗ </text:span><text:span text:style-name="T14">са използвани приложенията gscan2pdf и</text:span><text:span text:style-name="T114"> Tesseract. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P110"><text:soft-page-break/><text:span text:style-name="T13">След разпознаването са отстранени техническите грешки </text:span><text:span text:style-name="T26">като</text:span><text:span text:style-name="T13"> е направена правописна проверка с помощта на LibreOffice и Vim. Недостатъците на използваните приложения, неразпознати букви </text:span><text:span text:style-name="T14">и препинателни знаци</text:span><text:span text:style-name="T13">, липсващи записи в правописния речник на </text:span><text:span text:style-name="T14">съответното </text:span><text:span text:style-name="T13">приложени</text:span><text:span text:style-name="T14">е</text:span><text:span text:style-name="T13"> и т.н., </text:span><text:span text:style-name="T14">са преодолени като цифровизираният текст е сравнен дума по дума със сканираното изображение на текста от <text:s/></text:span><text:span text:style-name="T13">СБЛ.Т4-1986 стр. 191.</text:span></text:p>
+     <text:p text:style-name="P111"><text:soft-page-break/><text:span text:style-name="T13">След разпознаването са отстранени техническите грешки </text:span><text:span text:style-name="T26">като</text:span><text:span text:style-name="T13"> е направена правописна проверка с помощта на LibreOffice и Vim. Недостатъците на използваните приложения, неразпознати букви </text:span><text:span text:style-name="T14">и препинателни знаци</text:span><text:span text:style-name="T13">, липсващи записи в правописния речник на </text:span><text:span text:style-name="T14">съответното </text:span><text:span text:style-name="T13">приложени</text:span><text:span text:style-name="T14">е</text:span><text:span text:style-name="T13"> и т.н., </text:span><text:span text:style-name="T14">са преодолени като цифровизираният текст е сравнен дума по дума със сканираното изображение на текста от <text:s/></text:span><text:span text:style-name="T13">СБЛ.Т4-1986 стр. 191.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P112"><text:span text:style-name="T114">Преводът на съвременен български е поставен в дясната колона на изложението на текста. Равнен е надясно с оглед равномерно разположение </text:span><text:span text:style-name="T102">в</text:span><text:span text:style-name="T114"> цялостния изглед на страницата. </text:span><text:span text:style-name="T116">Използвано</text:span><text:span text:style-name="T102"> е автоматизирано разделяне на срички и пренос на думите на следващ ред. </text:span><text:span text:style-name="T116">Използван е шрифтът Acari Sans.</text:span></text:p>
+     <text:p text:style-name="P113"><text:span text:style-name="T114">Преводът на съвременен български е поставен в дясната колона на изложението на текста. Равнен е надясно с оглед равномерно разположение </text:span><text:span text:style-name="T102">в</text:span><text:span text:style-name="T114"> цялостния изглед на страницата. </text:span><text:span text:style-name="T116">Използвано</text:span><text:span text:style-name="T102"> е автоматизирано разделяне на срички и пренос на думите на следващ ред. </text:span><text:span text:style-name="T116">Използван е шрифтът Acari Sans.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P111"><text:span text:style-name="T116">Параграфите са запазени, но често се разделят на две или повече </text:span><text:span text:style-name="T27">части</text:span><text:span text:style-name="T116">, следващи непосредствено една след друга, с цел по-добро съпоставяне с текста на ръкописа, който често се оказва по-кратък.</text:span></text:p>
+     <text:p text:style-name="P112"><text:span text:style-name="T116">Параграфите са запазени, но често се разделят на две или повече </text:span><text:span text:style-name="T27">части</text:span><text:span text:style-name="T116">, следващи непосредствено една след друга, с цел по-добро съпоставяне с текста на ръкописа, който често се оказва по-кратък.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P110"><text:span text:style-name="T115">Числата, означаващи номер на бележк</text:span><text:span text:style-name="T117">а в края,</text:span><text:span text:style-name="T115"> са запазени и сочат към същите бележки. </text:span></text:p>
+     <text:p text:style-name="P111"><text:span text:style-name="T115">Числата, означаващи номер на бележк</text:span><text:span text:style-name="T117">а в края,</text:span><text:span text:style-name="T115"> са запазени и сочат към същите бележки. </text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P110"><text:span text:style-name="T115">Самите бележки са разположени след представянето на двуезичното </text:span><text:span text:style-name="T14">изложение</text:span><text:span text:style-name="T115">. Р</text:span><text:span text:style-name="T116">В</text:span><text:span text:style-name="T115">З е направено по същия начин както за преводния текст.</text:span></text:p>
+     <text:p text:style-name="P111"><text:span text:style-name="T115">Самите бележки са разположени след представянето на двуезичното </text:span><text:span text:style-name="T14">изложение</text:span><text:span text:style-name="T115">. Р</text:span><text:span text:style-name="T116">В</text:span><text:span text:style-name="T115">З е направено по същия начин както за преводния текст.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="P91" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc3277_1256985097"/>Тълкуванията по превода – по бележките под линия на проф. Иванова<text:bookmark-end text:name="__RefHeading___Toc3277_1256985097"/></text:h>

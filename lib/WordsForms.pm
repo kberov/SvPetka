@@ -7,17 +7,21 @@ use feature qw(lexical_subs unicode_strings);
 use FindBin qw($RealBin);
 use IO::Dir;
 use Mojo::DOM;
-use Mojo::JSON 'encode_json';
+use YAML::XS;
 use Mojo::Collection 'c';
 use Mojo::File qw(path);
 use Mojo::Util qw(decode encode getopt dumper);
+use Mojo::IOLoop::Subprocess;
 binmode STDOUT => ':utf8';
 binmode STDERR => ':utf8';
 no warnings 'redefine';
 local *Data::Dumper::qquote  = sub {qq["${\(shift)}"]};
 local $Data::Dumper::Useperl = 1;
 
+has debug    => 0;
+has data_dir => sub { path("$RealBin/../data")->realpath };
 
+# ordered by closest place (same book, same writer),then orthography then monastery then time, . All from Evtimij
 has distances => sub {
   c(
     'doc_155', 'doc_156', 'doc_214', 'doc_212', 'doc_216', 'doc_217', 'doc_219',
@@ -35,6 +39,7 @@ has bukvi => sub {
     'ꙫ'  => "[оѡꙫѻꙩ]",
     'ѻ'  => "[оѡꙫѻꙩ]",
     'ꙩ'  => "[оѡꙫѻꙩ]",
+    'ѿ'  => "(?:ѿ|[оѡꙫѻꙩ]т)",
     'ы'  => "[ыꙑ]",
     'ыи' => "[ыꙑ]и?",
     'ꙑ'  => "[ыꙑ]",
@@ -55,26 +60,34 @@ has bukvi => sub {
     'їа' => "(?:ꙗ|їа|іа|иа)",
     'іа' => "(?:ꙗ|їа|іа|иа)",
     'иа' => "(?:ꙗ|їа|іа|иа)",
-    'ꙋ'  => '[ꙋѹу]',
-    'ѹ'  => '[ѹꙋу]',
-    'у'  => '[уꙋѹ]',
+    'ꙋ'  => '(?:ꙋ|ѹ|у|оу)',
+    'ѹ'  => '(?:ѹ|ꙋ|у|оу)',
+    'у'  => '(?:у|ꙋ|ѹ|оу)',
     'ѫ'  => '[ѫуꙋ]',
     'їе' => '(?:їе|ѥ|іе)',
   };
   my @glasni = keys %$l;
   $l = {'з' => "[зѕꙁꙃ]", 'ѕ' => "[ѕзꙁꙃ]", 'ꙁ' => "[ꙁзѕꙃ]", 'ꙃ' => "[ꙃзѕꙁ]", %$l};
 
-  my @syglasni = (qw(б в г д ж к л м н п р с т ф х ц ч ш щ з ѕ ꙁ ꙃ ѿ));
+  my @syglasni = (qw(б в г д ж к л м н п р с т ф х ц ч ш щ з ѕ ꙁ ꙃ));
   for my $b (@syglasni) {
     for my $y (@glasni) {
       $l->{"$b$y"} = "$b$l->{$y}";
       $l->{$b} = "$b$l->{ъ}";
     }
-    $l->{'н'} = "[eьъꙿ]?н$l->{ъ}";
-
   }
+
+  $l->{'н'} = "[eьъꙿ]?н$l->{ъ}";
+
+  #$l->{' '} = '\s*?';
   return $l;
 };
+
+sub log ($self, $thing) {
+  return unless ($self->debug);
+  say STDERR ((ref $thing ? dumper($thing) : $thing),
+    ' at ' . (join ':', (caller(1))[1, 2]));
+}
 
 sub make_word_regex ($self, $w) {
   state $l = $self->bukvi;
@@ -85,79 +98,407 @@ sub make_word_regex ($self, $w) {
   # build the regex for this word
   state $rex_keys_rex = join '|', @$rex_keys;
 
-  #say $rex_keys_rex;
+  # "же" и "сѧ" са изключения и може и дa не се търси за тях
+  my ($zese) = $w =~ /\s+(же|с$l->{ѧ})$/;
+  if ($zese) {
+    $w =~ s/$zese//;
+  }
   my $m   = '';
   my $rex = $w =~ s/($rex_keys_rex)/
         (($m = lc $1) && ($l->{$m} ? $l->{$m} : $m))
         /xiger;
-  $rex = qr/$rex/iu;
-  say "$w:/$rex/";
+  if ($zese) {
+    $rex =~ s/\s+$/\\s*?/;
+    $rex = qr/$rex(?:$zese)?/i;
+  }
+  else {
+    $rex = qr/$rex/i;
+  }
+  $self->log("$w:/$rex/");
+
   return $rex;
 }
 
-# Думи, които взимаме ѿ файла, който ще проверяваме, ако не са подадени на
-# реда.
-sub words ($self, $wfs = []) {
-  if (scalar @$wfs) {
-
-    # words are passed from the commandline
-    for (0 .. @$wfs - 1) {
-      $wfs->[$_] = decode utf8 => $wfs->[$_];
-    }
-
-    $self->{words} = $wfs;
-
-    return $self;
-  }
-  if (!$self->{words}) {
-    my $file = path("$RealBin/../texts/Prostranno-Evt-ZogrSb-chist.txt")->realpath;
-    say STDERR "No word forms passed on the command line via -W"
-      . " Using default file "
-      . $file;
-    -f $file && -s $file || die "The file $file is not a file or it is empty";
-    $wfs = [split '\W+', decode(utf8 => $file->slurp)];
-    $self->{words} = $wfs;
-    return $self;
-  }
-
-  # already called once and assigned
-  return $self->{words} if $self->{words};
-
+has file_to_check => sub {
+  my $file = path("$RealBin/../texts/Prostranno-Evt-ZogrSb-chist.txt")->realpath;
+  -f $file && -s $file || die "The file $file is not a file or it is empty";
+  return $file;
 };
 
-# files to search for words
-sub files ($s, $files = []) {
-  return $s->{files} if !@$files && $s->{files};
-  $s->{files} = [
-    map {
-      die "File $_ is empty or not a file!" unless -f $_ && -s $_;
-      my $f = path($_)->realpath;
-    } @$files
-    ]
-    if @$files;
+# Редове с думи, които взимаме ѿ файла, който ще проверяваме, ако не са подадени на
+# реда.
+has word_lines => sub {
+  return [split '\n+', decode(utf8 => $_[0]->file_to_check->slurp)];
+};
 
-  return $s if @$files;
+has source_file_lines => sub {
+  [split '\n+', decode(utf8 => $_[0]->source_file->slurp)];
+};
 
-  #reading default files
-  my $from_dir = "$RealBin/histdict_evt_docs";
-  my $dir = IO::Dir->new($from_dir) or die($!);
-  my @files;
-  while (defined($_ = $dir->read())) {
-    push(@files, path $from_dir, $_);
-  }
-  $s->{files} = [sort(@files)];
-  return $s;
+# files to search for word_lines
+has files_contents => sub {
+  my $from_dir = "$RealBin/../histdict_evt_docs";
+  $_[0]->distances->map(sub {
+    my $doc = path($from_dir, "${_}_clean")->realpath;
+    return unless -f $doc && -s $doc;
+    decode utf8 => $doc->slurp;
+  });
+};
+
+has source_file => sub { path("$RealBin/../texts/Petka_NOVA_chist.txt")->realpath; };
+
+# Default range of word_lines to check.
+# 0 .. the word_lines
+has range => sub {
+  $_[0]->{range} //= [0, @{$_[0]->source_file_lines} - 1];
+};
+
+
+sub diff ($self, $source, $changed) {
+  return if ($source eq $changed);
+  return 1;
 }
-has source_file => sub {path("$RealBin/../texts/Petka_NOVA_chist.txt")->realpath;};
+
+has changed_words_file => sub { path($_[0]->data_dir, 'changed_words.yml') };
+
+# loads a potentialy existing on disk structure with found words and returns it.
+has changed_words => sub {
+  my $chngd_wrds = $_[0]->changed_words_file;
+  my $words      = [];
+  if (-f $chngd_wrds && -s $chngd_wrds) {
+    my $words = YAML::XS::Load($chngd_wrds->slurp);
+    return $words;
+  }
+  return [];
+};
+
+has unique_changed_words => sub {
+  my $unique_words = {};
+  for my $w (@{$_[0]->changed_words}) {
+    $unique_words->{$w->{Променена}} = $w unless exists $unique_words->{$w->{Променена}};
+  }
+  return $unique_words;
+};
+
+# Проверява в changed_words дали тази дума,ѿ това място - същата инстанция е
+# вече добавена във changed_words и ако е така връща true. Как? Проверява дали
+# всички свойства описващи думата съвпадат: ред регулярен израз, съкращенѥ,
+# променен вид…
+sub is_word_already_added ($self, $word) {
+  my $words        = $self->changed_words;
+  my $words_length = @$words;
+
+  for my $i (0 .. $words_length - 1) {
+    my $added
+      = $word->{Източник} eq $words->[$i]{Източник}
+      && $word->{Променена} eq $words->[$i]{Променена}
+      && $word->{ИзразЗаТърсене} eq $words->[$i]{ИзразЗаТърсене}
+      && $word->{РедВРъкописа} eq $words->[$i]{РедВРъкописа};
+    if ($added) {
+      return $added;
+    }
+  }
+  return 0;
+}
+
+# Проверява в changed_words дали думата вече не е срещаната и и връща индеѯа на
+# срещната дума или големината на масива. Така винаги връша мястѿо където да се
+# постави думата.
+# 1. Проверява дали думата не се е появявала вече преди, като обхожда
+# създадената стрꙋтура (масив)за същата дума. Как разбираме, че думата е
+# същата? разбираме, като видим: 1) че е била написана по същия начин
+# съкратена; 2) че е развързана по същия начин; 3)че регулярният ѝ израз е
+# същия. Едно ѿ тези условия е достатъчно.
+sub check_if_word_is_already_met ($self, $word = {}) {
+  my $words             = $self->changed_words;
+  my $already_met_index = @$words;                # after the end
+  for my $i (0 .. $already_met_index - 1) {
+    if ($word->{Източник} eq $words->[$i]{Източник}) {
+      return $i;
+    }
+    elsif ($word->{Променена} eq $words->[$i]{Променена}) {
+      return $i;
+    }
+    elsif ($word->{ИзразЗаТърсене} eq $words->[$i]{ИзразЗаТърсене}) {
+      return $i;
+    }
+  }
+  return $already_met_index;
+}
+
+# Добавя променената(разсъкратена/развързана) дума към стрꙋтурата, ѿ която ще
+# направим речника.
+# Как?
+# 0. Използва is_word_already_added, за да види дали думата вече не е
+# добавена при нягое предишно пускане  и ако е така, не прави нищо.
+# 1. Използва check_if_word_is_already_met, да провери, дали думата не е срещана вече.
+# ако се появява, просто я добавя след първѿо появяване и добавя ключ към
+# описанието на думата първи ред на страница (first_page_line (occurence)).а
+# 2. Ако не се появява, просто я добавя към края на масива.
+# Връща true при добавяне или false иначе.
+sub add_changed_word ($self, $word = {}) {
+
+  # ще проверим първо дали думата вече не съществува и ще видим какво
+  # ще правим.
+  return 0 if $self->is_word_already_added($word);
+  my $words = $self->changed_words;
+  my $index = $self->check_if_word_is_already_met($word);
+  my $at    = $index;
+  if ($index < @$words) {
+    $word->{ПървоНамеренаНаРед} = $words->[$index]{РедВРъкописа};
+    $at = $index + 1;
+  }
+  splice @$words, $at, 0, $word;
+  return 1;
+}
+
+# Extracts changed words from the passed line and adds them to an array of
+# structures describing the words
+sub extract_changed ($self, $line, $page, $pg_line, $source, $changed) {
+  my @source  = split /\W+/, $source;
+  my @changed = split /\W+/, $changed;
+  if (@source < @changed) {
+
+    # може би имаме възвратен глагол?
+    $self->log([\@source, \@changed]);
+
+    #да проверим за надбꙋkвено "с"  или ж - сѧ,съ,же
+    for my $i (0 .. @source - 1) {
+      my $next_i = $i + 1;
+      if ($source[$i] =~ /\x{2ded}|\x{2de4}/
+        && ($changed[$next_i] // '') =~ /^(?:с[ъьѧ]|же)$/)
+      {
+        $self->log("!!!$source[$i]|$changed[$i] $changed[$next_i]");
+
+        # махаме възвратаната частица, за да изравним масивите, след като върнем
+        # частицата в предния елемент.
+        $changed[$i] = $changed[$i] . ' ' . $changed[$next_i];
+
+        #splice ARRAY,   OFFSET,  LENGTH
+        splice @changed, $next_i, 1;
+        $self->log([\@source, \@changed]);
+      }
+      if ($source[$i] ne $changed[$i]) {
+        $self->log("$source[$i]|$changed[$i]");
+        $self->add_changed_word({
+
+          # как ще търсим леѯемата в други документи
+          'ИзразЗаТърсене' => $self->make_word_regex($changed[$i]),
+          'Източник'       => $source[$i],
+          'Променена'      => $changed[$i],
+          'РедВРъкописа'   => $line,
+          'РедВСтраницата' => $pg_line,
+          'Редът'          => $source,
+          'Страница'       => $page,
+        });
+      }
+    }
+  }
+
+  # !Missing word in the changed line? Die so the editor can examine the situation.
+  elsif (@source > @changed) {
+    warn qq|
+!!! Probably a missing word! Please see what you did at line $line.
+        @source
+        @changed
+|;
+  }
+
+  #различават се само думите
+  else {
+    for my $i (0 .. @source - 1) {
+      if ($source[$i] ne $changed[$i]) {
+        $self->log("$source[$i]|$changed[$i]");
+        $self->add_changed_word({
+
+          # как ще търсим леѯемата в други документи
+          'ИзразЗаТърсене' => $self->make_word_regex($changed[$i]),
+          'Източник'       => $source[$i],
+          'Променена'      => $changed[$i],
+          'РедВРъкописа'   => $line,
+          'РедВСтраницата' => $pg_line,
+          'Редът'          => $source,
+          'Страница'       => $page,
+        });
+      }
+    }
+  }
+}
+
+# extracts word_lines which are not abbreviated in the cleaned file but are
+# abbreviated in the source file and searches for similar not abbreviated word_lines
+# in each $self->files starting from the souse file.
+# returns $self;
+sub compare_word_lines($self) {
+
+  #get all word_lines from from the cleaned and disabreviated file
+  my $changed = $self->word_lines;
+  my $source  = $self->source_file_lines;
+  my $r       = $self->range;
+  my $stop    = $r->[1] > @$source ? @$source - 1 : $r->[1];
+  my $line    = 0;
+  warn "Stop index for range is bigger than the last line!"
+    . "\nChanging it to last line "
+    . ($stop + 1)
+    if $r->[1] > @$source;
+  my ($page, $pg_line) = ('', 1);
+
+  for my $wi (0 .. $stop) {
+
+    # броене на редове и намиране на страници
+    $line = $wi + 1;
+    if ($source->[$wi] =~ /\d+[vr]/) {
+      $page    = $source->[$wi];
+      $pg_line = 1;
+    }
+    next if $wi < $r->[0];
+
+    #find changed words, extract them and search in the whole file
+    if ($self->diff($source->[$wi], $changed->[$wi])) {
+      $self->log(<<"QQ");
+$line:
+    $source->[$wi]
+    $changed->[$wi]
+QQ
+
+      $self->extract_changed($line, $page, $pg_line, $source->[$wi], $changed->[$wi]);
+    }
+    $pg_line++;
+  }
+
+  $self->changed_words_file->spurt(YAML::XS::Dump($self->changed_words));
+}
+
+has index_file   => sub { path($_[0]->data_dir, 'index.yml') };
+has subprocs_num => 4;
+has words_per_subproc =>
+  sub($me) { int scalar(keys %{$me->unique_changed_words}) / $me->subprocs_num + 1 };
+
+sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
+  my $subproc = Mojo::IOLoop::Subprocess->new;
+
+  return $subproc->run_p(sub {
+    my $index = {};
+    for my $w (@$words) {
+      my $key = $w->{Променена};
+      $self->log(
+        "($proc_num)Търсене на $w->{Източник}:$w->{Променена}:$w->{ИзразЗаТърсене}…");
+      $index->{$key} = $w;
+      $self->files_contents->each(
+        sub ($text, $n) {
+
+          #say $text;
+          my ($title) = $text =~ /Текстов корпус\n([^\n]+?)\n/s;
+          my ($doc)   = $text =~ /doc_id(doc_\d{3})/s;
+
+          # не само цели думи:
+          # /((?:\w+\W+){0,3}(?:\w+)?$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
+          # Само цели думи
+          # /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\s+\w+){0,3})/gs
+          my $matches
+            = [$text =~ /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\W+\w+){0,3})/gs];
+
+          #say dumper $matches;
+          if (@$matches) {
+
+            # да бъдат само на един ред
+            for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
+
+            #only first 11 results
+            splice @$matches, 10, (@$matches - 11) if @$matches > 11;
+            push @{$index->{$key}{Търсене}},
+              {
+              Ръкопис  => $title,
+              Документ => $doc,
+              Търсено  => $w->{Променена},
+              Намерено => $matches
+              };
+          }
+        });
+
+    }
+    path($self->data_dir, sprintf('index_%02d' . '.yml', $proc_num))
+      ->spurt(YAML::XS::Dump($index));
+    my $msg
+      = "($proc_num) searched for "
+      . @$words
+      . " words from $words->[0]{Променена} to $words->[-1]{Променена} !";
+    $self->log($msg);
+    return $msg;
+  })->then(sub { })->catch(sub  ($err) {
+    $self->log("Subprocess ($proc_num) error: $err");
+  });
+}
+
+sub search_in_docs ($self) {
+  my $words    = $self->unique_changed_words;
+  my $wordkeys = [sort keys %$words];
+
+  #say $self->files_contents->size;
+  my @subprocs;
+  my $chunk_size = $self->words_per_subproc;
+  my $proc_num   = 1;
+  while (@$wordkeys) {
+    my @chunk_of_wordkeys = splice @$wordkeys, 0, $chunk_size;
+    push @subprocs,
+      $self->search_words_in_docs_in_subprocess($proc_num++,
+      [@$words{@chunk_of_wordkeys}]);
+  }
+
+  foreach my $s (@subprocs) {
+
+    # Start event loop if necessary
+    $s->ioloop->start unless $s->ioloop->is_running;
+  }
+
+  foreach my $s (@subprocs) {
+
+    # Wait for the subprocess to finish
+    $s->wait;
+  }
+
+  # merge index files into one
+  my $index = {};
+  for (1 .. $self->subprocs_num) {
+    $index = {
+      %$index,
+      %{
+        YAML::XS::Load(path($self->data_dir, sprintf('index_%02d' . '.yml', $_))->slurp)}
+    };
+  }
+
+  path($self->data_dir, 'index.yml')->spurt(YAML::XS::Dump($index));
+  return;
+}
 
 sub main() {
   my $wf = __PACKAGE__->new;
-  getopt 'W|words=s@' => sub ($name, $value) {
-    $wf->words($value);
-  }, 'F|files=s@' => sub ($name, $value) { $wf->files($value) };
-  say dumper $wf->words->words;
+  getopt
 
-  #$wf->make_word_regex($_) for @{(ref $wf->words eq 'ARRAY') || $wf->words};
+    #'W|word_lines=s@' => sub ($name, $value) {$wf->word_lines($value);},
+    'R|range=s@' => sub ($name, $value) {
+    state $call = 0;
+    if ($call > 1) {
+      warn( "The range can contain only two items - start index and stop index"
+          . "\nNot adding value $value!");
+      return;
+    }
+    $wf->range->[$call] = $value;
+    $call++;
+    }, 'F|files=s@' => sub ($name, $value) { $wf->files($value) },
+    'D|debug' => sub ($n, $v) {
+    $wf->debug($v);
+    },
+    'S|subprocesses=i' => sub ($n, $v) {
+    $v = $v > 10 ? 10 : $v;
+    $wf->subprocs_num($v);
+    };
+  $wf->compare_word_lines();
+  say "Общо променени думи:" . (@{$wf->changed_words});
+  say "непоѡарящи се променени думи:" . (keys %{$wf->unique_changed_words});
+
+  #now search each unabbreviated word in each doc_ file
+  $wf->search_in_docs();
 }
 
 

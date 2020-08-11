@@ -31,6 +31,7 @@ my sub prepare_find_repl_hash() {
     # U+E02D <Лична употреба> стрелка наляво
     # се замества с
     # U+0487 COMBINING CYRILLIC POKRYTIE
+    # или трябва д асе замести всъщност с U+0484 COMBINING CYRILLIC PALATALIZATION
     "\x{e02d}" => "\x{0487}",
 
     #U+0360 COMBINING DOUBLE TILDE
@@ -51,7 +52,8 @@ my sub prepare_find_repl_hash() {
     #  => ѳ
     "\x{e225}" => "\x{0473}",
     "\x{e224}" => "\x{0472}",
-
+    #
+    ""     => "",
     q|еⷩ| => "еⷩ҄",
     "д"   => "Д꙯",
     "пⷭ"  => "пⷭ҄",
@@ -145,6 +147,11 @@ sub replace ($self) {
   return $text;
 }
 
+# За да се оправят всѝки файлове в папка
+# да направя следнѿо на командния ред:
+#  cd histdict_evt_docs/
+#  rm *_clean
+# for f in $(ls ./); do ../lib/HistDict2Uni.pm -F $f> ${f}_clean; done
 
 sub main() {
   getopt 'F|file=s' => \my $path;
