@@ -21,7 +21,7 @@ local $Data::Dumper::Useperl = 1;
 has debug    => 0;
 has data_dir => sub { path("$RealBin/../data")->realpath };
 
-# ordered by closest place (same book, same writer),then orthography then monastery then time, . All from Evtimij
+# Разстояния: ordered by closest place (same book, same writer),then orthography then monastery then time, . All from Evtimij
 has distances => sub {
   c(
     'doc_155', 'doc_156', 'doc_214', 'doc_212', 'doc_216', 'doc_217', 'doc_219',
@@ -29,6 +29,13 @@ has distances => sub {
     'doc_158', 'doc_159', 'doc_197', 'doc_202', 'doc_205', 'doc_211',
 
   );
+};
+
+# Близост по разстояния: най-малкѿо число е най-близкия документ.
+has closeness => sub($me) {
+  my $closest = {};
+  $me->distances->each(sub ($e, $num) { $closest->{$e} = $num });
+  return $closest;
 };
 
 # бꙋкви за създаване на израз ѿ примерна дума и търсене
@@ -140,7 +147,7 @@ has files_contents => sub {
   my $from_dir = "$RealBin/../histdict_evt_docs";
   $_[0]->distances->map(sub {
     my $doc = path($from_dir, "${_}_clean")->realpath;
-    return unless -f $doc && -s $doc;
+    die "!!Document '$doc' was not found on the file system!!!" unless -f $doc && -s $doc;
     decode utf8 => $doc->slurp;
   });
 };
@@ -150,7 +157,7 @@ has source_file => sub { path("$RealBin/../texts/Petka_NOVA_chist.txt")->realpat
 # Default range of word_lines to check.
 # 0 .. the word_lines
 has range => sub {
-  $_[0]->{range} //= [0, @{$_[0]->source_file_lines} - 1];
+  [0, @{$_[0]->source_file_lines} - 1];
 };
 
 
@@ -209,14 +216,14 @@ sub is_word_already_added ($self, $word) {
 # същата? разбираме, като видим: 1) че е била написана по същия начин
 # съкратена; 2) че е развързана по същия начин; 3)че регулярният ѝ израз е
 # същия. Едно ѿ тези условия е достатъчно.
-sub check_if_word_is_already_met ($self, $word = {}) {
+sub is_word_already_met ($self, $word = {}) {
   my $words             = $self->changed_words;
   my $already_met_index = @$words;                # after the end
   for my $i (0 .. $already_met_index - 1) {
-    if ($word->{Източник} eq $words->[$i]{Източник}) {
+    if ($word->{Променена} eq $words->[$i]{Променена}) {
       return $i;
     }
-    elsif ($word->{Променена} eq $words->[$i]{Променена}) {
+    if ($word->{Източник} eq $words->[$i]{Източник}) {
       return $i;
     }
     elsif ($word->{ИзразЗаТърсене} eq $words->[$i]{ИзразЗаТърсене}) {
@@ -231,7 +238,7 @@ sub check_if_word_is_already_met ($self, $word = {}) {
 # Как?
 # 0. Използва is_word_already_added, за да види дали думата вече не е
 # добавена при нягое предишно пускане  и ако е така, не прави нищо.
-# 1. Използва check_if_word_is_already_met, да провери, дали думата не е срещана вече.
+# 1. Използва is_word_already_met, да провери, дали думата не е срещана вече.
 # ако се появява, просто я добавя след първѿо появяване и добавя ключ към
 # описанието на думата първи ред на страница (first_page_line (occurence)).а
 # 2. Ако не се появява, просто я добавя към края на масива.
@@ -242,7 +249,7 @@ sub add_changed_word ($self, $word = {}) {
   # ще правим.
   return 0 if $self->is_word_already_added($word);
   my $words = $self->changed_words;
-  my $index = $self->check_if_word_is_already_met($word);
+  my $index = $self->is_word_already_met($word);
   my $at    = $index;
   if ($index < @$words) {
     $word->{ПървоНамеренаНаРед} = $words->[$index]{РедВРъкописа};
@@ -262,11 +269,13 @@ sub extract_changed ($self, $line, $page, $pg_line, $source, $changed) {
     # може би имаме възвратен глагол?
     $self->log([\@source, \@changed]);
 
-    #да проверим за надбꙋkвено "с"  или ж - сѧ,съ,же
+    # да проверим за  словоформа с надписано "с" или ж - сѧ,съ,же
+    # Развързана словоформата се сътои от две единици
+    # Примери:Врѣмениⷤ҇  => Врѣмени же; лишитиⷭ҇ => лишити сѧ; днⷭ҇е => дьне съ
     for my $i (0 .. @source - 1) {
       my $next_i = $i + 1;
       if ($source[$i] =~ /\x{2ded}|\x{2de4}/
-        && ($changed[$next_i] // '') =~ /^(?:с[ъьѧ]|же)$/)
+        && ($changed[$next_i] // '') =~ /^(?:с[ъьѧꙙ]|же)$/i)
       {
         $self->log("!!!$source[$i]|$changed[$i] $changed[$next_i]");
 
@@ -381,8 +390,11 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
     my $index = {};
     for my $w (@$words) {
       my $key = $w->{Променена};
+
+      # документите по близост
+      my $closeness = $self->closeness;
       $self->log(
-        "($proc_num)Търсене на $w->{Източник}:$w->{Променена}:$w->{ИзразЗаТърсене}…");
+        "($proc_num) Търсене на $w->{Източник}:$w->{Променена}:$w->{ИзразЗаТърсене}…");
       $index->{$key} = $w;
       $self->files_contents->each(
         sub ($text, $n) {
@@ -401,20 +413,36 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
           #say dumper $matches;
           if (@$matches) {
 
+            # Най-близко(!) разночетене според близостта на документа до
+            # променяния ръкопис. Това е целта на цялѿо индеѯиране - да
+            # помогне за вземането на рещенѥ коя е най-добрата словоформа
+            # за развързване на съкращенѥто.
+            my $razni = c(@{$index->{$key}{Разночетения} //= []});
+
             # да бъдат само на един ред
             for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
 
-            #only first 11 results
-            splice @$matches, 10, (@$matches - 11) if @$matches > 11;
-            push @{$index->{$key}{Търсене}},
-              {
-              Ръкопис  => $title,
-              Документ => $doc,
-              Търсено  => $w->{Променена},
-              Намерено => $matches
-              };
+            # Разночетения!
+            my $how_close = sprintf("%02d|$doc", $closeness->{$doc});
+            for my $raz (@$matches) {
+              my @nameri = $raz =~ /($w->{ИзразЗаТърсене})/g;
+              for my $namera (@nameri) {
+                my $first
+                  = $razni->first(sub ($e) { $e && exists $e->{"$namera|$how_close"} });
+                if ($first) {
+                  $first->{"$namera|$how_close"}++;
+                }
+                else {
+                  push @$razni, {"$namera|$how_close" => 1};
+                }
+              }
+            }
+            $index->{$key}{Разночетения} = [@$razni];
+            # Ще показваме до 12 намирания на документ
+            splice @$matches, 11, (@$matches - 12) if @$matches > 12;
+            $index->{$key}{Намерени}{$doc} = $matches;
           }
-        });
+        });    # end $self->files_contents->each(sub{...})
 
     }
     path($self->data_dir, sprintf('index_%02d' . '.yml', $proc_num))
@@ -471,6 +499,9 @@ sub search_in_docs ($self) {
   return;
 }
 
+sub sudgest_changes($self){
+    die "TODO";
+}
 sub main() {
   my $wf = __PACKAGE__->new;
   getopt
@@ -499,6 +530,9 @@ sub main() {
 
   #now search each unabbreviated word in each doc_ file
   $wf->search_in_docs();
+  # Сега можем да предложим промяна на развързаната дума, ако се различава от
+  # най-близко намерената.
+  $wf->sudgest_changes();
 }
 
 
