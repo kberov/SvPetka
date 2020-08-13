@@ -182,7 +182,10 @@ has changed_words => sub {
 has unique_changed_words => sub {
   my $unique_words = {};
   for my $w (@{$_[0]->changed_words}) {
-    $unique_words->{$w->{Променена}} = $w unless exists $unique_words->{$w->{Променена}};
+
+    # my $key = sprintf('%03d', $w->{РедВРъкописа}) . "|$w->{Източник}=>$w->{Променена}";
+    my $key = $w->{Променена};
+    $unique_words->{$key} = $w unless exists $unique_words->{$key};
   }
   return $unique_words;
 };
@@ -389,6 +392,8 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
   return $subproc->run_p(sub {
     my $index = {};
     for my $w (@$words) {
+
+     # my $key = sprintf('%03d', $w->{РедВРъкописа}) . "|$w->{Източник}=>$w->{Променена}";
       my $key = $w->{Променена};
 
       # документите по близост
@@ -408,10 +413,14 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
           # Само цели думи
           # /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\s+\w+){0,3})/gs
           my $matches
-            = [$text =~ /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\W+\w+){0,3})/gs];
+            = [$text =~ /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
+            ];
 
           #say dumper $matches;
           if (@$matches) {
+
+            # По-късите съвпадения - първи.
+            @$matches = sort { length($a) <=> length($b) } @$matches;
 
             # Най-близко(!) разночетене според близостта на документа до
             # променяния ръкопис. Това е целта на цялѿо индеѯиране - да
@@ -422,25 +431,28 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
             # да бъдат само на един ред
             for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
 
+            # Ще показваме до 12 намирания на документ
+            splice @$matches, 11, (@$matches - 12) if @$matches > 12;
+
             # Разночетения!
             my $how_close = sprintf("%02d|$doc", $closeness->{$doc});
             for my $raz (@$matches) {
               my @nameri = $raz =~ /($w->{ИзразЗаТърсене})/g;
               for my $namera (@nameri) {
                 my $first
-                  = $razni->first(sub ($e) { $e && exists $e->{"$namera|$how_close"} });
+                  = $razni->first(sub ($e) { $e && exists $e->{"$how_close|$namera"} });
                 if ($first) {
-                  $first->{"$namera|$how_close"}++;
+                  $first->{"$how_close|$namera"}++;
+                  push @{$first->{Примери}}, $raz;
                 }
                 else {
-                  push @$razni, {"$namera|$how_close" => 1};
+                  push @$razni, {"$how_close|$namera" => 1, Примери => [$raz]};
                 }
               }
             }
             $index->{$key}{Разночетения} = [@$razni];
-            # Ще показваме до 12 намирания на документ
-            splice @$matches, 11, (@$matches - 12) if @$matches > 12;
-            $index->{$key}{Намерени}{$doc} = $matches;
+
+            # $index->{$key}{Намерени}{$how_close} = $matches;
           }
         });    # end $self->files_contents->each(sub{...})
 
@@ -499,9 +511,10 @@ sub search_in_docs ($self) {
   return;
 }
 
-sub sudgest_changes($self){
-    die "TODO";
+sub sudgest_changes($self) {
+  die "TODO";
 }
+
 sub main() {
   my $wf = __PACKAGE__->new;
   getopt
@@ -526,10 +539,11 @@ sub main() {
     };
   $wf->compare_word_lines();
   say "Общо променени думи:" . (@{$wf->changed_words});
-  say "непоѡарящи се променени думи:" . (keys %{$wf->unique_changed_words});
+  say "неповтарящи се променени думи:" . (keys %{$wf->unique_changed_words});
 
   #now search each unabbreviated word in each doc_ file
   $wf->search_in_docs();
+
   # Сега можем да предложим промяна на развързаната дума, ако се различава от
   # най-близко намерената.
   $wf->sudgest_changes();
