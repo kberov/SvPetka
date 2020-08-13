@@ -414,7 +414,7 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
           # Само цели думи
           # /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\s+\w+){0,3})/gs
           my $matches
-            = [$text =~ /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
+            = [$text =~ /((?:\w+\W+){1,3}$w->{ИзразЗаТърсене}(?:\W+\w+){1,4})/gs
             ];
 
           #say dumper $matches;
@@ -538,6 +538,7 @@ sub main() {
     $v = $v > 10 ? 10 : $v;
     $wf->subprocs_num($v);
     };
+
   $wf->compare_word_lines();
   say "Общо променени думи:" . (@{$wf->changed_words});
   say "неповтарящи се променени думи:" . (keys %{$wf->unique_changed_words});
