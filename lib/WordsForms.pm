@@ -21,7 +21,8 @@ local $Data::Dumper::Useperl = 1;
 has debug    => 0;
 has data_dir => sub { path("$RealBin/../data")->realpath };
 
-# Разстояния: ordered by closest place (same book, same writer),then orthography then monastery then time, . All from Evtimij
+# Разстояния: ordered by closest place same book,then orthography, then monastery then time, . All from Evtimij
+# Пример: http://histdict.uni-sofia.bg/textcorpus/show/doc_155
 has distances => sub {
   c(
     'doc_155', 'doc_156', 'doc_214', 'doc_212', 'doc_216', 'doc_217', 'doc_219',
@@ -184,7 +185,7 @@ has unique_changed_words => sub {
   for my $w (@{$_[0]->changed_words}) {
 
     # my $key = sprintf('%03d', $w->{РедВРъкописа}) . "|$w->{Източник}=>$w->{Променена}";
-    my $key = $w->{Променена};
+    my $key = lc $w->{Променена};
     $unique_words->{$key} = $w unless exists $unique_words->{$key};
   }
   return $unique_words;
@@ -394,7 +395,7 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
     for my $w (@$words) {
 
      # my $key = sprintf('%03d', $w->{РедВРъкописа}) . "|$w->{Източник}=>$w->{Променена}";
-      my $key = $w->{Променена};
+      my $key = lc $w->{Променена};
 
       # документите по близост
       my $closeness = $self->closeness;
