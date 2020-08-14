@@ -39,9 +39,9 @@ my sub prepare_find_repl_hash() {
     # U+0483 COMBINING CYRILLIC TITLO
     "\x{0360}" => "\x{0483}",
 
-# U+E213 <Лична употреба> и U+E212 <Лична употреба>
-# се заместват с указанѿо за целта в уникод таблицата
-# U+A669 CYRILLIC SMALL LETTER MONOCULAR O и U+A668 CYRILLIC CAPITAL LETTER MONOCULAR O
+    # U+E213 <Лична употреба> и U+E212 <Лична употреба> се заместват с указанѿо
+    # за целта в уникод таблицата U+A669 CYRILLIC SMALL LETTER MONOCULAR O и
+    # U+A668 CYRILLIC CAPITAL LETTER MONOCULAR O
     "\x{e213}" => "\x{a669}",
     "\x{e212}" => "\x{a668}",
 
@@ -52,13 +52,15 @@ my sub prepare_find_repl_hash() {
     #  => ѳ
     "\x{e225}" => "\x{0473}",
     "\x{e224}" => "\x{0472}",
-    #
-    ""     => "",
-    q|еⷩ| => "еⷩ҄",
-    "д"   => "Д꙯",
-    "пⷭ"  => "пⷭ҄",
-    "а"   => "a꙽",
-    "ѩ"   => "ѩ҃",
+
+    #  => e
+    # U+E21F <Лична употреба> се замества с U+0435 CYRILLIC SMALL LETTER IE
+    "\x{e21f}" => "\x{0435}",
+    q|еⷩ|     => "еⷩ҄",
+    "д"       => "Д꙯",
+    "пⷭ"      => "пⷭ҄",
+    "а"       => "a꙽",
+    "ѩ"       => "ѩ҃",
   );
 
 

@@ -32,7 +32,7 @@ has distances => sub {
   );
 };
 
-# Близост по разстояния: най-малкѿо число е най-близкия документ.
+# Близост по разстояния: най-малкѿо число е най-близкият документ.
 has closeness => sub($me) {
   my $closest = {};
   $me->distances->each(sub ($e, $num) { $closest->{$e} = $num });
@@ -55,15 +55,15 @@ has bukvi => sub {
     'ъ'  => "[ъьꙿ]?",
     'ь'  => "[ьъꙿ]?",
     'ꙿ'  => "[ꙿьъ]?",
-    'е'  => "[еєѥ]",
-    'є'  => "[єеѥ]",
-    'ѥ'  => "[ѥеє]",
-    'ѧ'  => "[ѧꙙ]",
-    'ꙙ'  => "[ꙙѧ]",
-    'и'  => "[ийії]",
-    'й'  => "[йиії]",
-    'і'  => "[іїий]",
-    'ї'  => "[їіий]",
+    'е'  => "(?:[еєѥ]|[ѧꙙ])",
+    'є'  => "(?:[єеѥ]|[ѧꙙ])",
+    'ѥ'  => "(?:[ѥеє]|[ѧꙙ])",
+    'ѧ'  => "(?:[ѧꙙ]|[еєѥ])",
+    'ꙙ'  => "(?:[ꙙѧ]|[еєѥ])",
+    'и'  => "[ийіїыꙑ]",
+    'й'  => "[йиіїыꙑ]",
+    'і'  => "[іїийыꙑ]",
+    'ї'  => "[їіийыꙑ]",
     'ꙗ'  => "(?:ꙗ|їа|іа|иа)",
     'їа' => "(?:ꙗ|їа|іа|иа)",
     'іа' => "(?:ꙗ|їа|іа|иа)",
@@ -184,9 +184,13 @@ has unique_changed_words => sub {
   my $unique_words = {};
   for my $w (@{$_[0]->changed_words}) {
 
-    # my $key = sprintf('%03d', $w->{РедВРъкописа}) . "|$w->{Източник}=>$w->{Променена}";
-    my $key = lc $w->{Променена};
-    $unique_words->{$key} = $w unless exists $unique_words->{$key};
+    my $key = lc $w->{'0Изт.|Разг.'};
+    if (exists $unique_words->{$key}) {
+      push @{$unique_words->{$key}{'4Редове'}}, $w->{'4Редове'}[0];
+    }
+    else {
+      $unique_words->{$key} = $w;
+    }
   }
   return $unique_words;
 };
@@ -201,10 +205,9 @@ sub is_word_already_added ($self, $word) {
 
   for my $i (0 .. $words_length - 1) {
     my $added
-      = $word->{Източник} eq $words->[$i]{Източник}
-      && $word->{Променена} eq $words->[$i]{Променена}
-      && $word->{ИзразЗаТърсене} eq $words->[$i]{ИзразЗаТърсене}
-      && $word->{РедВРъкописа} eq $words->[$i]{РедВРъкописа};
+      = $word->{'0Изт.|Разг.'} eq $words->[$i]{'0Изт.|Разг.'}
+      && $word->{'1ЗаТърсене'} eq $words->[$i]{'1ЗаТърсене'}
+      && $word->{'4Редове'}[0] eq $words->[$i]{'4Редове'}[0];
     if ($added) {
       return $added;
     }
@@ -224,13 +227,9 @@ sub is_word_already_met ($self, $word = {}) {
   my $words             = $self->changed_words;
   my $already_met_index = @$words;                # after the end
   for my $i (0 .. $already_met_index - 1) {
-    if ($word->{Променена} eq $words->[$i]{Променена}) {
-      return $i;
-    }
-    if ($word->{Източник} eq $words->[$i]{Източник}) {
-      return $i;
-    }
-    elsif ($word->{ИзразЗаТърсене} eq $words->[$i]{ИзразЗаТърсене}) {
+    if ( lc $word->{'0Изт.|Разг.'} eq lc $words->[$i]{'0Изт.|Разг.'}
+      && lc $word->{'1ЗаТърсене'} eq lc $words->[$i]{'1ЗаТърсене'})
+    {
       return $i;
     }
   }
@@ -256,7 +255,7 @@ sub add_changed_word ($self, $word = {}) {
   my $index = $self->is_word_already_met($word);
   my $at    = $index;
   if ($index < @$words) {
-    $word->{ПървоНамеренаНаРед} = $words->[$index]{РедВРъкописа};
+    $word->{ПървоНамеренаНаРед} = $words->[$at]{'4Редове'}[0];
     $at = $index + 1;
   }
   splice @$words, $at, 0, $word;
@@ -296,13 +295,9 @@ sub extract_changed ($self, $line, $page, $pg_line, $source, $changed) {
         $self->add_changed_word({
 
           # как ще търсим леѯемата в други документи
-          'ИзразЗаТърсене' => $self->make_word_regex($changed[$i]),
-          'Източник'       => $source[$i],
-          'Променена'      => $changed[$i],
-          'РедВРъкописа'   => $line,
-          'РедВСтраницата' => $pg_line,
-          'Редът'          => $source,
-          'Страница'       => $page,
+          '0Изт.|Разг.' => "$source[$i]|$changed[$i]",
+          '1ЗаТърсене'  => $self->make_word_regex($changed[$i]),
+          '4Редове'     => ["$line|$page|$pg_line:$source$/$changed"],
         });
       }
     }
@@ -310,7 +305,7 @@ sub extract_changed ($self, $line, $page, $pg_line, $source, $changed) {
 
   # !Missing word in the changed line? Die so the editor can examine the situation.
   elsif (@source > @changed) {
-    warn qq|
+    die qq|
 !!! Probably a missing word! Please see what you did at line $line.
         @source
         @changed
@@ -325,13 +320,9 @@ sub extract_changed ($self, $line, $page, $pg_line, $source, $changed) {
         $self->add_changed_word({
 
           # как ще търсим леѯемата в други документи
-          'ИзразЗаТърсене' => $self->make_word_regex($changed[$i]),
-          'Източник'       => $source[$i],
-          'Променена'      => $changed[$i],
-          'РедВРъкописа'   => $line,
-          'РедВСтраницата' => $pg_line,
-          'Редът'          => $source,
-          'Страница'       => $page,
+          '0Изт.|Разг.' => "$source[$i]|$changed[$i]",
+          '1ЗаТърсене'  => $self->make_word_regex($changed[$i]),
+          '4Редове'     => ["$line|$page|$pg_line:$source$/$changed"],
         });
       }
     }
@@ -394,13 +385,11 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
     my $index = {};
     for my $w (@$words) {
 
-     # my $key = sprintf('%03d', $w->{РедВРъкописа}) . "|$w->{Източник}=>$w->{Променена}";
-      my $key = lc $w->{Променена};
+      my $key = $w->{'0Изт.|Разг.'};
 
       # документите по близост
       my $closeness = $self->closeness;
-      $self->log(
-        "($proc_num) Търсене на $w->{Източник}:$w->{Променена}:$w->{ИзразЗаТърсене}…");
+      $self->log("($proc_num) Търсене на $w->{'0Изт.|Разг.'}::$w->{'1ЗаТърсене'}…");
       $index->{$key} = $w;
       $self->files_contents->each(
         sub ($text, $n) {
@@ -413,21 +402,19 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
           # /((?:\w+\W+){0,3}(?:\w+)?$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
           # Само цели думи
           # /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\s+\w+){0,3})/gs
-          my $matches
-            = [$text =~ /((?:\w+\W+){1,3}$w->{ИзразЗаТърсене}(?:\W+\w+){1,4})/gs
-            ];
+          my $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
 
           #say dumper $matches;
           if (@$matches) {
 
             # По-късите съвпадения - първи.
-            @$matches = sort { length($a) <=> length($b) } @$matches;
+            # @$matches = sort { length($a) <=> length($b) } @$matches;
 
             # Най-близко(!) разночетене според близостта на документа до
             # променяния ръкопис. Това е целта на цялѿо индеѯиране - да
             # помогне за вземането на рещенѥ коя е най-добрата словоформа
             # за развързване на съкращенѥто.
-            my $razni = c(@{$index->{$key}{Разночетения} //= []});
+            my $razni = c(@{$index->{$key}{Съвпадения} //= []});
 
             # да бъдат само на един ред
             for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
@@ -436,22 +423,21 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
             splice @$matches, 11, (@$matches - 12) if @$matches > 12;
 
             # Разночетения!
-            my $how_close = sprintf("%02d|$doc", $closeness->{$doc});
+            my $how_close = sprintf("%02d|$doc", $closeness->{$doc} - 1);
             for my $raz (@$matches) {
-              my @nameri = $raz =~ /($w->{ИзразЗаТърсене})/g;
+              my @nameri = $raz =~ /($w->{'1ЗаТърсене'})/g;
               for my $namera (@nameri) {
                 my $first
                   = $razni->first(sub ($e) { $e && exists $e->{"$how_close|$namera"} });
                 if ($first) {
-                  $first->{"$how_close|$namera"}++;
-                  push @{$first->{Примери}}, $raz;
+                  push @{$first->{"$how_close|$namera"}}, $raz;
                 }
                 else {
-                  push @$razni, {"$how_close|$namera" => 1, Примери => [$raz]};
+                  push @$razni, {"$how_close|$namera" => [$raz]};
                 }
               }
             }
-            $index->{$key}{Разночетения} = [@$razni];
+            $index->{$key}{Съвпадения} = [@$razni];
 
             # $index->{$key}{Намерени}{$how_close} = $matches;
           }
@@ -463,7 +449,7 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
     my $msg
       = "($proc_num) searched for "
       . @$words
-      . " words from $words->[0]{Променена} to $words->[-1]{Променена} !";
+      . " words from|to $words->[-1]{'0Изт.|Разг.'} !";
     $self->log($msg);
     return $msg;
   })->then(sub { })->catch(sub  ($err) {
