@@ -55,11 +55,11 @@ has bukvi => sub {
     'ъ'  => "[ъьꙿ]?",
     'ь'  => "[ьъꙿ]?",
     'ꙿ'  => "[ꙿьъ]?",
-    'е'  => "(?:[еєѥ]|[ѧꙙ])",
-    'є'  => "(?:[єеѥ]|[ѧꙙ])",
-    'ѥ'  => "(?:[ѥеє]|[ѧꙙ])",
-    'ѧ'  => "(?:[ѧꙙ]|[еєѥ])",
-    'ꙙ'  => "(?:[ꙙѧ]|[еєѥ])",
+    'е'  => "[еєѥ]",
+    'є'  => "[єеѥ]",
+    'ѥ'  => "[ѥеє]",
+    'ѧ'  => "[ѧꙙ]",
+    'ꙙ'  => "[ꙙѧ]",
     'и'  => "[ийіїыꙑ]",
     'й'  => "[йиіїыꙑ]",
     'і'  => "[іїийыꙑ]",
@@ -85,7 +85,9 @@ has bukvi => sub {
     }
   }
 
-  $l->{'н'} = "[eьъꙿ]?н$l->{ъ}";
+  $l->{'щ'}  = "(?:щ|шт)$l->{ъ}";
+  $l->{'шт'} = $l->{'щ'};
+  $l->{'н'}  = "[eьъꙿ]?н$l->{ъ}";
 
   #$l->{' '} = '\s*?';
   return $l;
@@ -113,7 +115,7 @@ sub make_word_regex ($self, $w) {
   }
   my $m   = '';
   my $rex = $w =~ s/($rex_keys_rex)/
-        (($m = lc $1) && ($l->{$m} ? $l->{$m} : $m))
+        (($m = $1) && ($l->{$m} ? $l->{$m} : $m))
         /xiger;
   if ($zese) {
     $rex =~ s/\s+$/\\s*?/;
@@ -125,6 +127,24 @@ sub make_word_regex ($self, $w) {
   $self->log("$w:/$rex/");
 
   return $rex;
+}
+
+# Зарежда регулярни изрази за търсене на части ѿ думи,  зададени ѿ пѿребителя.
+has partial_regexes => sub {
+  my $f = path($RealBin, '..', __PACKAGE__ . '.rxs')->realpath;
+  -f $f && -s $f
+    || die "The file $f is not a file or it is empty!$/"
+    . "Please create one and add at least one random$/"
+    . "string to be used as alst resorert regex for searching";
+  return [split /\s+/xs, decode utf8 => $f->slurp];
+};
+
+# Части ѿ думи – корени представки, наставки, окончания за търсене на частични
+# съвпадения, ѿ които да се възстанови цяла дума.
+sub make_word_parts_regex ($self, $word) {
+  state $parts = c(@{$self->partial_regexes});
+  my $rex = $parts->first(sub ($e) { $word =~ /$e/i ? $e : '' });
+  return $rex ? $self->make_word_regex('\w*?' . $rex . '\w*?') : '';
 }
 
 has file_to_check => sub {
@@ -180,17 +200,30 @@ has changed_words => sub {
   return [];
 };
 
+has unique_changed_words_file_content => sub {
+  my $f = path($_[0]->data_dir, 'index.yml');
+  return {} unless -f $f && -s $f;
+  return YAML::XS::LoadFile($f);
+};
+
 has unique_changed_words => sub {
-  my $unique_words = {};
+  my $unique_words = $_[0]->unique_changed_words_file_content;
+
+  # return $unique_words if !!keys %$unique_words;
+
   for my $w (@{$_[0]->changed_words}) {
 
-    my $key = lc $w->{'0Изт.|Разг.'};
+    my $key = lc($w->{'0Изт.|Разг.'});
     if (exists $unique_words->{$key}) {
-      push @{$unique_words->{$key}{'4Редове'}}, $w->{'4Редове'}[0];
+      push @{$unique_words->{$key}{'4Редове'}}, $w->{'4Редове'}[0]
+        unless c(@{$unique_words->{$key}{'4Редове'}})
+        ->first(sub { $_ eq $w->{'4Редове'}[0] });
     }
     else {
       $unique_words->{$key} = $w;
     }
+
+    # delete $w->{'0Изт.|Разг.'};
   }
   return $unique_words;
 };
@@ -221,14 +254,14 @@ sub is_word_already_added ($self, $word) {
 # 1. Проверява дали думата не се е появявала вече преди, като обхожда
 # създадената стрꙋтура (масив)за същата дума. Как разбираме, че думата е
 # същата? разбираме, като видим: 1) че е била написана по същия начин
-# съкратена; 2) че е развързана по същия начин; 3)че регулярният ѝ израз е
-# същия. Едно ѿ тези условия е достатъчно.
+# съкратена и; 2) че е развързана по същия начин; или 3)че регулярният ѝ израз е
+# същия. Едно ѿ първите две заедно или третѿо условие е достатъчно.
 sub is_word_already_met ($self, $word = {}) {
   my $words             = $self->changed_words;
   my $already_met_index = @$words;                # after the end
   for my $i (0 .. $already_met_index - 1) {
     if ( lc $word->{'0Изт.|Разг.'} eq lc $words->[$i]{'0Изт.|Разг.'}
-      && lc $word->{'1ЗаТърсене'} eq lc $words->[$i]{'1ЗаТърсене'})
+      || lc $word->{'1ЗаТърсене'} eq lc $words->[$i]{'1ЗаТърсене'})
     {
       return $i;
     }
@@ -252,11 +285,10 @@ sub add_changed_word ($self, $word = {}) {
   # ще правим.
   return 0 if $self->is_word_already_added($word);
   my $words = $self->changed_words;
-  my $index = $self->is_word_already_met($word);
-  my $at    = $index;
-  if ($index < @$words) {
-    $word->{ПървоНамеренаНаРед} = $words->[$at]{'4Редове'}[0];
-    $at = $index + 1;
+  my $at    = $self->is_word_already_met($word);
+  if ($at < @$words) {
+    $word->{ПърваСреща} = $words->[$at]{'4Редове'}[0];
+    $at += 1;
   }
   splice @$words, $at, 0, $word;
   return 1;
@@ -296,7 +328,7 @@ sub extract_changed ($self, $line, $page, $pg_line, $source, $changed) {
 
           # как ще търсим леѯемата в други документи
           '0Изт.|Разг.' => "$source[$i]|$changed[$i]",
-          '1ЗаТърсене'  => $self->make_word_regex($changed[$i]),
+          '1ЗаТърсене'  => $self->make_word_regex(lc $changed[$i]),
           '4Редове'     => ["$line|$page|$pg_line:$source$/$changed"],
         });
       }
@@ -321,7 +353,7 @@ sub extract_changed ($self, $line, $page, $pg_line, $source, $changed) {
 
           # как ще търсим леѯемата в други документи
           '0Изт.|Разг.' => "$source[$i]|$changed[$i]",
-          '1ЗаТърсене'  => $self->make_word_regex($changed[$i]),
+          '1ЗаТърсене'  => $self->make_word_regex(lc $changed[$i]),
           '4Редове'     => ["$line|$page|$pg_line:$source$/$changed"],
         });
       }
@@ -378,6 +410,82 @@ has subprocs_num => 4;
 has words_per_subproc =>
   sub($me) { int scalar(keys %{$me->unique_changed_words}) / $me->subprocs_num + 1 };
 
+my sub _add_matches ($self, $doc, $matches, $w) {
+
+  # документите по близост
+  state $closeness = $self->closeness;
+
+  # По-късите съвпадения - първи.
+  # @$matches = sort { length($a) <=> length($b) } @$matches;
+
+  # Най-близко(!) разночетене според близостта на документа до
+  # променяния ръкопис. Това е целта на цялѿо индеѯиране - да
+  # помогне за вземането на рещенѥ коя е най-добрата словоформа
+  # за развързване на съкращенѥто.
+  my $razni = c(@{$w->{Съвпадения} //= []});
+
+  # да бъдат само на един ред
+  for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
+
+  # Ще показваме до 12 намирания на документ
+  splice @$matches, 11, (@$matches - 12) if @$matches > 12;
+
+  # Разночетения!
+  my $how_close = sprintf("%02d|$doc", $closeness->{$doc} - 1);
+  for my $raz (@$matches) {
+    my @nameri = $raz =~ /($w->{'1ЗаТърсене'})/g;
+    for my $namera (@nameri) {
+      my $first = $razni->first(sub ($e) { $e && exists $e->{"$how_close|$namera"} });
+      if ($first) {
+        push @{$first->{"$how_close|$namera"}}, $raz;
+      }
+      else {
+        push @$razni, {"$how_close|$namera" => [$raz]};
+      }
+    }
+  }
+  $w->{Съвпадения} = [@$razni];
+
+  # $index->{$key}{Намерени}{$how_close} = $matches;
+  return;
+
+};
+
+sub _search_in_doc ($self, $text, $w) {
+  return $w->{Съвпадения} // [] if @{$w->{Съвпадения} // []} > 15;
+
+  #say $text;
+  my ($title) = $text =~ /Текстов корпус\n([^\n]+?)\n/s;
+  my ($doc)   = $text =~ /doc_id(doc_\d{3})/s;
+
+  # не само цели думи:
+  # /((?:\w+\W+){0,3}(?:\w+)?$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
+  # Само цели думи
+  # /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\s+\w+){0,3})/gs
+  my $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
+
+  #say dumper $matches;
+  if (@$matches) {
+    _add_matches($self, $doc, $matches, $w);
+  }
+  else {
+    my $rex;
+
+    # Да не сливаме израза, ако вече е направен
+    unless ($w->{'1ЗаТърсене'} =~ /\)\|\(/) {
+      $rex = $self->make_word_parts_regex($w->{'0Изт.|Разг.'} =~ s/^[^\|+]\|//r);
+      $rex || return;
+      $w->{'1ЗаТърсене'} = qr/$w->{'1ЗаТърсене'}|$rex/i;
+    }
+    $self->log(
+      "Опитваме търсене на част ѿ думата . $w->{'0Изт.|Разг.'}  в $doc:  /$rex/i");
+
+    $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
+    _add_matches($self, $doc, $matches, $w);
+  }
+  return $w->{Съвпадения} // [];
+}
+
 sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
   my $subproc = Mojo::IOLoop::Subprocess->new;
 
@@ -385,63 +493,21 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
     my $index = {};
     for my $w (@$words) {
 
+# Не търси пак ако, думата вече я има в индеѯа, който сме заредили от диска и е създаден предишния път!
       my $key = $w->{'0Изт.|Разг.'};
+      if ($w->{Съвпадения} && @{$w->{Съвпадения}}) {
+        $index->{$key} = $w;
+        next;
+      }
 
-      # документите по близост
-      my $closeness = $self->closeness;
+
       $self->log("($proc_num) Търсене на $w->{'0Изт.|Разг.'}::$w->{'1ЗаТърсене'}…");
       $index->{$key} = $w;
       $self->files_contents->each(
-        sub ($text, $n) {
-
-          #say $text;
-          my ($title) = $text =~ /Текстов корпус\n([^\n]+?)\n/s;
-          my ($doc)   = $text =~ /doc_id(doc_\d{3})/s;
-
-          # не само цели думи:
-          # /((?:\w+\W+){0,3}(?:\w+)?$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
-          # Само цели думи
-          # /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\s+\w+){0,3})/gs
-          my $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
-
-          #say dumper $matches;
-          if (@$matches) {
-
-            # По-късите съвпадения - първи.
-            # @$matches = sort { length($a) <=> length($b) } @$matches;
-
-            # Най-близко(!) разночетене според близостта на документа до
-            # променяния ръкопис. Това е целта на цялѿо индеѯиране - да
-            # помогне за вземането на рещенѥ коя е най-добрата словоформа
-            # за развързване на съкращенѥто.
-            my $razni = c(@{$index->{$key}{Съвпадения} //= []});
-
-            # да бъдат само на един ред
-            for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
-
-            # Ще показваме до 12 намирания на документ
-            splice @$matches, 11, (@$matches - 12) if @$matches > 12;
-
-            # Разночетения!
-            my $how_close = sprintf("%02d|$doc", $closeness->{$doc} - 1);
-            for my $raz (@$matches) {
-              my @nameri = $raz =~ /($w->{'1ЗаТърсене'})/g;
-              for my $namera (@nameri) {
-                my $first
-                  = $razni->first(sub ($e) { $e && exists $e->{"$how_close|$namera"} });
-                if ($first) {
-                  push @{$first->{"$how_close|$namera"}}, $raz;
-                }
-                else {
-                  push @$razni, {"$how_close|$namera" => [$raz]};
-                }
-              }
-            }
-            $index->{$key}{Съвпадения} = [@$razni];
-
-            # $index->{$key}{Намерени}{$how_close} = $matches;
-          }
-        });    # end $self->files_contents->each(sub{...})
+        sub ($txt, $n) {
+          my $matches = $self->_search_in_doc($txt, $w) // [];
+          last if @$matches > 5;
+        });
 
     }
     path($self->data_dir, sprintf('index_%02d' . '.yml', $proc_num))
