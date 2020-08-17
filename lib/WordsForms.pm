@@ -49,9 +49,9 @@ has bukvi => sub {
     'ꙩ'  => "[оѡꙫѻꙩ]",
     'ѿ'  => "(?:ѿ|[оѡꙫѻꙩ]т)",
     'ы'  => "[ыꙑ]",
-    'ыи' => "[ыꙑ]и?",
+    'ыи' => "[ыꙑ]и",
     'ꙑ'  => "[ыꙑ]",
-    'ꙑи' => "[ыꙑ]и?",
+    'ꙑи' => "[ыꙑ]и",
     'ъ'  => "[ъьꙿ]?",
     'ь'  => "[ьъꙿ]?",
     'ꙿ'  => "[ꙿьъ]?",
@@ -135,7 +135,7 @@ has partial_regexes => sub {
   -f $f && -s $f
     || die "The file $f is not a file or it is empty!$/"
     . "Please create one and add at least one random$/"
-    . "string to be used as alst resorert regex for searching";
+    . "string to be used as last resort regex for searching";
   return [split /\s+/xs, decode utf8 => $f->slurp];
 };
 
@@ -143,8 +143,8 @@ has partial_regexes => sub {
 # съвпадения, ѿ които да се възстанови цяла дума.
 sub make_word_parts_regex ($self, $word) {
   state $parts = c(@{$self->partial_regexes});
-  my $rex = $parts->first(sub ($e) { $word =~ /$e/i ? $e : '' });
-  return $rex ? $self->make_word_regex('\w*?' . $rex . '\w*?') : '';
+  my $rexes = $parts->map(sub ($e) { $word =~ /$e/i ? $e : () });
+  return @$rexes ? $self->make_word_regex('\w*?' . $rexes->join('|') . '\w*?') : '';
 }
 
 has file_to_check => sub {
@@ -377,7 +377,7 @@ sub compare_word_lines($self) {
     . "\nChanging it to last line "
     . ($stop + 1)
     if $r->[1] > @$source;
-  my ($page, $pg_line) = ('', 1);
+  my ($page, $pg_line) = ('', 0);
 
   for my $wi (0 .. $stop) {
 
@@ -385,7 +385,7 @@ sub compare_word_lines($self) {
     $line = $wi + 1;
     if ($source->[$wi] =~ /\d+[vr]/) {
       $page    = $source->[$wi];
-      $pg_line = 1;
+      $pg_line = 0;
     }
     next if $wi < $r->[0];
 
@@ -422,13 +422,13 @@ my sub _add_matches ($self, $doc, $matches, $w) {
   # променяния ръкопис. Това е целта на цялѿо индеѯиране - да
   # помогне за вземането на рещенѥ коя е най-добрата словоформа
   # за развързване на съкращенѥто.
-  my $razni = c(@{$w->{Съвпадения} //= []});
+  my $razni = c(@{$w->{Съвпадения} // []});
 
   # да бъдат само на един ред
   for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
 
-  # Ще показваме до 12 намирания на документ
-  splice @$matches, 11, (@$matches - 12) if @$matches > 12;
+  # Ще показваме до 5 намирания на документ
+  splice @$matches, 4, (@$matches - 5) if @$matches > 5;
 
   # Разночетения!
   my $how_close = sprintf("%02d|$doc", $closeness->{$doc} - 1);
@@ -444,7 +444,7 @@ my sub _add_matches ($self, $doc, $matches, $w) {
       }
     }
   }
-  $w->{Съвпадения} = [@$razni];
+  $w->{Съвпадения} = [@$razni] if @$razni;
 
   # $index->{$key}{Намерени}{$how_close} = $matches;
   return;
@@ -506,7 +506,7 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
       $self->files_contents->each(
         sub ($txt, $n) {
           my $matches = $self->_search_in_doc($txt, $w) // [];
-          last if @$matches > 5;
+          last if @$matches > 10;
         });
 
     }
