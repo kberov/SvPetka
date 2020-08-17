@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5493612"
-     inkscape:cx="715.17235"
-     inkscape:cy="2406.6157"
+     inkscape:zoom="4"
+     inkscape:cx="450.8955"
+     inkscape:cy="2697.3072"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,21 +56,21 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/076b-077a_ok.jpg"
        xlink:href="076b-077a_ok.jpg"
-       y="-927.86548"
-       x="-40.512241"
-       id="image104"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image104"
+       x="-40.512241"
+       y="-927.86548" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-18.474548"
-       y="-901.32416"
+       x="-4.3136163"
+       y="-800.70703"
        id="text11"><tspan
          sodipodi:role="line"
-         x="-18.474548"
-         y="-901.32416"
+         x="-4.3136163"
+         y="-800.70703"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;fill:#ff0000;stroke-width:0.26458332"
          id="tspan13">76v</tspan></text>
     <text
@@ -87,30 +87,30 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/077b-078a_ok.jpg"
        xlink:href="077b-078a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image80"
+       y="-610.36548"
        x="-40.512241"
-       y="-610.36548" />
+       id="image80"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/078b-079a_ok.jpg"
        xlink:href="078b-079a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image142"
+       y="-292.86548"
        x="-40.512241"
-       y="-292.86548" />
+       id="image142"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/075b-076a_ok.jpg"
        xlink:href="075b-076a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image204"
+       y="-1245.3655"
        x="-40.512241"
-       y="-1245.3655" />
+       id="image204"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -180,12 +180,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/079b-080a_ok.jpg"
        xlink:href="079b-080a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image290"
+       y="24.634521"
        x="-40.512241"
-       y="24.634521" />
+       id="image290"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -211,12 +211,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/080b-081a_ok.jpg"
        xlink:href="080b-081a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image360"
+       y="342.13452"
        x="-40.512241"
-       y="342.13452" />
+       id="image360"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -242,12 +242,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/081b-082a_ok.jpg"
        xlink:href="081b-082a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image430"
+       y="659.63452"
        x="-40.512241"
-       y="659.63452" />
+       id="image430"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -273,12 +273,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/082b-083a_ok.jpg"
        xlink:href="082b-083a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image500"
+       y="977.13452"
        x="-44.216412"
-       y="977.13452" />
+       id="image500"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -304,12 +304,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/073b-074a_ok.jpg"
        xlink:href="073b-074a_ok.jpg"
-       width="423.33334"
-       height="317.5"
-       preserveAspectRatio="none"
-       id="image91"
+       y="-1880.3655"
        x="-40.512241"
-       y="-1880.3655" />
+       id="image91"
+       preserveAspectRatio="none"
+       height="317.5"
+       width="423.33334" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -357,12 +357,12 @@
     <image
        sodipodi:absref="/home/berov/opt/dev/SvPetka/scans/SvPetka-Zograf/074b-075a_ok.jpg"
        xlink:href="074b-075a_ok.jpg"
-       y="-1562.8655"
-       x="-40.512241"
-       id="image226"
-       preserveAspectRatio="none"
+       width="423.33334"
        height="317.5"
-       width="423.33334" />
+       preserveAspectRatio="none"
+       id="image226"
+       x="-40.512241"
+       y="-1562.8655" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -419,5 +419,107 @@
          x="243.07404"
          y="-349.14465"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Bukyvede;-inkscape-font-specification:Bukyvede;fill:#ff0000;stroke-width:0.26458332">мⷧ҇? </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-21.175394"
+       y="-169.71251"
+       id="text69"><tspan
+         sodipodi:role="line"
+         id="tspan67"
+         x="-21.175394"
+         y="-169.71251"
+         style="fill:#ff0000;stroke-width:0.26458332">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-17.076929"
+       y="-126.67863"
+       id="text73"><tspan
+         sodipodi:role="line"
+         id="tspan71"
+         x="-17.076929"
+         y="-126.67863"
+         style="fill:#ff0000;stroke-width:0.26458332">15</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.54494953px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16362374"
+       x="187.33014"
+       y="-748.91113"
+       id="text77"
+       transform="scale(0.96937887,1.0315884)"><tspan
+         sodipodi:role="line"
+         id="tspan75"
+         x="187.33014"
+         y="-748.91113"
+         style="fill:#ff0000;stroke-width:0.16362374">13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.46846104px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16171151"
+       x="369.96799"
+       y="-623.87476"
+       id="text81"
+       transform="scale(0.80175462,1.2472644)"><tspan
+         sodipodi:role="line"
+         id="tspan79"
+         x="369.96799"
+         y="-623.87476"
+         style="fill:#ff0000;stroke-width:0.16171151">оу</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64040565px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14101014"
+       x="149.57051"
+       y="-749.92603"
+       id="text85"
+       transform="scale(1.030659,0.97025302)"><tspan
+         sodipodi:role="line"
+         id="tspan83"
+         x="149.57051"
+         y="-749.92603"
+         style="fill:#ff0000;stroke-width:0.14101014">ѫ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.67384672px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16684617"
+       x="170.91966"
+       y="-1443.0381"
+       id="text89"><tspan
+         sodipodi:role="line"
+         id="tspan87"
+         x="170.91966"
+         y="-1443.0381"
+         style="fill:#ff0000;stroke-width:0.16684617">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="172.91243"
+       y="-1363.7419"
+       id="text93"><tspan
+         sodipodi:role="line"
+         id="tspan91"
+         x="172.91243"
+         y="-1363.7419"
+         style="stroke-width:0.26458332;fill:#ff0000;font-size:4.23333333px">20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="3.7041667"
+       y="-473.99585"
+       id="text97"><tspan
+         sodipodi:role="line"
+         id="tspan95"
+         x="3.7041667"
+         y="-473.99585"
+         style="stroke-width:0.26458332;font-size:4.93888889px;fill:#ff0000">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="2.9104166"
+       y="-423.19583"
+       id="text101"><tspan
+         sodipodi:role="line"
+         id="tspan99"
+         x="2.9104166"
+         y="-423.19583"
+         style="stroke-width:0.26458332;fill:#ff0000;font-size:4.93888889px">16</tspan></text>
   </g>
 </svg>
