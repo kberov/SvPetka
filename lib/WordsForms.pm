@@ -200,7 +200,8 @@ has changed_words => sub {
   return [];
 };
 
-has unique_changed_words_file_content => sub {
+# Винаги искаме свежи данни ѿ диска.
+sub unique_changed_words_file_content ($self) {
   my $f = path($_[0]->data_dir, 'index.yml');
   return {} unless -f $f && -s $f;
   return YAML::XS::LoadFile($f);
@@ -478,7 +479,7 @@ sub _search_in_doc ($self, $text, $w) {
       $w->{'1ЗаТърсене'} = qr/$w->{'1ЗаТърсене'}|$rex/i;
     }
     $self->log(
-      "Опитваме търсене на част ѿ думата . $w->{'0Изт.|Разг.'}  в $doc:  /$rex/i");
+      "Опитваме търсене на част ѿ думата . $w->{'0Изт.|Разг.'}  в $doc:  /$w->{'1ЗаТърсене'}/i");
 
     $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
     _add_matches($self, $doc, $matches, $w);
@@ -507,6 +508,7 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
         sub ($txt, $n) {
           my $matches = $self->_search_in_doc($txt, $w) // [];
           last if @$matches > 10;
+          return;
         });
 
     }
@@ -568,6 +570,21 @@ sub sudgest_changes($self) {
   die "TODO";
 }
 
+sub show_words_without_matches($self){
+    my $words = $self->unique_changed_words_file_content;
+    say "Следните думи нямат намерени съвпадения:";
+    my $count = 0;
+    for my $k(sort keys %$words){
+         unless( $words->{$k}{Съвпадения}){
+say dumper $words->{$k};
+$count++;
+        }
+    }
+    say "Общо:".$count;
+}
+
+# Изграждане наново на указателя с четири успоредни процеса
+# rm data/* && time ./lib/WordsForms.pm -S 4 -D > data/work.log 2>&1
 sub main() {
   my $wf = __PACKAGE__->new;
   getopt
@@ -600,7 +617,9 @@ sub main() {
 
   # Сега можем да предложим промяна на развързаната дума, ако се различава от
   # най-близко намерената.
-  $wf->sudgest_changes();
+  #$wf->sudgest_changes();
+  # Да покажем думите без намерени съвпадения за изясняване на написанието им.
+  $wf->show_words_without_matches();
 }
 
 
