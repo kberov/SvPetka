@@ -6,12 +6,14 @@ use feature qw(lexical_subs unicode_strings);
 
 use FindBin qw($RealBin);
 use IO::Dir;
-use Mojo::DOM;
-use YAML::XS;
 use Mojo::Collection 'c';
+use Mojo::DOM;
 use Mojo::File qw(path);
-use Mojo::Util qw(decode encode getopt dumper);
 use Mojo::IOLoop::Subprocess;
+use Mojo::Util qw(decode encode getopt dumper);
+use Test::More qw(no_plan);
+use YAML::XS;
+
 binmode STDOUT => ':utf8';
 binmode STDERR => ':utf8';
 no warnings 'redefine';
@@ -131,7 +133,7 @@ sub make_word_regex ($self, $w) {
 
 # Зарежда регулярни изрази за търсене на части ѿ думи,  зададени ѿ пѿребителя.
 has partial_regexes => sub {
-  my $f = path($RealBin, '..', __PACKAGE__ . '.rxs')->realpath;
+  my $f = path($RealBin, __PACKAGE__ . '.rxs')->realpath;
   -f $f && -s $f
     || die "The file $f is not a file or it is empty!$/"
     . "Please create one and add at least one random$/"
@@ -219,6 +221,9 @@ has unique_changed_words => sub {
       push @{$unique_words->{$key}{'4Редове'}}, $w->{'4Редове'}[0]
         unless c(@{$unique_words->{$key}{'4Редове'}})
         ->first(sub { $_ eq $w->{'4Редове'}[0] });
+      if(exists $w->{Съвпадения} && !eq_array($unique_words->{$key}{Съвпадения}, $w->{Съвпадения})){
+            $unique_words->{$key}{Съвпадения} = $w->{Съвпадения} ;
+        }
     }
     else {
       $unique_words->{$key} = $w;
@@ -479,7 +484,8 @@ sub _search_in_doc ($self, $text, $w) {
       $w->{'1ЗаТърсене'} = qr/$w->{'1ЗаТърсене'}|$rex/i;
     }
     $self->log(
-      "Опитваме търсене на част ѿ думата . $w->{'0Изт.|Разг.'}  в $doc:  /$w->{'1ЗаТърсене'}/i");
+      "Опитваме търсене на част ѿ думата . $w->{'0Изт.|Разг.'}  в $doc:  /$w->{'1ЗаТърсене'}/i"
+    );
 
     $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
     _add_matches($self, $doc, $matches, $w);
@@ -570,17 +576,17 @@ sub sudgest_changes($self) {
   die "TODO";
 }
 
-sub show_words_without_matches($self){
-    my $words = $self->unique_changed_words_file_content;
-    say "Следните думи нямат намерени съвпадения:";
-    my $count = 0;
-    for my $k(sort keys %$words){
-         unless( $words->{$k}{Съвпадения}){
-say dumper $words->{$k};
-$count++;
-        }
+sub show_words_without_matches($self) {
+  my $words = $self->unique_changed_words_file_content;
+  say "Следните думи нямат намерени съвпадения:";
+  my $count = 0;
+  for my $k (sort keys %$words) {
+    unless ($words->{$k}{Съвпадения}) {
+      say dumper $words->{$k};
+      $count++;
     }
-    say "Общо:".$count;
+  }
+  say "Общо:" . $count;
 }
 
 # Изграждане наново на указателя с четири успоредни процеса
