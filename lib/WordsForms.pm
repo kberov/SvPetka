@@ -170,7 +170,7 @@ has files_contents => sub {
   my $from_dir = "$RealBin/../histdict_evt_docs";
   $_[0]->distances->map(sub {
     my $doc = path($from_dir, "${_}_clean")->realpath;
-    die "!!Document '$doc' was not found on the file system!!!" unless -f $doc && -s $doc;
+    die "!!!Документът '$doc' не бе намерен на диска!!!" unless -f $doc && -s $doc;
     decode utf8 => $doc->slurp;
   });
 };
@@ -211,8 +211,6 @@ sub unique_changed_words_file_content ($self) {
 
 has unique_changed_words => sub {
   my $unique_words = $_[0]->unique_changed_words_file_content;
-
-  # return $unique_words if !!keys %$unique_words;
 
   for my $w (@{$_[0]->changed_words}) {
 
