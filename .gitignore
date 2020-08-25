@@ -1,5 +1,6 @@
 wip/*.pdf
 *.~lock*
+Notes.txt
 
 !Build/
 .last_cover_stats
