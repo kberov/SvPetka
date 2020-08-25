@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Corpus - pray</title>
+	<meta charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/dict_edit.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/dict_public.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/textcorpus.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/textcorpus_search.css" />
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/static/images/hdict-logo.ico" />
+	
+	<script src="/static/js/jquery-1.11.2.js"></script>
+	<script src="/static/js/jquery-migrate-1.2.1.js"></script>
+	<script src="/static/js/jquery.ez-pinned-footer.js"></script>
+
+<script>
+	$(window).load
+	(
+		function (){
+			$("#footer").pinFooter('static');
+		}
+	);
+
+	$(window).resize
+	(
+		function (){
+			$("#footer").pinFooter('static');
+		}
+	);
+</script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/css/tipTip.css" />
+<script src="/static/js/jquery.tipTip.minified.js"></script>
+
+<script>
+function confirm_deletion(ttl){
+	var msg = "Сигурни ли сте, че искате да изтриете този текст?"
+	return confirm(msg);
+}
+
+function showInfo(obj, ids){
+	var content = "<div>";
+	$(ids).each
+	(
+		function (idx, id){
+			obj_class = $(id).attr("class");
+			if (obj_class == "comment"){
+				title = "Бележка под линия";
+			}
+			else{
+				title = "Разночетене";
+			}
+			content = content+"<h1>"+title+"<\/h1>";
+			content = content +"<p>"+$(id).html()+"<\/p>";
+		}
+	);
+	content = content+"<\/div>";
+	$(obj).tipTip({content: content, maxWidth: "400px", defaultPosition: "top", delay: 100, activation: "click", keepAlive: true});
+}
+
+$(window).load
+(
+	function (){
+		if ($("div.editor_text").html().trim() == ""){
+			$("div.editor_text").css("margin-top", "0px");
+		}
+	}
+);
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="header">
+		
+			
+			<a href="/" title="Български исторически речник">
+			
+			<img src="/static/images/logo.png" alt="Лого" />
+			</a>
+		
+	</div>
+
+	<div id="menu">
+		
+		<ul>
+			
+			<li><a href="/session/login" title="">&raquo;&nbsp;Вход</a></li>
+			
+			<li><a href="/textcorpus/list" title="">&raquo;&nbsp;Текстов&nbsp;корпус</a></li>
+			
+			<li><a href="/chronograph/clist" title="">&raquo;&nbsp;Хронограф</a></li>
+			
+
+			
+			<li><a href="/oldbgdict/oldbg_search" title="">&raquo;&nbsp;Стб.&nbsp;речник</a></li>
+
+			
+			<li><a href="/dictionary/search" title="">&raquo;&nbsp;Ист.&nbsp;речник</a></li>
+			
+			<li style="margin-left:20px"><a href="/dictionary/resolve_forms" title="">&raquo;&nbsp;Словоформи</a></li>
+			
+			
+
+			
+			<li><a href="/evtdict/evt_search" title="">&raquo;&nbsp;Евт.&nbsp;речник</a></li>
+			
+			
+
+			
+			<li><a href="/trmdict/trm_search" title="">&raquo;&nbsp;Терм.&nbsp;речник</a></li>
+			
+			
+
+			
+			<li><a href="/textcorpus/search" title="">&raquo;&nbsp;Търсене</a></li>
+
+			<li><a href="http://e-medievalia.uni-sofia.bg/moodle" title="">&raquo;&nbsp;Средновековен&nbsp;речник</a></li>
+			
+		</ul>
+		
+	</div>
+
+	<div id="content">
+		
+
+<div class="content_title">
+	Текстов корпус
+</div>
+
+
+	
+		<div class="content_title title_lang_chu">
+			<span>Владыкѡ господи, Ісоусе Христе, боже нашь, иже въсѣкоѫ видимыѫ же и невидимыѫ твари съдѣтелю</span>
+			
+		</div>
+
+	<div id="doc_header">
+	
+
+	
+		
+		
+			<span class="label">Заглавие на латински:</span>pray<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Жанр:</span>Miscellanea<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Автор:</span>Патриарх Евтимий<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Преведен?:</span>не<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на ръкописа:</span>ХV в.<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на превода:</span>ХІV в.<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Дата на преписа:</span>ХV в.<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Правопис:</span>Среднобългарски<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Име на ръкописа:</span>112<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Хранилище на ръкописа:</span>Зографски манастир<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Сигнатура на ръкописа:</span>112<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Издание:</span>Werke des Patriarchen von Bulgarien Euthymius  (1375-1393) nach den besten Handschriften herausgegeben von Emil Kałužniacki. Wien 1901<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Нормализиран?:</span>не<br />
+		
+	
+
+	
+		
+		
+			<span class="label">Страници:</span>341-343<br />
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+	
+
+	
+		
+		
+			<span class="label">doc_id</span>doc_221<br />
+		
+	
+
+	
+		
+		
+	
+
+	</div>
+
+<div class="real_text">
+	<div class="body">
+		<p><span class="pagenum"><span>341</span></span><br/><span>Владыкѡ господи, Ісоусе Христе, боже нашь, иже</span><br/><span>въсѣкоѫ видимыѫ же и невидимыѫ твари съдѣтелю;</span><br/><span>иже ѡт землѧ приѧтаго чловѣка доушеѫ мысльноѫ и</span><br/><span>ѡбразомъ своимъ бож(ь)стъвнымъ почьтъ, ꙗко да иже</span><br/><span>ѡт тебе бывшоѫ царствꙋетъ тварїѧ и съблюдаетъ миръ</span><br/><span>прѣподобїемъ и правдоѫ, завистиѫ же дїаволеѫ и женьскоѫ</span><br/><span>прѣльстїѫ низпадша тогожде и съкрꙋшꙿша сѧ кр(ъ)стом</span><br/><span>и чьстноѫ си кръвїѫ пакы ѡбновиль еси и въ древнѣмъ</span><br/><span>ꙋстрои достоинꙿствѣ, архїерей же страшнагѡ и прѣнебеснаго</span><br/><span>сего свѧщеннодѣйства пръвый бывъ и ѡбразы и правила</span><br/><span>пастырскыѫ хытрости и доушевнаго прѣдстательства намь</span><br/><span>подавь, еже полѡжити доушѫ ѡ овцахъ; иже и</span><br/><br/><span class="pagenum"><span>342</span></span><br/><span>недостойнаго мене сѫдбами съмотренїа неиздреченными въ сїе</span><br/><span>великое архїерейства призвавы достоиньствѡ, обещника же</span><br/><span>и съдѣйствника новѡмꙋ таиньствꙋ и словесныимъ симъ</span><br/><span>твоимъ ѡвцамъ пастырѣ и архїепископа поставль: ты,</span><br/><span>прѣблагый владыко, иже въ град съй прихѡд нашъ</span><br/><span>благослови, и цр(ъ)ковь своѧ, ѧже н(ы)нѣ нам върѫчиль</span><br/><span>еси, ꙋтвръди; мирь глѫбѡкь и непоколѣбимъ градоу</span><br/><span>своемꙋ дарꙋй; сверѣпство невидимыих и видимыих врагь</span><br/><span>непоколѣбимоѫ силоѫ своеѫ раздрꙋши; въздꙋхы</span><br/><span>благорастворены и спасны намъ ꙋстрой; дъждѧ полезны къ</span><br/><span>плодонѡшенїꙋ земли дарꙋй, силѫ той подаѫщѫѧ</span><br/><span>раждателнѫ на пищѫ тѣлесемъ чловѣчьскымъ и скѡтом и</span><br/><span>въсѣмъ безсловеснымъ и на съставленїе же и ращенїе;</span><br/><span>младый и старый възрасть ѡгради силоѫ своеѫ, ѡбразь</span><br/><span>благь и подписанїе людем своимъ къ добраго ѡбращенїꙋ</span><br/><span>съдѣваѫ; иже възрастомь растѫщѫѧ, мѫжѧ же и жены,</span><br/><span>и въ добрѡдѣтѣли расти и прѣдспѣвати вынѫ сподоби;</span><br/><span>младенцѧ злобѡѫ ꙋбѡ и н(ы)нѣ и послѣжде</span><br/><span>младеньствѡвати, доушевными же и тѣлесными прѣспѣанїи въсегда</span><br/><span>прѣдспѣвати и ꙋспѣвати сподоби; недѫжныѫ посѣтити</span><br/><span>силоѫ своеѫ, доуши же и тѣлꙋ здравїе дарꙋй; ꙋбогыѫ</span><br/><span>и нищѧѫ богатꙿствомь своеѫ благодѣти прѣпитай;</span><br/><span>сѫщїимъ въ плѣненїи и работах и темницах страждѫщим</span><br/><span>свобѡдитель и спасъ покажи сѧ, сѫщѫѧ въ мори ѡкръми;</span><br/><span>кнѧзѧ же и владѡмыѫ, цр(ъ)кѡвникы же и вѡины и</span><br/><span>въсѧ кꙋпнѡ, иже въ градѣ семъ нашемъ живѫщѫѧ,</span><br/><span>милостїѧ и щедротами твоими посѣти, любве и</span><br/><span>едыномыслїа съѧзѡмь къ дрꙋгь дрꙋгꙋ же и къ намь</span><br/><span>съвъкꙋпивъ въ единьство прѣсвѧтаго твоего доуха. Дарꙋй,</span><br/><span>владыко въсещедре, мнѣ ꙋбѡ словѡ благо въ ѡтвръзенїе</span><br/><br/><span class="pagenum"><span>343</span></span><br/><span>ꙋсть моих къ ѡгражденїꙋ и ꙋтвръжденїꙋ цр(ъ)кве твоеѫ</span><br/><span>сеѫ, ейже мѧ пастырѣ и прѣдыстателѣ силоѫ своеѫ н(ы)нѣ</span><br/><span>положиль еси, людем же твоимь симъ оусръдень слоух и</span><br/><span>благоразоумень, ꙗко да послꙋшаѫть твой еѵаг͠гельскый глас,</span><br/><span>нами недостойными възвѣствꙋемый, ꙗко твоѫ ѡвцѧ и</span><br/><span>послѣдꙋѫщѫ тебѣ, истинномꙋ пастырю, и ѡбѣщаннѫѧ</span><br/><span>въспрїимѫть жизнь, въ истинѫ блаженѫѧ и нескончаемѫѧ,</span><br/><span>въсѣкь еретичьскый глас, ꙗко тоуждь и пакѡстень,</span><br/><span>невѣдѧщѫ. Дарꙋй же и благовѣрнѡмоу и правѡславномоу</span><br/><span>царю нашемоу дльгѡтѫ житїоу, здравїе чьстнѣйшее,</span><br/><span>побѣды на врагы и оуделѣнїе и мирь глѫбѡкь и извѣстень</span><br/><span>и нераздрꙋшимъ, ꙗко да и мы въ тишинѣ его тихѡ и</span><br/><span>безмльвно житїе поживемъ въ въсѣкѡм благочьстїи и</span><br/><span>чистотѣ благоволенїемъ и благостїѫ прѣчистаго ти отца</span><br/><span>и въсесилнаго ти доуха, молитвами и моленїемъ прѣчистыѫ</span><br/><span>владычицѫ нашѫ богородицѫ и приснодѣвы Марїѫ и</span><br/><span>въсѣхь свѧтыхь твоих, иже ѡт вѣка тебѣ</span><br/><span>благооугождьших, нынѣ и присно.</span></p></div>
+</div>
+
+	</div>
+
+	<div id="footer">
+		
+		<div>&copy; Софийски университет &bdquo;Св. Климент Охридски&ldquo; 2011-2019</div>
+		
+	</div>
+
+</div>
+
+</body>
+</html>
