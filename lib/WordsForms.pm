@@ -138,15 +138,30 @@ has partial_regexes => sub {
     || die "The file $f is not a file or it is empty!$/"
     . "Please create one and add at least one random$/"
     . "string to be used as last resort regex for searching";
-  return [split /\s+/xs, decode utf8 => $f->slurp];
+  return {split /\s+/xs, decode utf8 => $f->slurp};
 };
 
 # Части ѿ думи – корени представки, наставки, окончания за търсене на частични
 # съвпадения, ѿ които да се възстанови цяла дума.
 sub make_word_parts_regex ($self, $word) {
-  state $parts = c(@{$self->partial_regexes});
-  my $rexes = $parts->map(sub ($e) { $word =~ /$e/i ? $e : () });
-  return @$rexes ? $self->make_word_regex('\w*?' . $rexes->join('|') . '\w*?') : '';
+  state $parts = $self->partial_regexes;
+  state $keys  = c(sort { length $b <=> length $a } keys %$parts);
+
+  # Да махнем съкратената дума ако е подадена заедно с цялата
+  $word =~ s/^[^\|]+\|//;
+
+  # die dumper $parts;
+  # имаме точно съвпаденѥ, точно определена шарка за намиране за съвпаденѥ за
+  # точно тази дума
+  $self->log("Намерен точен израз за търсене за $word : $parts->{$word}")
+    if exists $parts->{$word};
+  return $self->make_word_regex('\w*?' . $parts->{$word} . '\w*?')
+    if exists $parts->{$word};
+
+  # взимаме първия израз са съвпаденѥ, чиито ключ съвпадне с търсената дума
+  my $rex = $keys->first(sub($e) { $word =~ /$e/i });
+  $self->log("Намерен частичен израз за търсене за $word : $rex") if $rex;
+  return $rex ? $self->make_word_regex('\w*?' . $parts->{$rex} . '\w*?') : '';
 }
 
 has file_to_check => sub {
@@ -219,9 +234,11 @@ has unique_changed_words => sub {
       push @{$unique_words->{$key}{'4Редове'}}, $w->{'4Редове'}[0]
         unless c(@{$unique_words->{$key}{'4Редове'}})
         ->first(sub { $_ eq $w->{'4Редове'}[0] });
-      if(exists $w->{Съвпадения} && !eq_array($unique_words->{$key}{Съвпадения}, $w->{Съвпадения})){
-            $unique_words->{$key}{Съвпадения} = $w->{Съвпадения} ;
-        }
+      if (exists $w->{Съвпадения}
+        && !eq_array($unique_words->{$key}{Съвпадения}, $w->{Съвпадения}))
+      {
+        $unique_words->{$key}{Съвпадения} = $w->{Съвпадения};
+      }
     }
     else {
       $unique_words->{$key} = $w;
@@ -458,15 +475,20 @@ my sub _add_matches ($self, $doc, $matches, $w) {
 sub _search_in_doc ($self, $text, $w) {
   return $w->{Съвпадения} // [] if @{$w->{Съвпадения} // []} > 15;
 
-  #say $text;
   my ($title) = $text =~ /Текстов корпус\n([^\n]+?)\n/s;
   my ($doc)   = $text =~ /doc_id(doc_\d{3})/s;
 
+  # Махаме всѝчко преди doc_id и след ©, за да не се появи случайно в резултатите
+  $text =~ s/^.+doc_id/doc_id/s;
+  $text =~ s/©.+$//s;
+
+  # say $text;
   # не само цели думи:
   # /((?:\w+\W+){0,3}(?:\w+)?$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
   # Само цели думи
-  # /((?:\w+\W+){0,3}$w->{ИзразЗаТърсене}(?:\s+\w+){0,3})/gs
-  my $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
+  my $wider_rex = qr/((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/;
+  my $matches   = [];
+  $matches = [$text =~ /$wider_rex/gms];
 
   #say dumper $matches;
   if (@$matches) {
@@ -477,7 +499,7 @@ sub _search_in_doc ($self, $text, $w) {
 
     # Да не сливаме израза, ако вече е направен
     unless ($w->{'1ЗаТърсене'} =~ /\)\|\(/) {
-      $rex = $self->make_word_parts_regex($w->{'0Изт.|Разг.'} =~ s/^[^\|+]\|//r);
+      $rex = $self->make_word_parts_regex($w->{'0Изт.|Разг.'});
       $rex || return;
       $w->{'1ЗаТърсене'} = qr/$w->{'1ЗаТърсене'}|$rex/i;
     }
@@ -485,7 +507,7 @@ sub _search_in_doc ($self, $text, $w) {
       "Опитваме търсене на част ѿ думата . $w->{'0Изт.|Разг.'}  в $doc:  /$w->{'1ЗаТърсене'}/i"
     );
 
-    $matches = [$text =~ /((?:\w+\W+){1,3}$w->{'1ЗаТърсене'}(?:\W+\w+){1,4})/gs];
+    $matches = [$text =~ /$wider_rex/gms];
     _add_matches($self, $doc, $matches, $w);
   }
   return $w->{Съвпадения} // [];

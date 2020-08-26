@@ -41,7 +41,7 @@ has fodt_dom => sub { Mojo::DOM->new(decode(utf8 => $_[0]->diploma_work_file->sl
 # обекти на документа C<fodt_dom>.
 has fodt_dom_left_column_cells => sub {
   my $left_column_cells_text
-    = 'table|table table|table-row  table|table-cell:first-child > text|p';
+    = 'table|table[id="Vita"] table|table-row  table|table-cell:first-child > text|p';
   return $_[0]->fodt_dom->find(
     $left_column_cells_text,
     table  => 'urn:oasis:names:tc:opendocument:xmlns:table:1.0',
@@ -104,10 +104,10 @@ sub import_old_text($self) {
         $xe->content(qq||);
       }
 
-      #sleep 1;
+      #      sleep 1;
     });
 
-  $self->diploma_work_file->spurt(encode utf8 => $otx->first->root->to_string);
+$self->diploma_work_file->spurt(encode utf8 => $otx->first->root->to_string);
 }
 
 sub main() {
