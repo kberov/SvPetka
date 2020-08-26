@@ -41,13 +41,11 @@ sub import_index($self) {
 % my($red_str) = $red_izt =~ /^(.+)\:/;
 % $red_izt =~ s/^.+\://;
    <text:p text:style-name="WFOL"><%==
-        $w->{'0Изт.|Разг.'} .' '.$red_str %><text:line-break/><%== $red_izt %>\
-%#        </text:p>
+        $w->{'0Изт.|Разг.'} .' '.$red_str %><text:line-break/><%== $red_izt %></text:p>
 %#   <text:p text:style-name="Regexp"><%== $w->{'1ЗаТърсене'} %></text:p>
-%#   <text:p text:style-name="Съвпадение">\
 % my $count = 0;
+<text:p text:style-name="Съвпадение">\
 % if($w->{'Съвпадения'} && @{$w->{'Съвпадения'}}) {
-<text:line-break/>\
 %   MATCHES: for my $match (@{$w->{'Съвпадения'}}) {
 %#= Mojo::Util::dumper $match;
 %       my ($k,$v) = each %$match;
@@ -71,7 +69,7 @@ WORD
       ($letter) = $w =~ /^(\w)/;
       $content .= qq|<text:p text:style-name="IHeading2">${\uc($letter)}</text:p>$/|;
     }
-    $content .= $mt->process({w => $words->{$w}, show_matches => 3});
+    $content .= $mt->process({w => $words->{$w}, show_matches => 4});
 
     #sleep 3;
     # last if ++$c > 600;

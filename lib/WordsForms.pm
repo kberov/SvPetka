@@ -211,7 +211,7 @@ has changed_words => sub {
   my $chngd_wrds = $_[0]->changed_words_file;
   my $words      = [];
   if (-f $chngd_wrds && -s $chngd_wrds) {
-    my $words = YAML::XS::Load($chngd_wrds->slurp);
+    my $words = YAML::XS::LoadFile($chngd_wrds);
     return $words;
   }
   return [];
@@ -479,10 +479,10 @@ sub _search_in_doc ($self, $text, $w) {
   my ($doc)   = $text =~ /doc_id(doc_\d{3})/s;
 
   # Махаме всѝчко преди doc_id и след ©, за да не се появи случайно в резултатите
-  $text =~ s/^.+doc_id/doc_id/s;
-  $text =~ s/©.+$//s;
+  $text =~ s/^.+doc_id/doc_id/sm;
+  $text =~ s/© Софийски.+$//sm;
 
-  # say $text;
+  #say $text;
   # не само цели думи:
   # /((?:\w+\W+){0,3}(?:\w+)?$w->{ИзразЗаТърсене}(?:\w+)?+(?:\s+\w+){0,3})/gs
   # Само цели думи
@@ -532,6 +532,7 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
       $index->{$key} = $w;
       $self->files_contents->each(
         sub ($txt, $n) {
+            #say $txt;
           my $matches = $self->_search_in_doc($txt, $w) // [];
           last if @$matches > 10;
           return;
