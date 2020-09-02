@@ -28,8 +28,10 @@ has data_dir => sub { path("$RealBin/../data")->realpath };
 has distances => sub {
   c(
     'doc_155', 'doc_156', 'doc_214', 'doc_212', 'doc_216', 'doc_217', 'doc_219',
-    'doc_220', 'doc_221', 'doc_222', 'doc_223', 'doc_225', 'doc_157', 'doc_213',
-    'doc_158', 'doc_159', 'doc_197', 'doc_202', 'doc_205', 'doc_211',
+    'doc_220', 'doc_221', 'doc_222', 'doc_223', 'doc_225', 'doc_157', 'doc_158',
+    'doc_159', 'doc_205', 'doc_197', 'doc_213', 'doc_202', 'doc_211',
+
+    # 'doc_215', 'doc_240', 'doc_241', 'doc_210',
 
   );
 };
@@ -449,7 +451,7 @@ my sub _add_matches ($self, $doc, $matches, $w) {
   for my $i (0 .. @$matches - 1) { $matches->[$i] =~ s/\s+/ /gs; }
 
   # Ще показваме до 5 намирания на документ
-  splice @$matches, 4, (@$matches - 5) if @$matches > 5;
+  # splice @$matches, 4, (@$matches - 5) if @$matches > 5;
 
   # Разночетения!
   my $how_close = sprintf("%02d|$doc", $closeness->{$doc} - 1);
@@ -479,8 +481,13 @@ sub _search_in_doc ($self, $text, $w) {
   my ($doc)   = $text =~ /doc_id(doc_\d{3})/s;
 
   # Махаме всѝчко преди doc_id и след ©, за да не се появи случайно в резултатите
-  $text =~ s/^.+doc_id/doc_id/sm;
+  $text =~ s/^.+?doc_id/doc_id/sm;
   $text =~ s/© Софийски.+$//sm;
+
+  # Махаме скобите, въведени ѿ набиращите - т.е. възстановени изядени бꙋкви.
+  # Трябва ли да е така или да махнем всѝко между скобите, за да бъде теѯтът
+  # най-близко до оригинала.
+  $text =~ s/\(|\)//gsm;
 
   #say $text;
   # не само цели думи:
@@ -520,7 +527,8 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
     my $index = {};
     for my $w (@$words) {
 
-# Не търси пак ако, думата вече я има в индеѯа, който сме заредили от диска и е създаден предишния път!
+      # Не търси пак ако, думата вече я има в индеѯа, който сме заредили от
+      # диска и е създаден предишния път!
       my $key = $w->{'0Изт.|Разг.'};
       if ($w->{Съвпадения} && @{$w->{Съвпадения}}) {
         $index->{$key} = $w;
@@ -532,7 +540,8 @@ sub search_words_in_docs_in_subprocess ($self, $proc_num, $words = []) {
       $index->{$key} = $w;
       $self->files_contents->each(
         sub ($txt, $n) {
-            #say $txt;
+
+          #say $txt;
           my $matches = $self->_search_in_doc($txt, $w) // [];
           last if @$matches > 10;
           return;
@@ -612,6 +621,7 @@ sub show_words_without_matches($self) {
 
 # Изграждане наново на указателя с четири успоредни процеса
 # rm data/* && time ./lib/WordsForms.pm -S 4 -D > data/work.log 2>&1
+# rm -f data/*.yml && time ./lib/WordsForms.pm -S 4 -D > data/work.log 2>&1
 sub main() {
   my $wf = __PACKAGE__->new;
   getopt
@@ -637,7 +647,10 @@ sub main() {
 
   $wf->compare_word_lines();
   say "Общо променени думи:" . (@{$wf->changed_words});
-  say "неповтарящи се променени думи:" . (keys %{$wf->unique_changed_words});
+  my $words = $wf->unique_changed_words;
+  say "Променени думи без повторенията:" . (keys %$words);
+  say "Думи, срещащи се по повече ѿ веднъж:"
+    . (map { scalar @{$words->{$_}{'4Редове'}} > 1 ? 1 : () } keys %$words);
 
   #now search each unabbreviated word in each doc_ file
   $wf->search_in_docs();

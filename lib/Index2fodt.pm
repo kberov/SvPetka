@@ -40,12 +40,12 @@ sub import_index($self) {
 % my ($red_izt, $red_razg) = split /\n/, $w->{'4Редове'}[0];
 % my($red_str) = $red_izt =~ /^(.+)\:/;
 % $red_izt =~ s/^.+\://;
-   <text:p text:style-name="WFOL"><%==
-        $w->{'0Изт.|Разг.'} .' '.$red_str %><text:line-break/><%== $red_izt %></text:p>
+   <text:p text:style-name="WFOL"><%== $w->{'0Изт.|Разг.'} .' '.$red_str %></text:p>
+   <text:p text:style-name="СъкратенРед"><%== $red_izt %></text:p>
 %#   <text:p text:style-name="Regexp"><%== $w->{'1ЗаТърсене'} %></text:p>
 % my $count = 0;
-<text:p text:style-name="Съвпадение">\
 % if($w->{'Съвпадения'} && @{$w->{'Съвпадения'}}) {
+<text:p text:style-name="Съвпадение">\
 %   MATCHES: for my $match (@{$w->{'Съвпадения'}}) {
 %#= Mojo::Util::dumper $match;
 %       my ($k,$v) = each %$match;
@@ -55,8 +55,8 @@ sub import_index($self) {
 %= '; '
 %       }
 %   }
-% }
 </text:p>
+% }
 WORD
   my $words   = $self->unique_changed_words_file_content;
   my $content = '';
@@ -65,19 +65,21 @@ WORD
   for my $w (sort { fc $a cmp fc $b} keys %$words) {
 
     # Сменихме на следващата буква
-    unless ($w =~ /^$letter/) {
+    unless ($w =~ /^$letter/i) {
       ($letter) = $w =~ /^(\w)/;
       $content .= qq|<text:p text:style-name="IHeading2">${\uc($letter)}</text:p>$/|;
     }
-    $content .= $mt->process({w => $words->{$w}, show_matches => 4});
+    $content .= $mt->process({w => $words->{$w}, show_matches => 3});
 
     #sleep 3;
-    # last if ++$c > 600;
+    last if ++$c > 600;
   }
-  my $doc = $self->fodt_index_section->content($content)->root;
+  say $content;
+
+  #my $doc = $self->fodt_index_section->content($content)->root;
 
 #say $doc->all_text;
-  $self->diploma_work_file->spurt(encode utf8 => $doc);
+  #$self->diploma_work_file->spurt(encode utf8 => $doc);
   return;
 }
 

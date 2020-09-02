@@ -107,7 +107,7 @@ sub import_old_text($self) {
       #      sleep 1;
     });
 
-$self->diploma_work_file->spurt(encode utf8 => $otx->first->root->to_string);
+  $self->diploma_work_file->spurt(encode utf8 => $otx->first->root->to_string);
 }
 
 sub main() {
