@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 package HistDict2Uni;
 
-#use open ':encoding(UTF-8)';
 use Mojo::Base -base, -signatures;
 use feature qw(lexical_subs unicode_strings);
 
@@ -58,9 +57,6 @@ my sub prepare_find_repl_hash() {
     "\x{e225}" => "\x{0473}",
     "\x{e224}" => "\x{0472}",
 
-    #  => e
-    # U+E21F <Лична употреба> се замества с U+0435 CYRILLIC SMALL LETTER IE
-    "\x{e21f}" => "\x{0435}",
     q|еⷩ|     => "еⷩ҄",
     "д"       => "Д꙯",
     "пⷭ"      => "пⷭ҄",
@@ -105,6 +101,12 @@ my sub prepare_find_repl_hash() {
     "ъ"  => "ъ҃",
     "ы"  => "ы҃",
     "ь"  => "ь҃",
+    #  => e
+    # U+E21F <Лична употреба> се замества с U+0435 CYRILLIC SMALL LETTER IE
+    "\x{e21f}" => "\x{0435}",
+    #  => с
+    # U+E21D <Лична употреба> => U+0441 CYRILLIC SMALL LETTER ES
+    "\x{e21d}" => "с",
   };
   my @first_keys;
   for my $i (0 .. @find_repl - 1) {
