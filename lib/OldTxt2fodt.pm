@@ -89,8 +89,13 @@ sub import_old_text($self) {
   my $otx = $self->fodt_dom_left_column_cells;
   $oti->each(
     sub ($e, $n) {
+
+      # махаме начални и крайни празнѿи
       $e =~ s/^\s+//;
       $e =~ s/\s+$//;
+
+      # махаме повече ѿ една празнѿа
+      $e =~ s/\s+/ /g;
 
       # Да нѣма сираци, останали сами на ред
       $e =~ s/\s+(\S+)$/\x{00A0}$1/;
